@@ -1,0 +1,1001 @@
+id,data,tickets_type,severity,status,description,reported_by,created_at
+1,Security group data,access,Low,Open,VPN credentials not working for overseas contractor,eric.moore.marketing@enterprise.org,2024-01-24 08:40:00
+2,Recovery test results,backup,High,Closed,Nightly backup failed due to insufficient storage space,amanda.miller.hr@corp.io,2024-02-08 20:59:00
+3,Usage statistics,software,High,Open,Update installation stuck at 50% for over 2 hours,sarah.jones.finance@corp.io,2024-02-24 13:50:00
+4,Delivery reports,email,Medium,Resolved,Signature formatting broken after recent update,chris.anderson.finance@enterprise.org,2024-02-20 14:43:00
+5,Error reports,software,Medium,In Progress,Compatibility issues with new operating system update,steven.miller.marketing@company.com,2024-01-04 19:44:00
+6,Backup logs,backup,Low,Resolved,Backup verification process taking longer than expected,robert.williams.research@business.net,2024-03-16 17:17:00
+7,Installation records,software,Medium,Open,Compatibility issues with new operating system update,lisa.thomas.sales@enterprise.org,2024-02-10 19:46:00
+8,Performance analytics,software,High,In Progress,Compatibility issues with new operating system update,chris.williams.marketing@company.com,2024-03-15 19:45:00
+9,Verification reports,backup,Medium,Closed,Tape drive hardware failure in backup system,chris.williams.research@corp.io,2024-03-09 04:52:00
+10,Security group data,access,High,Resolved,Shared mailbox permissions need review and cleanup,david.brown.finance@company.com,2024-02-03 10:07:00
+11,Error reports,software,Low,Resolved,Installation package corrupted during download,david.jones.research@company.com,2024-01-30 11:21:00
+12,Error reports,software,Low,In Progress,Software license activation failed - invalid license key,mike.johnson.operations@business.net,2024-02-28 00:28:00
+13,Compliance reports,security,Medium,Open,Security certificate expiring for customer portal,michelle.johnson.marketing@company.com,2024-01-09 15:37:00
+14,Threat detection data,security,Low,Resolved,Password policy enforcement not working for service accounts,susan.jackson.engineering@enterprise.org,2024-03-24 08:05:00
+15,Security group data,access,Medium,In Progress,Application-specific roles need configuration,steven.rodriguez.operations@enterprise.org,2024-02-12 23:56:00
+16,Temperature readings,hardware,Low,Resolved,Desktop computer not powering on - no lights or sounds,chris.martinez.engineering@company.com,2024-03-16 06:11:00
+17,Table statistics,database,High,Resolved,Stored procedure optimization needed for billing system,robert.garcia.support@tech.org,2024-03-01 17:27:00
+18,Recovery test results,backup,Low,In Progress,Backup retention policy needs configuration review,natalie.rodriguez.operations@tech.org,2024-02-26 09:57:00
+19,Performance analytics,software,Medium,In Progress,"Software freezing during use, requires force quit",thomas.harris.operations@tech.org,2024-02-02 09:22:00
+20,Firewall rules,security,Low,Open,Firewall rules blocking legitimate application traffic,natalie.garcia.finance@corp.io,2024-01-04 22:40:00
+21,Capacity planning data,backup,Low,Open,Cloud backup synchronization stalled at 80% complete,michelle.wilson.finance@enterprise.org,2024-02-07 07:25:00
+22,Network statistics,network,Medium,Resolved,Network drive inaccessible with permission denied errors,robert.taylor.engineering@tech.org,2024-02-17 23:11:00
+23,Mail queue data,email,Medium,Closed,Email rules not executing automatically as configured,kevin.moore.hr@corp.io,2024-02-16 23:23:00
+24,Error reports,software,Low,In Progress,Compatibility issues with new operating system update,emily.rodriguez.engineering@enterprise.org,2024-02-14 03:44:00
+25,Performance metrics,hardware,Low,Open,Server disk space critically low at 98% capacity,lisa.jackson.finance@enterprise.org,2024-02-09 02:05:00
+26,Performance metrics,hardware,Low,Closed,Laptop overheating and shutting down randomly during presentations,natalie.miller.operations@corp.io,2024-03-13 06:18:00
+27,Mail queue data,email,Medium,Closed,Global address list not updating with new employees,sarah.davis.research@company.com,2024-03-23 05:37:00
+28,Configuration data,email,Medium,Open,Legitimate emails being marked as spam by filter system,sarah.rodriguez.finance@tech.org,2024-02-02 11:08:00
+29,Mail queue data,email,High,Closed,Large attachments failing to send with size limit errors,david.white.research@corp.io,2024-02-02 20:41:00
+30,Connection logs,database,Low,Closed,Database replication lag between primary and secondary,michelle.thomas.operations@corp.io,2024-01-24 10:28:00
+31,Configuration data,email,Low,Resolved,Outlook not syncing with Exchange server - connection timeout,amanda.anderson.research@enterprise.org,2024-02-19 09:01:00
+32,Spam filter results,email,Medium,In Progress,Global address list not updating with new employees,rebecca.taylor.finance@corp.io,2024-02-02 16:32:00
+33,Latency measurements,network,Low,In Progress,VPN connection timeout issues for remote team members,emily.thomas.engineering@tech.org,2024-01-21 06:48:00
+34,Virus scan results,security,Medium,Closed,Security certificate expiring for customer portal,chris.rodriguez.hr@business.net,2024-02-04 17:38:00
+35,Mail queue data,email,Medium,Closed,Global address list not updating with new employees,amanda.harris.research@tech.org,2024-01-17 22:31:00
+36,Installation records,software,Medium,Resolved,Application crashing on startup with memory access violation,emily.martinez.finance@corp.io,2024-01-16 10:22:00
+37,Network statistics,network,Medium,Resolved,VPN connection timeout issues for remote team members,sarah.brown.engineering@business.net,2024-02-07 05:35:00
+38,Audit logs,access,High,Resolved,Application-specific roles need configuration,emily.garcia.sales@business.net,2024-03-08 09:21:00
+39,Virus scan results,security,High,Resolved,Data encryption required for sensitive client information,michelle.thomas.research@business.net,2024-01-09 18:36:00
+40,Installation records,software,Low,Closed,"Software freezing during use, requires force quit",michelle.taylor.sales@corp.io,2024-03-18 05:36:00
+41,SMTP logs,email,High,Resolved,Automatic replies not triggering during scheduled times,kevin.miller.finance@corp.io,2024-01-25 11:17:00
+42,Table statistics,database,Medium,Open,Database performance degradation during peak hours,john.williams.finance@company.com,2024-01-20 14:48:00
+43,Error reports,software,High,In Progress,Software configuration reset after system reboot,john.wilson.marketing@corp.io,2024-03-15 16:17:00
+44,Connection logs,database,Medium,Open,Database log file growth exceeding allocated space,jane.thomas.research@corp.io,2024-03-09 04:47:00
+45,Security group data,access,Medium,Open,Multi-factor authentication device replacement needed,chris.jackson.research@business.net,2024-03-21 07:39:00
+46,Mail queue data,email,High,In Progress,Large attachments failing to send with size limit errors,emily.smith.engineering@company.com,2024-01-18 00:02:00
+47,Virus scan results,security,Low,Resolved,Intrusion detection system generating false positives,jane.smith.research@company.com,2024-01-10 21:37:00
+48,Power consumption data,hardware,Medium,Closed,Docking station not recognizing external monitors,david.miller.operations@enterprise.org,2024-03-31 11:23:00
+49,Connectivity logs,network,Medium,Resolved,Switch port malfunctioning in server room rack 4B,michelle.white.hr@tech.org,2024-03-03 07:01:00
+50,Virus scan results,security,Medium,Closed,Antivirus detection of potential malware in shared drive,james.garcia.support@tech.org,2024-02-07 09:37:00
+51,Permission records,access,Medium,In Progress,Application-specific roles need configuration,robert.jones.research@business.net,2024-02-15 19:08:00
+52,Recovery test results,backup,Low,Resolved,Incremental backup corruption detected during verification,david.wilson.finance@enterprise.org,2024-01-24 15:32:00
+53,Audit logs,access,Low,Closed,Database access required for financial reporting team,michelle.harris.operations@business.net,2024-03-26 04:41:00
+54,Access control lists,access,Medium,Resolved,Terminated employee access revocation incomplete,robert.martinez.finance@business.net,2024-01-25 14:00:00
+55,Recovery test results,backup,Low,Open,Nightly backup failed due to insufficient storage space,mike.white.hr@corp.io,2024-03-06 21:52:00
+56,Configuration data,email,High,In Progress,Email client crashing when opening specific messages,susan.thomas.research@tech.org,2024-03-06 19:36:00
+57,Audit logs,access,High,Open,Security group membership requires quarterly audit,rebecca.moore.marketing@tech.org,2024-01-11 13:28:00
+58,Bandwidth usage,network,Medium,Resolved,Network drive inaccessible with permission denied errors,jennifer.rodriguez.hr@company.com,2024-01-02 07:15:00
+59,Threat detection data,security,Low,Closed,Security certificate expiring for customer portal,thomas.smith.hr@company.com,2024-01-03 12:09:00
+60,Table statistics,database,Low,Open,Database performance degradation during peak hours,kevin.brown.engineering@tech.org,2024-02-27 10:50:00
+61,Capacity planning data,backup,High,In Progress,Backup job scheduling conflict with maintenance window,rebecca.moore.engineering@company.com,2024-03-02 01:10:00
+62,SMTP logs,email,High,In Progress,Email search functionality returning incomplete results,natalie.jackson.engineering@business.net,2024-03-23 03:24:00
+63,Delivery reports,email,High,In Progress,Email rules not executing automatically as configured,steven.brown.operations@enterprise.org,2024-01-03 10:30:00
+64,Security logs,security,High,In Progress,Critical Windows security patches need immediate deployment,eric.garcia.operations@tech.org,2024-01-27 11:38:00
+65,Temperature readings,hardware,High,In Progress,Workstation blue screen errors occurring multiple times daily,chris.harris.finance@business.net,2024-02-24 21:41:00
+66,Spam filter results,email,High,In Progress,Global address list not updating with new employees,kevin.brown.research@tech.org,2024-01-06 14:35:00
+67,Connection logs,database,Low,Open,Stored procedure optimization needed for billing system,david.rodriguez.research@business.net,2024-01-15 20:32:00
+68,Connectivity logs,network,Low,Open,Slow file transfer speeds between departments,kevin.anderson.engineering@corp.io,2024-01-25 10:11:00
+69,Index usage data,database,Low,In Progress,Database performance degradation during peak hours,lisa.jackson.engineering@corp.io,2024-03-10 19:40:00
+70,Latency measurements,network,High,In Progress,Slow file transfer speeds between departments,kevin.garcia.support@corp.io,2024-03-12 07:59:00
+71,Bandwidth usage,network,Low,Open,Intermittent internet connectivity in entire north building,chris.davis.research@enterprise.org,2024-02-18 13:33:00
+72,Permission records,access,Low,Resolved,Folder permissions need updating for quarterly project,jennifer.thomas.marketing@tech.org,2024-02-04 16:53:00
+73,Installation records,software,Medium,Open,Plugin not loading correctly in design application,jennifer.williams.sales@enterprise.org,2024-03-03 18:40:00
+74,Table statistics,database,High,Open,Database backup verification failed checksum test,jane.williams.hr@tech.org,2024-03-31 03:12:00
+75,Permission records,access,Medium,Resolved,Database access required for financial reporting team,rebecca.garcia.hr@company.com,2024-02-07 22:27:00
+76,Connectivity logs,network,High,Closed,Network latency spikes during peak business hours,james.moore.engineering@enterprise.org,2024-02-15 06:51:00
+77,Packet capture data,network,Medium,In Progress,Slow file transfer speeds between departments,robert.thomas.research@corp.io,2024-03-07 12:56:00
+78,Virus scan results,security,Medium,Closed,Security audit reveals compliance violations in user accounts,jennifer.rodriguez.research@corp.io,2024-02-26 22:17:00
+79,Index usage data,database,High,Resolved,Database replication lag between primary and secondary,rebecca.harris.support@corp.io,2024-01-17 11:36:00
+80,Bandwidth usage,network,Medium,In Progress,Intermittent internet connectivity in entire north building,mike.jones.research@tech.org,2024-01-27 15:59:00
+81,Hardware diagnostics,hardware,High,Resolved,"Laptop battery not holding charge, lasts only 15 minutes",lisa.jackson.hr@enterprise.org,2024-03-26 07:16:00
+82,Performance metrics,hardware,High,Open,Desktop computer not powering on - no lights or sounds,john.brown.marketing@business.net,2024-01-29 15:34:00
+83,Bandwidth usage,network,High,In Progress,DNS resolution failures for internal applications,jane.thomas.finance@company.com,2024-02-02 04:01:00
+84,Bandwidth usage,network,Medium,In Progress,Intermittent internet connectivity in entire north building,susan.taylor.research@tech.org,2024-01-30 15:56:00
+85,Index usage data,database,High,In Progress,Database performance degradation during peak hours,mike.miller.engineering@tech.org,2024-03-14 19:04:00
+86,Packet capture data,network,High,Open,Network latency spikes during peak business hours,amanda.johnson.sales@tech.org,2024-01-10 17:14:00
+87,Access control lists,access,Low,Open,Shared mailbox permissions need review and cleanup,susan.anderson.hr@corp.io,2024-03-27 06:48:00
+88,Capacity planning data,backup,High,Closed,Cloud backup synchronization stalled at 80% complete,jane.taylor.research@company.com,2024-02-01 15:39:00
+89,Backup records,database,High,In Progress,Database backup verification failed checksum test,amanda.smith.research@business.net,2024-02-01 01:39:00
+90,Audit logs,access,Medium,Open,Multi-factor authentication device replacement needed,sarah.white.research@company.com,2024-03-11 05:51:00
+91,Delivery reports,email,High,Open,Calendar sync failed between mobile and desktop clients,chris.davis.finance@business.net,2024-01-24 10:34:00
+92,Storage metrics,backup,High,In Progress,Backup encryption key rotation required per policy,james.taylor.hr@corp.io,2024-01-25 06:19:00
+93,Security group data,access,High,Closed,Terminated employee access revocation incomplete,rebecca.anderson.marketing@corp.io,2024-02-27 23:58:00
+94,Permission records,access,High,Open,Terminated employee access revocation incomplete,thomas.jackson.hr@corp.io,2024-03-09 05:12:00
+95,Security logs,security,Low,Closed,Intrusion detection system generating false positives,chris.johnson.research@enterprise.org,2024-01-20 05:02:00
+96,Network statistics,network,High,In Progress,Switch port malfunctioning in server room rack 4B,thomas.white.operations@enterprise.org,2024-01-05 16:45:00
+97,Latency measurements,network,Low,Closed,Intermittent internet connectivity in entire north building,jennifer.williams.marketing@tech.org,2024-01-17 14:24:00
+98,Compliance reports,security,Medium,Open,Antivirus detection of potential malware in shared drive,kevin.williams.support@corp.io,2024-01-04 23:22:00
+99,Mail queue data,email,Low,Closed,Email rules not executing automatically as configured,thomas.moore.engineering@company.com,2024-01-25 03:17:00
+100,Usage statistics,software,High,In Progress,Application crashing on startup with memory access violation,rebecca.miller.finance@company.com,2024-01-05 18:36:00
+101,Backup records,database,High,Resolved,Database version upgrade planning and testing,susan.moore.sales@business.net,2024-03-17 02:57:00
+102,Security group data,access,Low,Resolved,VPN credentials not working for overseas contractor,rebecca.harris.marketing@business.net,2024-01-31 21:24:00
+103,Capacity planning data,backup,Medium,Closed,Backup verification process taking longer than expected,steven.davis.engineering@tech.org,2024-01-09 00:41:00
+104,Installation records,software,Low,In Progress,Software license activation failed - invalid license key,jane.rodriguez.marketing@company.com,2024-02-27 19:50:00
+105,Delivery reports,email,Medium,In Progress,Email client crashing when opening specific messages,jennifer.anderson.marketing@business.net,2024-03-07 14:56:00
+106,Delivery reports,email,Low,Closed,Email client crashing when opening specific messages,susan.white.operations@company.com,2024-01-27 13:49:00
+107,Firewall rules,security,High,Open,Antivirus detection of potential malware in shared drive,mike.taylor.marketing@tech.org,2024-02-20 11:24:00
+108,Backup logs,backup,High,Resolved,Backup retention policy needs configuration review,eric.johnson.finance@tech.org,2024-01-22 23:14:00
+109,Connection logs,database,Medium,In Progress,SQL query timeout errors in reporting application,james.smith.sales@corp.io,2024-02-13 17:53:00
+110,Power consumption data,hardware,High,Open,Laptop overheating and shutting down randomly during presentations,james.white.research@tech.org,2024-02-09 15:34:00
+111,Access control lists,access,Low,Open,New employee needs access to project management software,jennifer.taylor.marketing@corp.io,2024-01-15 11:02:00
+112,Performance analytics,software,High,Resolved,Software configuration reset after system reboot,emily.moore.finance@corp.io,2024-03-13 09:00:00
+113,Firewall rules,security,Low,Resolved,Access logs showing suspicious login patterns,michelle.brown.support@tech.org,2024-01-17 17:25:00
+114,Access control lists,access,Medium,Open,User account locked due to multiple failed login attempts,susan.miller.hr@tech.org,2024-03-28 00:24:00
+115,Latency measurements,network,High,In Progress,VPN connection timeout issues for remote team members,susan.smith.engineering@tech.org,2024-01-19 22:11:00
+116,Configuration data,email,Low,Open,Email rules not executing automatically as configured,rebecca.martinez.hr@company.com,2024-03-13 03:22:00
+117,Security group data,access,Medium,Open,New employee needs access to project management software,james.miller.marketing@enterprise.org,2024-02-10 11:58:00
+118,Virus scan results,security,Medium,Closed,Password policy enforcement not working for service accounts,thomas.williams.operations@enterprise.org,2024-03-03 18:51:00
+119,Table statistics,database,Medium,Open,Stored procedure optimization needed for billing system,james.miller.sales@tech.org,2024-02-19 01:06:00
+120,Verification reports,backup,Medium,Resolved,Backup restore test failed for critical database,sarah.taylor.engineering@corp.io,2024-03-12 12:34:00
+121,Connection logs,database,High,In Progress,Database performance degradation during peak hours,jane.martinez.support@enterprise.org,2024-02-09 20:43:00
+122,Usage statistics,software,High,In Progress,Plugin not loading correctly in design application,susan.moore.operations@enterprise.org,2024-02-03 17:25:00
+123,Compliance reports,security,High,Open,Data encryption required for sensitive client information,thomas.white.support@enterprise.org,2024-01-13 04:41:00
+124,Delivery reports,email,Low,In Progress,Email client crashing when opening specific messages,david.jones.research@corp.io,2024-01-11 00:19:00
+125,Spam filter results,email,Medium,Resolved,Email rules not executing automatically as configured,eric.harris.sales@tech.org,2024-01-23 01:22:00
+126,Packet capture data,network,Low,Resolved,Network drive inaccessible with permission denied errors,lisa.johnson.sales@enterprise.org,2024-03-02 17:18:00
+127,Compliance reports,security,Medium,Open,Security audit reveals compliance violations in user accounts,james.harris.sales@enterprise.org,2024-02-22 05:51:00
+128,Verification reports,backup,Low,Closed,Cloud backup synchronization stalled at 80% complete,chris.martinez.engineering@enterprise.org,2024-03-17 03:14:00
+129,Packet capture data,network,Low,Open,Port configuration required for new security system,jane.taylor.sales@enterprise.org,2024-01-08 19:35:00
+130,Index usage data,database,Medium,Open,Database connection pool exhaustion under load,thomas.anderson.operations@company.com,2024-03-09 21:14:00
+131,Performance analytics,software,Medium,Closed,Update installation stuck at 50% for over 2 hours,thomas.moore.research@tech.org,2024-01-31 08:21:00
+132,Firewall rules,security,Low,Closed,Security audit reveals compliance violations in user accounts,robert.moore.sales@tech.org,2024-01-02 07:50:00
+133,Virus scan results,security,Low,Open,Data encryption required for sensitive client information,thomas.smith.support@company.com,2024-01-03 22:53:00
+134,Application logs,software,Medium,Closed,Plugin not loading correctly in design application,chris.wilson.engineering@business.net,2024-01-11 19:38:00
+135,Backup logs,backup,Low,Open,Backup restore test failed for critical database,jane.white.hr@tech.org,2024-03-25 11:14:00
+136,Temperature readings,hardware,Low,Open,Server disk space critically low at 98% capacity,emily.rodriguez.finance@enterprise.org,2024-02-26 06:58:00
+137,Connectivity logs,network,Medium,Open,VPN connection timeout issues for remote team members,robert.garcia.marketing@business.net,2024-01-04 17:59:00
+138,Backup logs,backup,Medium,Closed,Nightly backup failed due to insufficient storage space,amanda.wilson.finance@corp.io,2024-03-15 07:46:00
+139,Network statistics,network,High,Resolved,Network latency spikes during peak business hours,robert.taylor.hr@business.net,2024-01-10 12:13:00
+140,Usage statistics,software,High,Closed,Plugin not loading correctly in design application,lisa.wilson.sales@corp.io,2024-03-26 10:19:00
+141,Performance analytics,software,Medium,Resolved,Application crashing on startup with memory access violation,john.white.sales@tech.org,2024-03-11 20:50:00
+142,Packet capture data,network,High,Open,VPN connection timeout issues for remote team members,mike.johnson.engineering@enterprise.org,2024-02-06 23:59:00
+143,Usage statistics,software,Low,In Progress,Compatibility issues with new operating system update,james.garcia.operations@business.net,2024-01-18 17:58:00
+144,Backup logs,backup,Low,Open,Backup restore test failed for critical database,thomas.thomas.finance@company.com,2024-01-18 06:25:00
+145,Index usage data,database,Low,In Progress,Database version upgrade planning and testing,thomas.garcia.research@enterprise.org,2024-01-26 12:53:00
+146,Network statistics,network,High,Open,Wireless access point firmware needs urgent update,natalie.thomas.engineering@business.net,2024-02-03 15:35:00
+147,Verification reports,backup,Low,Open,Incremental backup corruption detected during verification,david.harris.finance@business.net,2024-02-22 00:41:00
+148,Table statistics,database,Low,In Progress,Database backup verification failed checksum test,eric.anderson.research@corp.io,2024-02-05 13:29:00
+149,Capacity planning data,backup,High,Closed,Incremental backup corruption detected during verification,chris.anderson.hr@company.com,2024-01-03 06:15:00
+150,Hardware diagnostics,hardware,Low,Open,Docking station not recognizing external monitors,mike.jackson.sales@corp.io,2024-03-29 15:49:00
+151,Hardware diagnostics,hardware,Medium,Resolved,Keyboard keys not responding consistently during typing,kevin.harris.operations@corp.io,2024-01-28 23:47:00
+152,Bandwidth usage,network,Low,Open,Port configuration required for new security system,jennifer.wilson.marketing@enterprise.org,2024-01-19 20:33:00
+153,Backup logs,backup,High,Open,Tape drive hardware failure in backup system,lisa.brown.operations@enterprise.org,2024-02-14 15:45:00
+154,Virus scan results,security,High,Open,Data encryption required for sensitive client information,emily.johnson.sales@business.net,2024-03-02 04:32:00
+155,Table statistics,database,High,Closed,Database backup verification failed checksum test,david.moore.operations@company.com,2024-02-04 18:12:00
+156,Installation records,software,High,In Progress,Installation package corrupted during download,rebecca.jones.finance@corp.io,2024-02-21 16:03:00
+157,Security group data,access,Low,Resolved,New employee needs access to project management software,kevin.taylor.hr@business.net,2024-02-17 23:40:00
+158,Power consumption data,hardware,Medium,Open,Laptop overheating and shutting down randomly during presentations,lisa.rodriguez.operations@company.com,2024-03-23 09:17:00
+159,Index usage data,database,Low,Open,"Table space running low, requires immediate attention",steven.jones.finance@business.net,2024-03-04 13:10:00
+160,Installation records,software,High,Closed,Update installation stuck at 50% for over 2 hours,susan.harris.hr@business.net,2024-02-07 15:31:00
+161,Error reports,software,High,In Progress,Application throwing database connection errors,sarah.miller.sales@enterprise.org,2024-02-04 10:05:00
+162,Connectivity logs,network,High,Resolved,Intermittent internet connectivity in entire north building,david.rodriguez.operations@company.com,2024-01-23 17:48:00
+163,Table statistics,database,High,In Progress,Database backup verification failed checksum test,natalie.johnson.sales@business.net,2024-01-22 09:50:00
+164,Latency measurements,network,High,In Progress,Network drive inaccessible with permission denied errors,james.williams.research@business.net,2024-03-18 09:16:00
+165,Installation records,software,High,In Progress,Installation package corrupted during download,john.brown.finance@company.com,2024-01-20 12:42:00
+166,Packet capture data,network,High,Open,VPN connection timeout issues for remote team members,chris.williams.research@enterprise.org,2024-02-02 21:25:00
+167,Security group data,access,Low,Open,Application-specific roles need configuration,mike.garcia.marketing@business.net,2024-01-10 22:17:00
+168,Threat detection data,security,Medium,In Progress,Security certificate expiring for customer portal,kevin.moore.finance@company.com,2024-03-19 00:58:00
+169,Hardware diagnostics,hardware,Low,Resolved,Server disk space critically low at 98% capacity,john.wilson.hr@corp.io,2024-01-07 13:36:00
+170,Query performance,database,High,Closed,"Table space running low, requires immediate attention",john.martinez.hr@corp.io,2024-02-25 15:04:00
+171,System logs,hardware,Medium,In Progress,Server disk space critically low at 98% capacity,eric.harris.marketing@corp.io,2024-03-11 00:47:00
+172,System logs,hardware,Medium,Resolved,Server hardware failure detected in RAID controller,emily.johnson.engineering@enterprise.org,2024-02-19 19:37:00
+173,SMTP logs,email,Medium,Closed,Email rules not executing automatically as configured,amanda.thomas.research@enterprise.org,2024-01-09 11:29:00
+174,Power consumption data,hardware,High,Open,Docking station not recognizing external monitors,rebecca.wilson.engineering@tech.org,2024-03-05 03:32:00
+175,Installation records,software,Low,Closed,Program running extremely slow when processing large files,mike.anderson.operations@company.com,2024-01-19 13:40:00
+176,Configuration data,email,Medium,In Progress,Automatic replies not triggering during scheduled times,lisa.brown.hr@company.com,2024-01-21 19:45:00
+177,Threat detection data,security,Low,Closed,Security certificate expiring for customer portal,natalie.white.support@enterprise.org,2024-01-30 02:12:00
+178,Packet capture data,network,Medium,Resolved,DNS resolution failures for internal applications,susan.garcia.research@enterprise.org,2024-03-04 01:26:00
+179,Usage statistics,software,Low,Open,Software configuration reset after system reboot,robert.harris.finance@enterprise.org,2024-02-25 04:41:00
+180,Threat detection data,security,Low,Resolved,Antivirus detection of potential malware in shared drive,eric.rodriguez.finance@enterprise.org,2024-01-10 16:32:00
+181,Connection logs,database,High,Closed,SQL query timeout errors in reporting application,eric.garcia.support@business.net,2024-02-18 14:45:00
+182,Hardware diagnostics,hardware,High,Open,Docking station not recognizing external monitors,mike.jones.sales@tech.org,2024-02-23 03:11:00
+183,System logs,hardware,Medium,Closed,Desktop computer not powering on - no lights or sounds,mike.thomas.hr@company.com,2024-03-02 21:25:00
+184,Delivery reports,email,Medium,In Progress,Legitimate emails being marked as spam by filter system,amanda.miller.engineering@tech.org,2024-03-21 14:33:00
+185,Virus scan results,security,Low,Resolved,Data encryption required for sensitive client information,eric.wilson.operations@enterprise.org,2024-03-07 02:13:00
+186,Recovery test results,backup,High,Closed,Backup job scheduling conflict with maintenance window,chris.martinez.marketing@business.net,2024-01-27 05:42:00
+187,Index usage data,database,Medium,In Progress,Database log file growth exceeding allocated space,lisa.williams.engineering@tech.org,2024-02-26 12:09:00
+188,Access control lists,access,High,Closed,VPN credentials not working for overseas contractor,david.davis.sales@corp.io,2024-01-12 20:52:00
+189,Network statistics,network,Low,In Progress,DNS resolution failures for internal applications,david.martinez.operations@enterprise.org,2024-02-14 12:49:00
+190,System logs,hardware,Medium,Closed,Keyboard keys not responding consistently during typing,michelle.smith.engineering@tech.org,2024-01-28 06:04:00
+191,Backup logs,backup,High,Open,Incremental backup corruption detected during verification,michelle.jackson.research@corp.io,2024-01-02 11:12:00
+192,Power consumption data,hardware,High,Closed,Server disk space critically low at 98% capacity,james.jones.operations@enterprise.org,2024-03-27 09:58:00
+193,Error reports,software,Medium,Resolved,"Software freezing during use, requires force quit",thomas.brown.research@tech.org,2024-01-07 04:50:00
+194,Table statistics,database,High,Closed,Database log file growth exceeding allocated space,rebecca.moore.finance@tech.org,2024-03-26 03:48:00
+195,SMTP logs,email,Medium,Open,Global address list not updating with new employees,lisa.johnson.finance@business.net,2024-01-01 20:59:00
+196,Audit logs,access,High,In Progress,Application-specific roles need configuration,emily.williams.research@company.com,2024-02-08 22:21:00
+197,SMTP logs,email,Medium,In Progress,Automatic replies not triggering during scheduled times,david.taylor.hr@corp.io,2024-02-27 15:17:00
+198,Installation records,software,High,Closed,Application crashing on startup with memory access violation,thomas.harris.marketing@company.com,2024-01-17 17:44:00
+199,Table statistics,database,Low,Closed,"Table space running low, requires immediate attention",james.harris.engineering@tech.org,2024-02-10 20:39:00
+200,Configuration data,email,High,Resolved,Global address list not updating with new employees,rebecca.garcia.operations@company.com,2024-03-27 19:08:00
+201,SMTP logs,email,High,Resolved,Email rules not executing automatically as configured,amanda.anderson.sales@company.com,2024-02-09 21:17:00
+202,Installation records,software,Low,In Progress,"Software freezing during use, requires force quit",chris.anderson.hr@tech.org,2024-02-07 20:28:00
+203,Virus scan results,security,Medium,Closed,Antivirus detection of potential malware in shared drive,steven.harris.research@company.com,2024-01-28 12:49:00
+204,Query performance,database,Low,Resolved,SQL query timeout errors in reporting application,amanda.thomas.sales@business.net,2024-03-11 22:58:00
+205,Storage metrics,backup,High,Closed,Backup storage capacity planning for next quarter,jennifer.brown.support@corp.io,2024-02-24 17:39:00
+206,Permission records,access,Low,Open,New employee needs access to project management software,robert.wilson.engineering@enterprise.org,2024-01-06 06:32:00
+207,Security logs,security,Medium,Closed,Antivirus detection of potential malware in shared drive,jennifer.williams.sales@tech.org,2024-01-17 00:15:00
+208,Login attempts,access,Low,Closed,Multi-factor authentication device replacement needed,james.smith.operations@tech.org,2024-02-27 01:51:00
+209,Recovery test results,backup,Medium,Resolved,Cloud backup synchronization stalled at 80% complete,natalie.harris.hr@company.com,2024-02-19 13:23:00
+210,Query performance,database,Medium,Closed,Database performance degradation during peak hours,jennifer.brown.research@enterprise.org,2024-02-13 15:26:00
+211,Storage metrics,backup,High,Open,Tape drive hardware failure in backup system,emily.garcia.operations@tech.org,2024-03-24 05:55:00
+212,Index usage data,database,Low,Resolved,Database log file growth exceeding allocated space,john.anderson.sales@company.com,2024-01-22 13:55:00
+213,Usage statistics,software,High,Closed,Software license activation failed - invalid license key,john.jones.marketing@company.com,2024-02-07 05:12:00
+214,Login attempts,access,Medium,Open,Terminated employee access revocation incomplete,susan.anderson.hr@enterprise.org,2024-01-31 06:32:00
+215,Packet capture data,network,Medium,Open,Wireless access point firmware needs urgent update,chris.harris.hr@tech.org,2024-03-24 02:10:00
+216,Network statistics,network,High,Resolved,Port configuration required for new security system,emily.thomas.engineering@corp.io,2024-01-20 11:57:00
+217,Virus scan results,security,Medium,Resolved,Firewall rules blocking legitimate application traffic,rebecca.davis.hr@corp.io,2024-01-08 12:33:00
+218,Delivery reports,email,High,Closed,Email rules not executing automatically as configured,lisa.johnson.research@business.net,2024-02-27 17:28:00
+219,Connection logs,database,Low,Resolved,Database performance degradation during peak hours,lisa.smith.sales@tech.org,2024-02-10 04:40:00
+220,System logs,hardware,High,Resolved,Monitor displaying distorted colors and flickering lines,robert.harris.hr@enterprise.org,2024-03-02 13:55:00
+221,Error reports,software,Low,Resolved,"Software freezing during use, requires force quit",chris.smith.research@enterprise.org,2024-03-01 17:48:00
+222,Temperature readings,hardware,Medium,Open,Laptop overheating and shutting down randomly during presentations,emily.thomas.engineering@corp.io,2024-03-14 11:53:00
+223,Backup logs,backup,Medium,Resolved,Nightly backup failed due to insufficient storage space,michelle.wilson.operations@corp.io,2024-01-23 02:20:00
+224,Mail queue data,email,Low,In Progress,Legitimate emails being marked as spam by filter system,john.smith.hr@tech.org,2024-03-31 23:44:00
+225,Connectivity logs,network,High,In Progress,Network drive inaccessible with permission denied errors,robert.wilson.support@enterprise.org,2024-03-25 03:17:00
+226,Hardware diagnostics,hardware,Medium,Resolved,Laptop overheating and shutting down randomly during presentations,david.moore.marketing@tech.org,2024-01-11 05:44:00
+227,Error reports,software,Medium,Open,"Software freezing during use, requires force quit",james.harris.finance@enterprise.org,2024-02-27 10:34:00
+228,Installation records,software,High,Closed,Plugin not loading correctly in design application,emily.jones.sales@tech.org,2024-02-13 01:24:00
+229,Spam filter results,email,High,Closed,Automatic replies not triggering during scheduled times,john.anderson.finance@corp.io,2024-02-17 17:31:00
+230,Login attempts,access,High,Open,Folder permissions need updating for quarterly project,thomas.williams.operations@enterprise.org,2024-03-27 08:49:00
+231,Virus scan results,security,Medium,Open,Security certificate expiring for customer portal,james.brown.sales@company.com,2024-03-27 19:56:00
+232,Error reports,software,Medium,Open,Software license activation failed - invalid license key,michelle.anderson.hr@corp.io,2024-03-19 03:08:00
+233,Mail queue data,email,High,Resolved,Outlook not syncing with Exchange server - connection timeout,john.smith.research@business.net,2024-03-14 02:32:00
+234,Threat detection data,security,Low,Closed,Password policy enforcement not working for service accounts,james.rodriguez.marketing@corp.io,2024-03-07 23:35:00
+235,Hardware diagnostics,hardware,Medium,Resolved,Printer paper jam error despite clear paper path,robert.taylor.finance@corp.io,2024-03-05 22:52:00
+236,Security group data,access,Low,In Progress,New employee needs access to project management software,jennifer.white.hr@enterprise.org,2024-02-18 18:33:00
+237,Threat detection data,security,High,In Progress,Access logs showing suspicious login patterns,steven.anderson.support@company.com,2024-01-03 04:00:00
+238,Recovery test results,backup,Low,Closed,Backup retention policy needs configuration review,amanda.anderson.hr@business.net,2024-03-29 10:47:00
+239,Access control lists,access,Medium,In Progress,Application-specific roles need configuration,michelle.williams.finance@enterprise.org,2024-02-07 13:04:00
+240,Connectivity logs,network,Medium,Closed,Network drive inaccessible with permission denied errors,amanda.williams.finance@business.net,2024-03-18 03:27:00
+241,Backup logs,backup,Low,Open,Nightly backup failed due to insufficient storage space,mike.moore.hr@company.com,2024-02-24 08:49:00
+242,Packet capture data,network,Medium,In Progress,DNS resolution failures for internal applications,lisa.jones.hr@enterprise.org,2024-03-16 16:49:00
+243,Usage statistics,software,Low,Open,Installation package corrupted during download,sarah.jackson.hr@enterprise.org,2024-01-19 01:44:00
+244,Installation records,software,Medium,Closed,Update installation stuck at 50% for over 2 hours,kevin.martinez.finance@company.com,2024-01-02 09:18:00
+245,Bandwidth usage,network,Medium,Resolved,DNS resolution failures for internal applications,mike.martinez.hr@company.com,2024-03-21 16:39:00
+246,Table statistics,database,Medium,In Progress,Database connection pool exhaustion under load,rebecca.davis.research@business.net,2024-03-11 21:06:00
+247,Installation records,software,Medium,Resolved,Program running extremely slow when processing large files,natalie.moore.finance@business.net,2024-03-14 04:32:00
+248,Security group data,access,Medium,Resolved,Shared mailbox permissions need review and cleanup,natalie.miller.marketing@enterprise.org,2024-02-09 07:39:00
+249,Network statistics,network,Low,In Progress,Switch port malfunctioning in server room rack 4B,eric.williams.research@company.com,2024-02-04 22:23:00
+250,Delivery reports,email,Medium,Closed,Large attachments failing to send with size limit errors,eric.moore.hr@business.net,2024-01-11 13:56:00
+251,Performance metrics,hardware,Medium,Open,Server hardware failure detected in RAID controller,jennifer.brown.operations@company.com,2024-03-24 14:03:00
+252,Login attempts,access,Low,Resolved,Application-specific roles need configuration,amanda.garcia.research@enterprise.org,2024-02-02 10:54:00
+253,Table statistics,database,High,Closed,Database replication lag between primary and secondary,thomas.brown.research@enterprise.org,2024-03-28 00:13:00
+254,Bandwidth usage,network,High,Closed,Intermittent internet connectivity in entire north building,robert.jones.hr@company.com,2024-03-13 22:21:00
+255,SMTP logs,email,Low,Resolved,Signature formatting broken after recent update,mike.jackson.sales@tech.org,2024-03-17 08:09:00
+256,Security group data,access,High,Closed,Security group membership requires quarterly audit,eric.rodriguez.finance@corp.io,2024-02-23 03:56:00
+257,Spam filter results,email,Medium,Resolved,Legitimate emails being marked as spam by filter system,rebecca.thomas.sales@business.net,2024-01-26 12:36:00
+258,Backup logs,backup,High,In Progress,Incremental backup corruption detected during verification,emily.white.engineering@enterprise.org,2024-01-20 16:59:00
+259,Login attempts,access,Low,Closed,Multi-factor authentication device replacement needed,robert.rodriguez.marketing@tech.org,2024-03-30 17:06:00
+260,Connectivity logs,network,Medium,Open,WiFi signal weak in third floor conference room,thomas.taylor.hr@tech.org,2024-02-11 23:57:00
+261,Hardware diagnostics,hardware,Medium,Open,Monitor displaying distorted colors and flickering lines,michelle.martinez.operations@company.com,2024-03-06 20:17:00
+262,Storage metrics,backup,High,Resolved,Incremental backup corruption detected during verification,john.taylor.research@company.com,2024-02-01 15:36:00
+263,Installation records,software,Low,Open,"Software freezing during use, requires force quit",thomas.rodriguez.hr@business.net,2024-02-28 19:26:00
+264,Login attempts,access,High,In Progress,Multi-factor authentication device replacement needed,rebecca.williams.marketing@corp.io,2024-02-27 18:45:00
+265,Index usage data,database,Medium,Closed,Index fragmentation causing slow query performance,kevin.davis.marketing@enterprise.org,2024-01-25 01:01:00
+266,Verification reports,backup,Medium,Open,Backup storage capacity planning for next quarter,chris.taylor.engineering@company.com,2024-01-04 20:20:00
+267,Capacity planning data,backup,Low,In Progress,Backup verification process taking longer than expected,thomas.martinez.support@company.com,2024-02-18 07:24:00
+268,Compliance reports,security,Medium,Closed,Data encryption required for sensitive client information,michelle.martinez.research@enterprise.org,2024-02-09 03:47:00
+269,Access control lists,access,High,Resolved,Database access required for financial reporting team,susan.brown.marketing@company.com,2024-01-27 15:04:00
+270,Installation records,software,Medium,In Progress,Application throwing database connection errors,susan.taylor.hr@company.com,2024-01-18 07:06:00
+271,Error reports,software,Medium,Resolved,Plugin not loading correctly in design application,kevin.wilson.marketing@corp.io,2024-01-05 00:07:00
+272,Threat detection data,security,High,Closed,Access logs showing suspicious login patterns,james.martinez.operations@tech.org,2024-03-05 19:20:00
+273,SMTP logs,email,High,Resolved,Global address list not updating with new employees,jennifer.williams.operations@tech.org,2024-01-26 00:22:00
+274,Table statistics,database,Low,In Progress,Database replication lag between primary and secondary,john.wilson.hr@company.com,2024-01-22 01:45:00
+275,Threat detection data,security,Low,Open,Intrusion detection system generating false positives,mike.harris.sales@tech.org,2024-01-23 22:34:00
+276,Packet capture data,network,Low,Resolved,Network drive inaccessible with permission denied errors,john.anderson.finance@company.com,2024-01-22 21:57:00
+277,Latency measurements,network,Medium,Open,WiFi signal weak in third floor conference room,john.anderson.operations@enterprise.org,2024-03-15 12:49:00
+278,Hardware diagnostics,hardware,High,In Progress,Workstation blue screen errors occurring multiple times daily,lisa.jackson.hr@enterprise.org,2024-02-13 06:27:00
+279,Security logs,security,Low,In Progress,Antivirus detection of potential malware in shared drive,eric.miller.engineering@business.net,2024-01-08 06:30:00
+280,Application logs,software,High,Closed,Program running extremely slow when processing large files,thomas.garcia.marketing@business.net,2024-03-06 21:37:00
+281,Performance analytics,software,Medium,In Progress,Application crashing on startup with memory access violation,mike.brown.marketing@company.com,2024-01-16 01:41:00
+282,Login attempts,access,Medium,In Progress,Folder permissions need updating for quarterly project,mike.miller.finance@company.com,2024-03-18 15:01:00
+283,Bandwidth usage,network,Medium,Closed,Wireless access point firmware needs urgent update,steven.white.engineering@company.com,2024-01-10 21:15:00
+284,Recovery test results,backup,Medium,Resolved,Backup storage capacity planning for next quarter,susan.wilson.sales@tech.org,2024-02-14 02:20:00
+285,Configuration data,email,Medium,Closed,Signature formatting broken after recent update,john.jackson.finance@business.net,2024-03-07 08:09:00
+286,Performance metrics,hardware,Medium,Closed,Desktop computer not powering on - no lights or sounds,eric.rodriguez.operations@corp.io,2024-01-05 07:39:00
+287,Permission records,access,Low,Open,Terminated employee access revocation incomplete,john.martinez.support@corp.io,2024-01-11 12:01:00
+288,Connection logs,database,Low,Open,Database performance degradation during peak hours,john.wilson.sales@enterprise.org,2024-02-15 12:21:00
+289,Backup logs,backup,Low,Closed,Backup encryption key rotation required per policy,rebecca.jones.engineering@company.com,2024-03-15 05:14:00
+290,Connection logs,database,High,Open,Database backup verification failed checksum test,david.jackson.support@company.com,2024-02-02 09:26:00
+291,Virus scan results,security,Medium,In Progress,Security certificate expiring for customer portal,john.rodriguez.sales@company.com,2024-02-01 06:24:00
+292,Power consumption data,hardware,High,In Progress,"Laptop battery not holding charge, lasts only 15 minutes",robert.davis.operations@company.com,2024-02-20 04:14:00
+293,Security group data,access,Medium,In Progress,Folder permissions need updating for quarterly project,sarah.miller.finance@tech.org,2024-01-17 05:23:00
+294,Network statistics,network,Medium,In Progress,DNS resolution failures for internal applications,mike.taylor.research@business.net,2024-02-02 14:27:00
+295,Temperature readings,hardware,Medium,Closed,"Laptop battery not holding charge, lasts only 15 minutes",james.moore.operations@enterprise.org,2024-01-19 21:50:00
+296,Spam filter results,email,Medium,In Progress,Calendar sync failed between mobile and desktop clients,amanda.jackson.marketing@enterprise.org,2024-03-08 09:58:00
+297,Threat detection data,security,High,Resolved,Antivirus detection of potential malware in shared drive,steven.garcia.marketing@corp.io,2024-03-16 01:49:00
+298,Spam filter results,email,Medium,Resolved,Calendar sync failed between mobile and desktop clients,natalie.williams.operations@tech.org,2024-02-22 12:09:00
+299,Backup records,database,Low,In Progress,Database connection pool exhaustion under load,emily.white.support@corp.io,2024-01-26 08:59:00
+300,Bandwidth usage,network,Low,Closed,VPN connection timeout issues for remote team members,david.williams.finance@enterprise.org,2024-02-06 14:44:00
+301,Temperature readings,hardware,Medium,Open,Monitor displaying distorted colors and flickering lines,rebecca.rodriguez.hr@enterprise.org,2024-01-01 13:03:00
+302,Configuration data,email,Medium,Resolved,Calendar sync failed between mobile and desktop clients,chris.wilson.hr@tech.org,2024-02-27 13:14:00
+303,Error reports,software,High,In Progress,Application crashing on startup with memory access violation,jane.smith.engineering@company.com,2024-01-31 23:20:00
+304,Usage statistics,software,High,In Progress,Update installation stuck at 50% for over 2 hours,john.miller.operations@tech.org,2024-01-06 02:49:00
+305,Connectivity logs,network,Medium,In Progress,Switch port malfunctioning in server room rack 4B,mike.williams.research@business.net,2024-01-03 01:51:00
+306,Query performance,database,Medium,Closed,"Table space running low, requires immediate attention",david.jackson.support@enterprise.org,2024-01-27 09:34:00
+307,Bandwidth usage,network,Medium,Resolved,Intermittent internet connectivity in entire north building,jane.smith.operations@enterprise.org,2024-02-09 19:39:00
+308,System logs,hardware,Low,Resolved,Server disk space critically low at 98% capacity,emily.smith.finance@company.com,2024-03-23 14:39:00
+309,Index usage data,database,High,In Progress,Stored procedure optimization needed for billing system,amanda.garcia.hr@enterprise.org,2024-02-19 04:11:00
+310,Performance metrics,hardware,Low,Closed,Monitor displaying distorted colors and flickering lines,chris.miller.research@company.com,2024-03-02 23:49:00
+311,Connection logs,database,Medium,Resolved,SQL query timeout errors in reporting application,mike.anderson.support@company.com,2024-01-10 20:06:00
+312,Verification reports,backup,Low,Resolved,Cloud backup synchronization stalled at 80% complete,james.harris.hr@company.com,2024-03-04 17:23:00
+313,Temperature readings,hardware,High,In Progress,Desktop computer not powering on - no lights or sounds,thomas.anderson.finance@corp.io,2024-03-26 06:25:00
+314,Packet capture data,network,Low,Open,Slow file transfer speeds between departments,susan.davis.finance@business.net,2024-01-06 15:20:00
+315,SMTP logs,email,Medium,Open,Legitimate emails being marked as spam by filter system,sarah.brown.support@enterprise.org,2024-01-09 08:34:00
+316,Latency measurements,network,Medium,In Progress,Network drive inaccessible with permission denied errors,michelle.taylor.marketing@company.com,2024-03-31 10:58:00
+317,Latency measurements,network,Medium,In Progress,Switch port malfunctioning in server room rack 4B,mike.jones.operations@tech.org,2024-01-08 05:28:00
+318,Application logs,software,Low,Resolved,Update installation stuck at 50% for over 2 hours,robert.jackson.engineering@tech.org,2024-02-20 21:41:00
+319,Backup records,database,Low,Open,SQL query timeout errors in reporting application,eric.miller.marketing@corp.io,2024-03-28 22:22:00
+320,Audit logs,access,Medium,In Progress,New employee needs access to project management software,david.wilson.sales@enterprise.org,2024-03-11 07:52:00
+321,Audit logs,access,High,Resolved,VPN credentials not working for overseas contractor,jennifer.wilson.engineering@tech.org,2024-01-30 18:49:00
+322,Verification reports,backup,High,Open,Backup restore test failed for critical database,jane.miller.engineering@tech.org,2024-01-24 15:35:00
+323,Connectivity logs,network,Medium,Resolved,Intermittent internet connectivity in entire north building,amanda.taylor.sales@company.com,2024-03-21 11:29:00
+324,Security logs,security,Medium,Closed,Firewall rules blocking legitimate application traffic,lisa.moore.operations@enterprise.org,2024-02-04 05:10:00
+325,Bandwidth usage,network,Low,Closed,DNS resolution failures for internal applications,eric.moore.support@tech.org,2024-03-17 12:33:00
+326,Index usage data,database,Low,Closed,"Table space running low, requires immediate attention",michelle.white.sales@enterprise.org,2024-03-13 10:55:00
+327,System logs,hardware,Medium,Resolved,Server disk space critically low at 98% capacity,mike.davis.operations@business.net,2024-01-10 05:07:00
+328,Security group data,access,Medium,In Progress,Database access required for financial reporting team,eric.williams.hr@corp.io,2024-03-21 11:22:00
+329,Spam filter results,email,High,In Progress,Legitimate emails being marked as spam by filter system,robert.harris.marketing@corp.io,2024-02-17 12:36:00
+330,Capacity planning data,backup,High,Closed,Backup job scheduling conflict with maintenance window,jennifer.rodriguez.finance@company.com,2024-02-12 22:12:00
+331,Query performance,database,Medium,Open,Database version upgrade planning and testing,kevin.davis.support@corp.io,2024-02-17 19:16:00
+332,Latency measurements,network,Medium,Closed,WiFi signal weak in third floor conference room,robert.williams.engineering@enterprise.org,2024-02-02 20:50:00
+333,Login attempts,access,High,Open,Database access required for financial reporting team,jennifer.brown.hr@tech.org,2024-01-05 12:08:00
+334,Verification reports,backup,High,Closed,Backup verification process taking longer than expected,james.wilson.operations@business.net,2024-02-22 13:05:00
+335,Connectivity logs,network,Low,Open,VPN connection timeout issues for remote team members,sarah.white.research@company.com,2024-03-31 03:54:00
+336,Query performance,database,Medium,Open,Database backup verification failed checksum test,thomas.jones.finance@tech.org,2024-02-21 20:20:00
+337,Virus scan results,security,Low,Closed,Security training completion tracking implementation,sarah.martinez.marketing@company.com,2024-01-12 08:25:00
+338,Installation records,software,Medium,Open,Software configuration reset after system reboot,chris.anderson.support@company.com,2024-03-20 08:06:00
+339,Hardware diagnostics,hardware,Low,Resolved,Server disk space critically low at 98% capacity,steven.jones.engineering@company.com,2024-03-22 14:15:00
+340,Mail queue data,email,Low,Closed,Large attachments failing to send with size limit errors,jane.williams.finance@business.net,2024-01-10 07:23:00
+341,Temperature readings,hardware,Medium,Closed,Server disk space critically low at 98% capacity,lisa.white.engineering@tech.org,2024-01-06 13:43:00
+342,Packet capture data,network,High,Closed,WiFi signal weak in third floor conference room,kevin.harris.marketing@business.net,2024-01-10 01:49:00
+343,Firewall rules,security,Low,In Progress,Intrusion detection system generating false positives,thomas.taylor.engineering@company.com,2024-02-22 17:59:00
+344,Packet capture data,network,Low,Open,VPN connection timeout issues for remote team members,james.jones.support@company.com,2024-02-14 05:18:00
+345,Error reports,software,High,Closed,Application crashing on startup with memory access violation,jennifer.jackson.finance@enterprise.org,2024-03-21 15:34:00
+346,Connection logs,database,High,Open,SQL query timeout errors in reporting application,rebecca.thomas.hr@corp.io,2024-01-28 06:52:00
+347,Query performance,database,Medium,Closed,Database replication lag between primary and secondary,natalie.taylor.finance@tech.org,2024-03-24 13:37:00
+348,Backup records,database,Medium,In Progress,Database connection pool exhaustion under load,kevin.garcia.research@tech.org,2024-02-26 10:16:00
+349,Spam filter results,email,High,Resolved,Large attachments failing to send with size limit errors,thomas.white.sales@company.com,2024-03-09 06:55:00
+350,Installation records,software,Medium,Closed,Software license activation failed - invalid license key,susan.davis.marketing@company.com,2024-01-18 19:37:00
+351,Virus scan results,security,High,Open,Critical Windows security patches need immediate deployment,lisa.miller.operations@company.com,2024-03-04 17:09:00
+352,Network statistics,network,High,Open,Switch port malfunctioning in server room rack 4B,chris.brown.support@corp.io,2024-01-30 17:02:00
+353,Delivery reports,email,Medium,Resolved,Email rules not executing automatically as configured,kevin.harris.hr@corp.io,2024-03-22 00:11:00
+354,Configuration data,email,Low,Open,Large attachments failing to send with size limit errors,robert.garcia.research@company.com,2024-03-16 02:17:00
+355,Power consumption data,hardware,Low,Resolved,Keyboard keys not responding consistently during typing,rebecca.johnson.support@enterprise.org,2024-01-09 19:09:00
+356,Query performance,database,Medium,In Progress,"Table space running low, requires immediate attention",susan.anderson.sales@business.net,2024-02-25 23:52:00
+357,Threat detection data,security,Low,In Progress,Security audit reveals compliance violations in user accounts,jennifer.jones.marketing@enterprise.org,2024-03-08 18:28:00
+358,Query performance,database,Medium,Closed,"Table space running low, requires immediate attention",thomas.brown.marketing@enterprise.org,2024-03-29 11:02:00
+359,Network statistics,network,High,Resolved,Network latency spikes during peak business hours,david.miller.sales@corp.io,2024-03-20 16:39:00
+360,Bandwidth usage,network,Medium,In Progress,Slow file transfer speeds between departments,steven.brown.marketing@business.net,2024-01-25 07:17:00
+361,Security group data,access,High,Open,Folder permissions need updating for quarterly project,steven.rodriguez.hr@tech.org,2024-01-06 07:35:00
+362,System logs,hardware,Low,Open,Monitor displaying distorted colors and flickering lines,kevin.miller.finance@company.com,2024-03-29 17:57:00
+363,Virus scan results,security,Medium,Open,Intrusion detection system generating false positives,natalie.martinez.hr@business.net,2024-03-27 07:25:00
+364,Firewall rules,security,Medium,Closed,Intrusion detection system generating false positives,michelle.anderson.support@enterprise.org,2024-01-08 10:10:00
+365,Application logs,software,High,In Progress,Update installation stuck at 50% for over 2 hours,emily.williams.hr@enterprise.org,2024-03-24 11:51:00
+366,SMTP logs,email,Medium,Resolved,Global address list not updating with new employees,steven.davis.finance@company.com,2024-01-10 14:32:00
+367,Network statistics,network,Medium,Open,Slow file transfer speeds between departments,thomas.anderson.marketing@company.com,2024-01-10 07:49:00
+368,Recovery test results,backup,Low,In Progress,Backup verification process taking longer than expected,rebecca.brown.sales@corp.io,2024-01-05 05:17:00
+369,Verification reports,backup,Medium,Open,Cloud backup synchronization stalled at 80% complete,david.harris.operations@enterprise.org,2024-03-18 19:29:00
+370,Threat detection data,security,Low,Open,Security certificate expiring for customer portal,jennifer.white.research@corp.io,2024-01-18 05:24:00
+371,Bandwidth usage,network,Medium,In Progress,Network drive inaccessible with permission denied errors,susan.davis.finance@enterprise.org,2024-03-25 04:05:00
+372,Index usage data,database,Medium,Closed,Database connection pool exhaustion under load,jennifer.johnson.support@corp.io,2024-01-09 08:07:00
+373,SMTP logs,email,High,In Progress,Large attachments failing to send with size limit errors,sarah.jackson.support@company.com,2024-02-03 22:18:00
+374,Connectivity logs,network,High,Open,Slow file transfer speeds between departments,james.johnson.hr@tech.org,2024-01-04 03:20:00
+375,Table statistics,database,Low,In Progress,Database log file growth exceeding allocated space,robert.thomas.hr@business.net,2024-02-21 09:17:00
+376,Hardware diagnostics,hardware,Medium,Closed,Printer paper jam error despite clear paper path,eric.miller.operations@corp.io,2024-01-25 17:05:00
+377,Temperature readings,hardware,Medium,Closed,Laptop overheating and shutting down randomly during presentations,chris.harris.hr@business.net,2024-03-15 22:34:00
+378,Table statistics,database,Low,In Progress,Database performance degradation during peak hours,jane.wilson.operations@company.com,2024-02-15 20:43:00
+379,Performance metrics,hardware,Low,Open,Monitor displaying distorted colors and flickering lines,emily.miller.research@business.net,2024-01-12 05:57:00
+380,Recovery test results,backup,High,Open,Nightly backup failed due to insufficient storage space,eric.taylor.hr@business.net,2024-03-19 01:55:00
+381,Delivery reports,email,Low,Closed,Large attachments failing to send with size limit errors,amanda.williams.engineering@tech.org,2024-02-08 11:57:00
+382,Installation records,software,Low,In Progress,Installation package corrupted during download,kevin.jones.operations@business.net,2024-03-26 19:37:00
+383,Network statistics,network,Low,Open,Switch port malfunctioning in server room rack 4B,natalie.harris.engineering@company.com,2024-01-09 11:33:00
+384,Application logs,software,Medium,Closed,Application throwing database connection errors,steven.garcia.research@corp.io,2024-03-24 03:30:00
+385,Mail queue data,email,High,Open,Calendar sync failed between mobile and desktop clients,david.wilson.engineering@corp.io,2024-01-04 22:11:00
+386,Permission records,access,Low,Open,Application-specific roles need configuration,david.rodriguez.finance@enterprise.org,2024-01-15 16:07:00
+387,SMTP logs,email,High,In Progress,Outlook not syncing with Exchange server - connection timeout,john.martinez.sales@company.com,2024-03-10 05:16:00
+388,Connection logs,database,High,Open,Database connection pool exhaustion under load,david.jones.support@enterprise.org,2024-02-06 00:41:00
+389,Network statistics,network,Low,Closed,DNS resolution failures for internal applications,lisa.johnson.operations@business.net,2024-02-14 10:15:00
+390,Error reports,software,Medium,Open,Application crashing on startup with memory access violation,james.brown.support@company.com,2024-03-20 20:52:00
+391,Mail queue data,email,High,In Progress,Outlook not syncing with Exchange server - connection timeout,robert.johnson.operations@enterprise.org,2024-03-02 07:35:00
+392,Installation records,software,Low,Resolved,Update installation stuck at 50% for over 2 hours,chris.thomas.finance@tech.org,2024-01-18 01:58:00
+393,Backup logs,backup,Low,In Progress,Backup encryption key rotation required per policy,thomas.miller.sales@company.com,2024-03-06 19:12:00
+394,Permission records,access,Low,Closed,New employee needs access to project management software,chris.johnson.finance@business.net,2024-03-14 12:59:00
+395,Login attempts,access,Low,In Progress,Multi-factor authentication device replacement needed,susan.davis.marketing@company.com,2024-03-25 05:00:00
+396,Packet capture data,network,High,Closed,Intermittent internet connectivity in entire north building,susan.wilson.sales@corp.io,2024-02-25 11:36:00
+397,SMTP logs,email,High,Closed,Global address list not updating with new employees,sarah.rodriguez.research@company.com,2024-03-19 03:16:00
+398,Backup records,database,High,Closed,Database version upgrade planning and testing,susan.rodriguez.finance@enterprise.org,2024-03-07 20:45:00
+399,Threat detection data,security,Low,Closed,Antivirus detection of potential malware in shared drive,michelle.brown.marketing@corp.io,2024-03-06 03:31:00
+400,Login attempts,access,High,Closed,New employee needs access to project management software,sarah.jones.engineering@corp.io,2024-03-31 02:29:00
+401,Installation records,software,Medium,Closed,Installation package corrupted during download,natalie.taylor.operations@tech.org,2024-01-22 00:21:00
+402,Application logs,software,Low,Resolved,"Software freezing during use, requires force quit",amanda.smith.marketing@business.net,2024-01-05 08:06:00
+403,Access control lists,access,Low,Closed,Shared mailbox permissions need review and cleanup,susan.garcia.engineering@tech.org,2024-02-10 00:54:00
+404,Threat detection data,security,High,Resolved,Password policy enforcement not working for service accounts,sarah.white.marketing@tech.org,2024-02-10 07:37:00
+405,Query performance,database,High,Closed,Database log file growth exceeding allocated space,sarah.harris.operations@tech.org,2024-02-28 23:10:00
+406,Performance analytics,software,Medium,Open,"Software freezing during use, requires force quit",amanda.wilson.operations@business.net,2024-01-05 07:38:00
+407,Capacity planning data,backup,Low,Resolved,Backup retention policy needs configuration review,mike.jackson.operations@enterprise.org,2024-03-13 05:35:00
+408,Connection logs,database,Low,Open,"Table space running low, requires immediate attention",jane.williams.hr@business.net,2024-02-04 17:29:00
+409,Capacity planning data,backup,High,Open,Backup encryption key rotation required per policy,mike.anderson.finance@enterprise.org,2024-03-28 12:00:00
+410,Login attempts,access,High,Resolved,New employee needs access to project management software,steven.garcia.sales@corp.io,2024-02-04 02:50:00
+411,Performance metrics,hardware,Medium,Closed,Workstation blue screen errors occurring multiple times daily,john.jackson.operations@company.com,2024-03-11 18:58:00
+412,Compliance reports,security,High,Open,Data encryption required for sensitive client information,thomas.johnson.operations@tech.org,2024-02-11 13:34:00
+413,Storage metrics,backup,High,In Progress,Backup restore test failed for critical database,rebecca.miller.marketing@business.net,2024-01-31 08:27:00
+414,Delivery reports,email,Low,Closed,Email rules not executing automatically as configured,thomas.white.hr@enterprise.org,2024-02-13 02:49:00
+415,Temperature readings,hardware,Low,Resolved,Desktop computer not powering on - no lights or sounds,amanda.thomas.engineering@enterprise.org,2024-03-07 17:52:00
+416,Performance metrics,hardware,High,Resolved,Server hardware failure detected in RAID controller,lisa.smith.sales@business.net,2024-01-16 08:54:00
+417,Compliance reports,security,Medium,Resolved,Access logs showing suspicious login patterns,natalie.moore.operations@business.net,2024-03-13 06:18:00
+418,Capacity planning data,backup,High,Open,Nightly backup failed due to insufficient storage space,chris.moore.research@tech.org,2024-03-16 20:55:00
+419,Temperature readings,hardware,Low,In Progress,Printer paper jam error despite clear paper path,robert.moore.hr@business.net,2024-01-08 02:59:00
+420,Access control lists,access,High,Open,Security group membership requires quarterly audit,robert.moore.engineering@enterprise.org,2024-01-16 19:02:00
+421,Spam filter results,email,Low,Closed,Calendar sync failed between mobile and desktop clients,sarah.martinez.operations@business.net,2024-01-28 14:43:00
+422,Delivery reports,email,Low,Resolved,Large attachments failing to send with size limit errors,sarah.thomas.engineering@enterprise.org,2024-01-21 07:05:00
+423,Network statistics,network,Medium,In Progress,VPN connection timeout issues for remote team members,michelle.johnson.research@company.com,2024-02-13 06:26:00
+424,Bandwidth usage,network,Medium,Open,Wireless access point firmware needs urgent update,susan.harris.engineering@business.net,2024-01-19 04:35:00
+425,SMTP logs,email,High,In Progress,Global address list not updating with new employees,michelle.garcia.finance@company.com,2024-01-10 23:07:00
+426,System logs,hardware,High,Resolved,"Laptop battery not holding charge, lasts only 15 minutes",rebecca.rodriguez.finance@business.net,2024-03-10 22:32:00
+427,Spam filter results,email,High,Closed,Calendar sync failed between mobile and desktop clients,emily.anderson.marketing@corp.io,2024-01-24 16:42:00
+428,Audit logs,access,High,Closed,Folder permissions need updating for quarterly project,david.johnson.hr@business.net,2024-01-27 20:37:00
+429,Performance analytics,software,Medium,Open,Software license activation failed - invalid license key,jennifer.jones.operations@tech.org,2024-01-16 12:11:00
+430,Firewall rules,security,Medium,In Progress,Password policy enforcement not working for service accounts,eric.white.operations@business.net,2024-03-12 11:04:00
+431,Power consumption data,hardware,Low,In Progress,Laptop overheating and shutting down randomly during presentations,kevin.thomas.engineering@enterprise.org,2024-03-10 13:47:00
+432,Threat detection data,security,Low,Resolved,Password policy enforcement not working for service accounts,chris.moore.hr@business.net,2024-01-30 12:59:00
+433,Security logs,security,Medium,Resolved,Security certificate expiring for customer portal,chris.rodriguez.sales@business.net,2024-03-29 23:17:00
+434,Permission records,access,Medium,In Progress,New employee needs access to project management software,sarah.miller.sales@enterprise.org,2024-03-14 17:11:00
+435,Usage statistics,software,High,Closed,Plugin not loading correctly in design application,emily.thomas.hr@company.com,2024-03-05 21:01:00
+436,Compliance reports,security,Medium,In Progress,Password policy enforcement not working for service accounts,mike.white.research@business.net,2024-01-25 07:08:00
+437,Capacity planning data,backup,Low,Closed,Backup retention policy needs configuration review,emily.davis.finance@tech.org,2024-03-22 04:41:00
+438,Packet capture data,network,Low,Resolved,DNS resolution failures for internal applications,michelle.garcia.sales@tech.org,2024-02-17 01:15:00
+439,Hardware diagnostics,hardware,Medium,In Progress,Server hardware failure detected in RAID controller,robert.white.engineering@corp.io,2024-02-15 19:35:00
+440,Latency measurements,network,Medium,Resolved,Slow file transfer speeds between departments,steven.jones.research@corp.io,2024-03-27 22:53:00
+441,Audit logs,access,Low,Resolved,Security group membership requires quarterly audit,robert.martinez.research@enterprise.org,2024-01-26 15:04:00
+442,Configuration data,email,Medium,Closed,Legitimate emails being marked as spam by filter system,jennifer.garcia.operations@corp.io,2024-02-26 09:08:00
+443,Permission records,access,Low,Closed,Shared mailbox permissions need review and cleanup,eric.moore.marketing@corp.io,2024-03-13 18:14:00
+444,Compliance reports,security,High,Open,Security certificate expiring for customer portal,emily.brown.research@business.net,2024-01-08 23:11:00
+445,Usage statistics,software,High,In Progress,Software configuration reset after system reboot,jennifer.wilson.engineering@enterprise.org,2024-01-25 09:03:00
+446,SMTP logs,email,High,Closed,Email search functionality returning incomplete results,david.thomas.engineering@corp.io,2024-03-18 08:39:00
+447,Error reports,software,Medium,Closed,Application crashing on startup with memory access violation,susan.smith.sales@corp.io,2024-01-07 06:42:00
+448,Mail queue data,email,Medium,In Progress,Automatic replies not triggering during scheduled times,natalie.taylor.sales@business.net,2024-02-13 20:05:00
+449,Audit logs,access,Low,In Progress,Shared mailbox permissions need review and cleanup,john.davis.marketing@company.com,2024-03-12 23:24:00
+450,Compliance reports,security,High,In Progress,Security audit reveals compliance violations in user accounts,chris.brown.engineering@corp.io,2024-02-09 09:41:00
+451,Threat detection data,security,Low,Open,Firewall rules blocking legitimate application traffic,natalie.moore.finance@business.net,2024-02-02 05:59:00
+452,Connectivity logs,network,Medium,In Progress,Intermittent internet connectivity in entire north building,amanda.thomas.engineering@tech.org,2024-01-27 04:03:00
+453,Index usage data,database,Low,Open,Database replication lag between primary and secondary,james.johnson.marketing@corp.io,2024-02-10 04:25:00
+454,Performance analytics,software,Low,Open,Software configuration reset after system reboot,eric.williams.marketing@business.net,2024-03-05 16:41:00
+455,Delivery reports,email,Low,In Progress,Email rules not executing automatically as configured,emily.garcia.hr@tech.org,2024-03-09 05:54:00
+456,Security group data,access,Medium,Open,Database access required for financial reporting team,thomas.jackson.marketing@enterprise.org,2024-03-12 19:45:00
+457,Table statistics,database,Low,Closed,Database backup verification failed checksum test,john.jones.sales@company.com,2024-03-08 16:11:00
+458,Recovery test results,backup,Low,In Progress,Backup job scheduling conflict with maintenance window,lisa.jackson.marketing@corp.io,2024-01-08 08:12:00
+459,Capacity planning data,backup,High,Closed,Incremental backup corruption detected during verification,chris.wilson.engineering@corp.io,2024-02-23 02:06:00
+460,Access control lists,access,High,In Progress,Multi-factor authentication device replacement needed,michelle.brown.support@business.net,2024-03-16 16:15:00
+461,Query performance,database,Medium,Closed,Database connection pool exhaustion under load,jennifer.jackson.engineering@enterprise.org,2024-02-23 07:59:00
+462,SMTP logs,email,High,Closed,Signature formatting broken after recent update,steven.brown.hr@company.com,2024-01-06 14:47:00
+463,Backup records,database,High,Open,"Table space running low, requires immediate attention",mike.jones.engineering@enterprise.org,2024-03-05 18:47:00
+464,Performance metrics,hardware,Low,Resolved,Printer paper jam error despite clear paper path,john.miller.engineering@enterprise.org,2024-01-26 13:01:00
+465,Bandwidth usage,network,Medium,In Progress,Network latency spikes during peak business hours,amanda.thomas.marketing@business.net,2024-03-09 02:30:00
+466,Query performance,database,Medium,Resolved,Database replication lag between primary and secondary,lisa.thomas.marketing@corp.io,2024-02-18 21:46:00
+467,Configuration data,email,High,Closed,Email rules not executing automatically as configured,james.rodriguez.hr@business.net,2024-03-12 21:42:00
+468,Delivery reports,email,Low,Open,Large attachments failing to send with size limit errors,susan.smith.marketing@tech.org,2024-02-29 12:11:00
+469,Capacity planning data,backup,Medium,In Progress,Incremental backup corruption detected during verification,steven.jackson.research@corp.io,2024-03-04 00:56:00
+470,System logs,hardware,Low,In Progress,Monitor displaying distorted colors and flickering lines,emily.taylor.finance@company.com,2024-02-25 18:54:00
+471,Backup logs,backup,High,Resolved,Backup restore test failed for critical database,rebecca.miller.research@business.net,2024-02-07 14:01:00
+472,Threat detection data,security,Low,In Progress,Antivirus detection of potential malware in shared drive,sarah.davis.research@tech.org,2024-02-02 07:25:00
+473,Network statistics,network,High,Resolved,Slow file transfer speeds between departments,mike.anderson.hr@business.net,2024-03-29 07:46:00
+474,Index usage data,database,High,Open,Database backup verification failed checksum test,amanda.moore.sales@business.net,2024-02-17 12:38:00
+475,Compliance reports,security,High,In Progress,Password policy enforcement not working for service accounts,chris.martinez.sales@enterprise.org,2024-01-01 21:28:00
+476,Delivery reports,email,Low,In Progress,Automatic replies not triggering during scheduled times,james.jones.marketing@enterprise.org,2024-02-22 20:08:00
+477,Backup records,database,Low,Closed,Database version upgrade planning and testing,james.anderson.hr@corp.io,2024-03-12 23:50:00
+478,Storage metrics,backup,Medium,Resolved,Cloud backup synchronization stalled at 80% complete,amanda.smith.engineering@tech.org,2024-03-01 12:16:00
+479,Usage statistics,software,Low,In Progress,Application throwing database connection errors,lisa.white.research@business.net,2024-01-14 23:20:00
+480,Temperature readings,hardware,High,Closed,Printer paper jam error despite clear paper path,rebecca.wilson.research@enterprise.org,2024-02-10 14:14:00
+481,Latency measurements,network,Medium,Resolved,Intermittent internet connectivity in entire north building,lisa.johnson.support@corp.io,2024-01-17 03:28:00
+482,Backup records,database,Medium,Resolved,Database performance degradation during peak hours,jennifer.williams.research@enterprise.org,2024-03-01 02:34:00
+483,Login attempts,access,Medium,In Progress,User account locked due to multiple failed login attempts,eric.rodriguez.hr@business.net,2024-01-10 19:47:00
+484,Compliance reports,security,High,Open,Security training completion tracking implementation,david.williams.marketing@business.net,2024-01-26 11:30:00
+485,Performance metrics,hardware,High,Open,Monitor displaying distorted colors and flickering lines,amanda.rodriguez.research@corp.io,2024-03-02 01:39:00
+486,Backup records,database,Low,Resolved,Database backup verification failed checksum test,robert.thomas.finance@enterprise.org,2024-03-12 18:51:00
+487,Hardware diagnostics,hardware,High,Resolved,"Laptop battery not holding charge, lasts only 15 minutes",emily.smith.research@corp.io,2024-03-08 05:37:00
+488,Temperature readings,hardware,Medium,Resolved,Laptop overheating and shutting down randomly during presentations,john.harris.marketing@company.com,2024-03-01 04:59:00
+489,Power consumption data,hardware,Medium,Resolved,Workstation blue screen errors occurring multiple times daily,jennifer.miller.finance@enterprise.org,2024-01-06 03:04:00
+490,Power consumption data,hardware,Medium,Closed,Server disk space critically low at 98% capacity,natalie.taylor.support@enterprise.org,2024-03-23 18:09:00
+491,Security logs,security,Low,In Progress,Antivirus detection of potential malware in shared drive,michelle.garcia.marketing@company.com,2024-03-28 22:01:00
+492,SMTP logs,email,Low,Resolved,Email rules not executing automatically as configured,david.davis.support@company.com,2024-01-05 07:10:00
+493,Temperature readings,hardware,Medium,Resolved,"Laptop battery not holding charge, lasts only 15 minutes",jane.johnson.hr@enterprise.org,2024-02-04 19:37:00
+494,Application logs,software,Medium,In Progress,Installation package corrupted during download,mike.thomas.engineering@tech.org,2024-02-06 14:37:00
+495,Query performance,database,High,Open,"Table space running low, requires immediate attention",kevin.davis.marketing@enterprise.org,2024-03-20 12:09:00
+496,Hardware diagnostics,hardware,High,Closed,Keyboard keys not responding consistently during typing,jennifer.thomas.operations@corp.io,2024-01-08 16:41:00
+497,Query performance,database,Medium,Open,Database connection pool exhaustion under load,amanda.moore.support@enterprise.org,2024-01-27 17:11:00
+498,Configuration data,email,High,Open,Signature formatting broken after recent update,thomas.white.engineering@business.net,2024-02-15 12:40:00
+499,SMTP logs,email,Medium,In Progress,Legitimate emails being marked as spam by filter system,susan.harris.marketing@corp.io,2024-02-19 16:09:00
+500,Index usage data,database,Medium,In Progress,Database backup verification failed checksum test,jennifer.white.sales@corp.io,2024-03-17 16:29:00
+501,Security logs,security,Low,Open,Password policy enforcement not working for service accounts,rebecca.wilson.engineering@corp.io,2024-01-08 17:08:00
+502,Mail queue data,email,High,Closed,Signature formatting broken after recent update,mike.miller.sales@corp.io,2024-01-12 12:09:00
+503,SMTP logs,email,Low,In Progress,Email rules not executing automatically as configured,sarah.brown.marketing@tech.org,2024-01-10 17:17:00
+504,Packet capture data,network,Low,Open,Switch port malfunctioning in server room rack 4B,susan.moore.operations@company.com,2024-02-05 02:55:00
+505,Security logs,security,High,Resolved,Data encryption required for sensitive client information,chris.garcia.engineering@enterprise.org,2024-02-22 18:57:00
+506,Firewall rules,security,Low,Open,Critical Windows security patches need immediate deployment,chris.moore.support@tech.org,2024-03-07 18:04:00
+507,Permission records,access,Low,In Progress,Application-specific roles need configuration,amanda.harris.sales@enterprise.org,2024-02-18 05:32:00
+508,Recovery test results,backup,High,Closed,Backup verification process taking longer than expected,james.harris.sales@business.net,2024-02-09 11:20:00
+509,Packet capture data,network,Medium,Closed,Network drive inaccessible with permission denied errors,jennifer.thomas.operations@tech.org,2024-03-27 18:37:00
+510,Installation records,software,Medium,Closed,Application throwing database connection errors,kevin.white.research@corp.io,2024-01-05 22:50:00
+511,Verification reports,backup,Low,Open,Backup encryption key rotation required per policy,amanda.thomas.finance@corp.io,2024-03-30 00:11:00
+512,Application logs,software,Medium,Open,Update installation stuck at 50% for over 2 hours,sarah.jones.marketing@corp.io,2024-01-15 08:03:00
+513,Connectivity logs,network,Medium,In Progress,Intermittent internet connectivity in entire north building,david.harris.research@business.net,2024-01-09 14:08:00
+514,Usage statistics,software,Low,Closed,Software configuration reset after system reboot,emily.smith.finance@corp.io,2024-02-14 07:03:00
+515,Storage metrics,backup,Low,Closed,Nightly backup failed due to insufficient storage space,chris.thomas.operations@company.com,2024-01-15 23:53:00
+516,Threat detection data,security,High,Open,Critical Windows security patches need immediate deployment,thomas.williams.sales@business.net,2024-01-26 08:31:00
+517,Error reports,software,Medium,Closed,Application throwing database connection errors,thomas.moore.finance@corp.io,2024-02-13 11:03:00
+518,Threat detection data,security,Low,In Progress,Password policy enforcement not working for service accounts,sarah.jones.marketing@enterprise.org,2024-02-05 12:00:00
+519,Virus scan results,security,Medium,Closed,Security certificate expiring for customer portal,jane.miller.sales@corp.io,2024-03-29 12:41:00
+520,Performance analytics,software,Medium,Resolved,Compatibility issues with new operating system update,eric.martinez.operations@enterprise.org,2024-03-16 20:42:00
+521,Performance analytics,software,Low,Resolved,Application throwing database connection errors,natalie.miller.support@corp.io,2024-01-04 23:37:00
+522,Performance metrics,hardware,Low,In Progress,Keyboard keys not responding consistently during typing,steven.davis.hr@business.net,2024-01-19 00:42:00
+523,Security logs,security,Medium,In Progress,Access logs showing suspicious login patterns,rebecca.garcia.hr@company.com,2024-02-25 02:28:00
+524,Bandwidth usage,network,Medium,Closed,DNS resolution failures for internal applications,john.thomas.operations@company.com,2024-02-24 23:24:00
+525,Capacity planning data,backup,Low,In Progress,Cloud backup synchronization stalled at 80% complete,eric.johnson.sales@tech.org,2024-01-31 20:17:00
+526,Table statistics,database,High,Resolved,"Table space running low, requires immediate attention",kevin.garcia.research@enterprise.org,2024-03-29 02:10:00
+527,Temperature readings,hardware,High,Open,Keyboard keys not responding consistently during typing,james.thomas.research@enterprise.org,2024-03-05 01:53:00
+528,Audit logs,access,Medium,In Progress,Shared mailbox permissions need review and cleanup,mike.brown.research@company.com,2024-01-26 04:39:00
+529,Access control lists,access,Medium,Open,Terminated employee access revocation incomplete,amanda.moore.hr@tech.org,2024-03-19 11:04:00
+530,Backup logs,backup,High,Closed,Backup storage capacity planning for next quarter,susan.smith.research@enterprise.org,2024-02-20 19:29:00
+531,Firewall rules,security,Medium,Resolved,Access logs showing suspicious login patterns,susan.miller.sales@company.com,2024-02-02 22:00:00
+532,Connection logs,database,High,Resolved,"Table space running low, requires immediate attention",sarah.wilson.marketing@tech.org,2024-02-12 20:23:00
+533,Hardware diagnostics,hardware,High,Resolved,Keyboard keys not responding consistently during typing,mike.rodriguez.hr@company.com,2024-02-11 02:52:00
+534,Login attempts,access,High,Closed,Database access required for financial reporting team,mike.jackson.marketing@tech.org,2024-03-14 12:09:00
+535,Storage metrics,backup,Low,Resolved,Backup verification process taking longer than expected,john.johnson.engineering@business.net,2024-02-19 12:39:00
+536,Query performance,database,Medium,In Progress,Index fragmentation causing slow query performance,jane.rodriguez.hr@tech.org,2024-03-27 04:32:00
+537,Latency measurements,network,Low,In Progress,DNS resolution failures for internal applications,jane.davis.operations@enterprise.org,2024-01-31 07:28:00
+538,Verification reports,backup,Medium,In Progress,Backup restore test failed for critical database,chris.thomas.finance@business.net,2024-01-26 12:22:00
+539,Delivery reports,email,Medium,In Progress,Large attachments failing to send with size limit errors,michelle.moore.sales@company.com,2024-01-09 21:59:00
+540,Connectivity logs,network,High,In Progress,Port configuration required for new security system,chris.rodriguez.marketing@business.net,2024-02-18 09:36:00
+541,Usage statistics,software,High,Open,Software license activation failed - invalid license key,chris.harris.hr@company.com,2024-02-22 01:04:00
+542,Temperature readings,hardware,Low,Resolved,Docking station not recognizing external monitors,michelle.jones.sales@corp.io,2024-01-26 01:47:00
+543,Security group data,access,High,Closed,Terminated employee access revocation incomplete,kevin.moore.operations@company.com,2024-03-06 21:47:00
+544,SMTP logs,email,High,Open,Signature formatting broken after recent update,thomas.johnson.hr@tech.org,2024-01-07 11:50:00
+545,Error reports,software,High,Open,Plugin not loading correctly in design application,eric.white.finance@corp.io,2024-03-30 23:29:00
+546,Security group data,access,High,Closed,Terminated employee access revocation incomplete,natalie.wilson.sales@corp.io,2024-02-09 21:33:00
+547,Security group data,access,Medium,Open,Multi-factor authentication device replacement needed,john.brown.support@enterprise.org,2024-02-19 07:57:00
+548,Query performance,database,Medium,In Progress,Database replication lag between primary and secondary,kevin.white.hr@corp.io,2024-03-11 14:10:00
+549,Usage statistics,software,Medium,Closed,Program running extremely slow when processing large files,eric.thomas.marketing@business.net,2024-02-06 09:31:00
+550,Usage statistics,software,Medium,Closed,Application throwing database connection errors,john.moore.marketing@tech.org,2024-03-22 03:27:00
+551,Connectivity logs,network,High,In Progress,DNS resolution failures for internal applications,michelle.wilson.research@business.net,2024-03-06 23:57:00
+552,Error reports,software,Medium,In Progress,Compatibility issues with new operating system update,natalie.brown.research@enterprise.org,2024-02-06 12:23:00
+553,Recovery test results,backup,Medium,Resolved,Cloud backup synchronization stalled at 80% complete,steven.williams.operations@tech.org,2024-02-23 20:57:00
+554,Performance analytics,software,Low,Resolved,Program running extremely slow when processing large files,mike.smith.support@business.net,2024-02-04 00:21:00
+555,Application logs,software,Medium,In Progress,Program running extremely slow when processing large files,james.jones.operations@corp.io,2024-02-13 04:09:00
+556,Performance analytics,software,Low,Open,Software license activation failed - invalid license key,susan.brown.marketing@business.net,2024-03-18 22:27:00
+557,Connectivity logs,network,Medium,In Progress,Wireless access point firmware needs urgent update,mike.anderson.sales@business.net,2024-01-08 04:39:00
+558,Storage metrics,backup,Medium,Open,Backup job scheduling conflict with maintenance window,chris.smith.research@company.com,2024-03-16 06:11:00
+559,Bandwidth usage,network,Medium,Open,Slow file transfer speeds between departments,jane.taylor.operations@company.com,2024-03-27 06:46:00
+560,Mail queue data,email,Low,Closed,Global address list not updating with new employees,chris.brown.sales@tech.org,2024-01-19 16:56:00
+561,Verification reports,backup,High,Resolved,Cloud backup synchronization stalled at 80% complete,david.wilson.engineering@company.com,2024-01-13 13:38:00
+562,Usage statistics,software,Low,Resolved,Application throwing database connection errors,lisa.white.hr@corp.io,2024-03-10 22:52:00
+563,Power consumption data,hardware,Medium,Resolved,Printer paper jam error despite clear paper path,mike.martinez.marketing@company.com,2024-02-15 11:13:00
+564,Mail queue data,email,Medium,Resolved,Automatic replies not triggering during scheduled times,thomas.moore.research@tech.org,2024-03-25 09:59:00
+565,Error reports,software,Low,In Progress,Software license activation failed - invalid license key,jane.smith.marketing@corp.io,2024-02-10 15:12:00
+566,Temperature readings,hardware,Low,Closed,Server hardware failure detected in RAID controller,kevin.rodriguez.support@enterprise.org,2024-03-07 10:25:00
+567,Table statistics,database,Low,Resolved,Database backup verification failed checksum test,jennifer.garcia.marketing@corp.io,2024-01-19 22:18:00
+568,System logs,hardware,Low,In Progress,Desktop computer not powering on - no lights or sounds,natalie.white.support@business.net,2024-01-08 02:17:00
+569,Application logs,software,High,Open,Application crashing on startup with memory access violation,steven.brown.engineering@company.com,2024-02-29 17:04:00
+570,System logs,hardware,Low,Resolved,Server disk space critically low at 98% capacity,eric.thomas.hr@corp.io,2024-03-22 17:11:00
+571,Performance analytics,software,High,In Progress,Installation package corrupted during download,thomas.white.hr@tech.org,2024-01-02 01:42:00
+572,Bandwidth usage,network,Medium,Resolved,Intermittent internet connectivity in entire north building,jennifer.thomas.hr@company.com,2024-02-15 17:59:00
+573,Capacity planning data,backup,Medium,In Progress,Incremental backup corruption detected during verification,john.rodriguez.marketing@business.net,2024-03-31 15:03:00
+574,Installation records,software,Medium,Closed,Application throwing database connection errors,david.brown.sales@company.com,2024-02-12 04:14:00
+575,Mail queue data,email,Medium,Closed,Large attachments failing to send with size limit errors,emily.taylor.engineering@business.net,2024-01-23 18:16:00
+576,Configuration data,email,Low,Open,Email search functionality returning incomplete results,jane.martinez.sales@business.net,2024-01-22 15:04:00
+577,Network statistics,network,Medium,Resolved,VPN connection timeout issues for remote team members,chris.wilson.research@tech.org,2024-03-12 16:27:00
+578,Capacity planning data,backup,Low,Resolved,Tape drive hardware failure in backup system,kevin.davis.support@tech.org,2024-01-28 02:25:00
+579,Bandwidth usage,network,Medium,In Progress,Intermittent internet connectivity in entire north building,robert.smith.marketing@business.net,2024-03-28 08:48:00
+580,Bandwidth usage,network,Medium,Closed,Wireless access point firmware needs urgent update,jane.white.finance@tech.org,2024-01-31 12:08:00
+581,SMTP logs,email,High,Resolved,Calendar sync failed between mobile and desktop clients,amanda.moore.operations@company.com,2024-01-26 04:32:00
+582,Performance metrics,hardware,Medium,Resolved,Desktop computer not powering on - no lights or sounds,jane.harris.sales@business.net,2024-02-05 14:56:00
+583,Backup records,database,High,Closed,Index fragmentation causing slow query performance,david.anderson.sales@business.net,2024-02-21 21:21:00
+584,Permission records,access,Medium,Open,Folder permissions need updating for quarterly project,susan.jones.sales@tech.org,2024-03-23 10:52:00
+585,Virus scan results,security,Low,Resolved,Intrusion detection system generating false positives,david.miller.engineering@enterprise.org,2024-03-11 13:11:00
+586,Security group data,access,Low,Open,Shared mailbox permissions need review and cleanup,lisa.williams.finance@business.net,2024-03-10 12:01:00
+587,Verification reports,backup,High,Closed,Nightly backup failed due to insufficient storage space,james.thomas.marketing@company.com,2024-01-19 20:44:00
+588,Firewall rules,security,Medium,In Progress,Intrusion detection system generating false positives,thomas.martinez.research@corp.io,2024-02-27 20:21:00
+589,Mail queue data,email,High,Resolved,Email rules not executing automatically as configured,michelle.jones.support@business.net,2024-03-23 13:01:00
+590,Packet capture data,network,Medium,Closed,Port configuration required for new security system,chris.johnson.engineering@corp.io,2024-01-13 10:02:00
+591,Storage metrics,backup,High,Closed,Nightly backup failed due to insufficient storage space,susan.rodriguez.engineering@business.net,2024-02-14 22:18:00
+592,Delivery reports,email,High,In Progress,Signature formatting broken after recent update,jennifer.thomas.engineering@business.net,2024-02-16 06:15:00
+593,Threat detection data,security,High,Resolved,Security audit reveals compliance violations in user accounts,susan.white.finance@enterprise.org,2024-01-24 03:30:00
+594,Connectivity logs,network,High,In Progress,DNS resolution failures for internal applications,chris.martinez.engineering@corp.io,2024-03-27 00:22:00
+595,Usage statistics,software,High,Open,"Software freezing during use, requires force quit",chris.moore.marketing@enterprise.org,2024-03-06 21:49:00
+596,Mail queue data,email,High,Open,Email search functionality returning incomplete results,amanda.williams.hr@business.net,2024-03-04 20:01:00
+597,Security group data,access,High,In Progress,Multi-factor authentication device replacement needed,thomas.taylor.hr@enterprise.org,2024-02-17 04:45:00
+598,Latency measurements,network,Low,Resolved,Slow file transfer speeds between departments,rebecca.garcia.finance@company.com,2024-01-06 13:55:00
+599,Power consumption data,hardware,High,In Progress,Desktop computer not powering on - no lights or sounds,chris.williams.marketing@corp.io,2024-01-20 13:02:00
+600,Compliance reports,security,High,Resolved,Antivirus detection of potential malware in shared drive,jennifer.rodriguez.engineering@tech.org,2024-02-26 04:38:00
+601,Recovery test results,backup,Low,Resolved,Backup verification process taking longer than expected,lisa.thomas.marketing@corp.io,2024-03-24 05:01:00
+602,Recovery test results,backup,Medium,Resolved,Incremental backup corruption detected during verification,jane.miller.marketing@enterprise.org,2024-03-09 12:39:00
+603,Security group data,access,Low,Resolved,Application-specific roles need configuration,steven.anderson.sales@corp.io,2024-02-20 01:13:00
+604,Error reports,software,Medium,Closed,Installation package corrupted during download,kevin.taylor.hr@company.com,2024-01-28 22:45:00
+605,Network statistics,network,Low,In Progress,DNS resolution failures for internal applications,susan.anderson.support@enterprise.org,2024-03-10 07:35:00
+606,Backup logs,backup,High,In Progress,Tape drive hardware failure in backup system,steven.wilson.finance@enterprise.org,2024-01-12 14:56:00
+607,Capacity planning data,backup,Low,Resolved,Tape drive hardware failure in backup system,rebecca.martinez.operations@corp.io,2024-01-18 09:01:00
+608,Bandwidth usage,network,Medium,Closed,Port configuration required for new security system,jennifer.taylor.sales@company.com,2024-03-29 11:01:00
+609,Table statistics,database,High,Closed,Database connection pool exhaustion under load,david.williams.hr@corp.io,2024-03-09 12:52:00
+610,Audit logs,access,Low,Resolved,Application-specific roles need configuration,eric.martinez.research@company.com,2024-01-21 20:29:00
+611,Index usage data,database,Medium,Resolved,Database replication lag between primary and secondary,sarah.wilson.research@enterprise.org,2024-03-22 10:44:00
+612,Power consumption data,hardware,High,Closed,Monitor displaying distorted colors and flickering lines,michelle.martinez.research@corp.io,2024-03-03 22:04:00
+613,Recovery test results,backup,Low,Resolved,Backup restore test failed for critical database,steven.johnson.operations@corp.io,2024-01-18 10:36:00
+614,Performance analytics,software,Low,Open,Plugin not loading correctly in design application,chris.taylor.operations@corp.io,2024-01-31 14:27:00
+615,System logs,hardware,High,Closed,Laptop overheating and shutting down randomly during presentations,michelle.garcia.hr@tech.org,2024-03-07 08:14:00
+616,Recovery test results,backup,Medium,Open,Incremental backup corruption detected during verification,sarah.williams.finance@enterprise.org,2024-03-17 14:43:00
+617,Security group data,access,Low,Open,Terminated employee access revocation incomplete,jane.martinez.sales@business.net,2024-01-02 21:37:00
+618,Mail queue data,email,Low,Open,Signature formatting broken after recent update,james.white.engineering@enterprise.org,2024-02-15 11:13:00
+619,Temperature readings,hardware,Low,Closed,Workstation blue screen errors occurring multiple times daily,susan.jones.support@company.com,2024-02-22 23:22:00
+620,Verification reports,backup,Medium,Open,Tape drive hardware failure in backup system,david.anderson.operations@enterprise.org,2024-01-24 19:42:00
+621,Threat detection data,security,Medium,Closed,Password policy enforcement not working for service accounts,david.jones.marketing@corp.io,2024-03-13 06:36:00
+622,Spam filter results,email,Low,Closed,Outlook not syncing with Exchange server - connection timeout,jane.johnson.sales@tech.org,2024-02-04 05:11:00
+623,Recovery test results,backup,Medium,Open,Backup restore test failed for critical database,david.taylor.hr@enterprise.org,2024-02-08 19:09:00
+624,Table statistics,database,Medium,Closed,"Table space running low, requires immediate attention",rebecca.wilson.engineering@enterprise.org,2024-03-18 02:44:00
+625,Configuration data,email,Medium,In Progress,Outlook not syncing with Exchange server - connection timeout,michelle.taylor.engineering@corp.io,2024-03-02 18:30:00
+626,Storage metrics,backup,Low,Closed,Incremental backup corruption detected during verification,emily.martinez.engineering@business.net,2024-01-19 15:28:00
+627,Index usage data,database,Low,Open,"Table space running low, requires immediate attention",eric.johnson.sales@business.net,2024-03-17 01:26:00
+628,Power consumption data,hardware,Medium,Closed,Laptop overheating and shutting down randomly during presentations,sarah.martinez.marketing@tech.org,2024-03-14 07:08:00
+629,Configuration data,email,Medium,In Progress,Signature formatting broken after recent update,lisa.harris.marketing@corp.io,2024-02-13 06:01:00
+630,Verification reports,backup,High,Open,Cloud backup synchronization stalled at 80% complete,kevin.wilson.support@enterprise.org,2024-03-17 03:42:00
+631,Connection logs,database,Low,In Progress,Database log file growth exceeding allocated space,emily.white.finance@tech.org,2024-01-26 14:17:00
+632,Delivery reports,email,Low,Open,Large attachments failing to send with size limit errors,thomas.harris.marketing@corp.io,2024-03-16 09:54:00
+633,Login attempts,access,High,Closed,Terminated employee access revocation incomplete,david.johnson.finance@company.com,2024-01-11 15:02:00
+634,Connection logs,database,Low,Closed,SQL query timeout errors in reporting application,steven.taylor.research@business.net,2024-02-29 09:34:00
+635,Connectivity logs,network,Low,Resolved,DNS resolution failures for internal applications,thomas.thomas.research@tech.org,2024-01-22 18:52:00
+636,Error reports,software,High,Resolved,Plugin not loading correctly in design application,michelle.wilson.support@business.net,2024-03-15 02:42:00
+637,Network statistics,network,High,Closed,Port configuration required for new security system,rebecca.harris.support@tech.org,2024-02-17 16:44:00
+638,Configuration data,email,Medium,Open,Email client crashing when opening specific messages,jennifer.williams.marketing@enterprise.org,2024-02-14 13:34:00
+639,Table statistics,database,Medium,Resolved,Database backup verification failed checksum test,amanda.harris.sales@business.net,2024-01-12 01:31:00
+640,Query performance,database,Medium,Open,Database backup verification failed checksum test,lisa.brown.hr@company.com,2024-01-16 21:40:00
+641,Delivery reports,email,High,Closed,Email search functionality returning incomplete results,steven.davis.marketing@business.net,2024-01-25 06:59:00
+642,Packet capture data,network,High,In Progress,Slow file transfer speeds between departments,james.jackson.operations@business.net,2024-03-18 20:15:00
+643,Query performance,database,Medium,In Progress,"Table space running low, requires immediate attention",sarah.taylor.operations@enterprise.org,2024-01-29 21:33:00
+644,Storage metrics,backup,High,Closed,Cloud backup synchronization stalled at 80% complete,rebecca.johnson.engineering@corp.io,2024-01-21 09:00:00
+645,Recovery test results,backup,Low,Resolved,Backup retention policy needs configuration review,amanda.smith.engineering@business.net,2024-03-13 12:46:00
+646,Error reports,software,Medium,Resolved,Application throwing database connection errors,eric.moore.operations@company.com,2024-02-06 09:45:00
+647,Permission records,access,Medium,Resolved,Security group membership requires quarterly audit,susan.moore.support@company.com,2024-02-07 07:10:00
+648,Latency measurements,network,Medium,Resolved,Wireless access point firmware needs urgent update,steven.brown.marketing@business.net,2024-01-16 03:29:00
+649,Bandwidth usage,network,Low,Open,DNS resolution failures for internal applications,david.harris.finance@business.net,2024-02-01 11:55:00
+650,Performance metrics,hardware,Low,Open,Printer paper jam error despite clear paper path,natalie.garcia.marketing@corp.io,2024-01-14 15:40:00
+651,Bandwidth usage,network,Medium,Closed,Network drive inaccessible with permission denied errors,amanda.smith.engineering@company.com,2024-03-06 04:10:00
+652,Application logs,software,High,In Progress,Software configuration reset after system reboot,david.wilson.hr@tech.org,2024-01-26 18:34:00
+653,Backup records,database,Low,In Progress,Stored procedure optimization needed for billing system,amanda.thomas.finance@tech.org,2024-03-07 10:44:00
+654,Hardware diagnostics,hardware,High,Closed,Desktop computer not powering on - no lights or sounds,amanda.smith.hr@tech.org,2024-03-12 12:07:00
+655,Permission records,access,High,Open,User account locked due to multiple failed login attempts,natalie.thomas.sales@enterprise.org,2024-01-09 14:33:00
+656,Connectivity logs,network,Low,Closed,Network latency spikes during peak business hours,natalie.thomas.marketing@business.net,2024-02-27 09:44:00
+657,Capacity planning data,backup,Low,In Progress,Backup verification process taking longer than expected,rebecca.taylor.marketing@enterprise.org,2024-02-12 07:04:00
+658,Login attempts,access,High,Open,Terminated employee access revocation incomplete,susan.brown.hr@corp.io,2024-01-27 01:39:00
+659,Power consumption data,hardware,Medium,Open,Workstation blue screen errors occurring multiple times daily,robert.jones.finance@business.net,2024-01-19 05:59:00
+660,Spam filter results,email,Low,Closed,Email search functionality returning incomplete results,robert.moore.operations@tech.org,2024-01-28 07:23:00
+661,Application logs,software,Medium,Closed,Program running extremely slow when processing large files,mike.davis.sales@tech.org,2024-02-09 01:48:00
+662,Performance analytics,software,Medium,Open,Application throwing database connection errors,emily.anderson.marketing@tech.org,2024-03-05 09:22:00
+663,Mail queue data,email,High,In Progress,Email rules not executing automatically as configured,david.davis.marketing@tech.org,2024-02-09 00:20:00
+664,Mail queue data,email,Low,Closed,Automatic replies not triggering during scheduled times,steven.garcia.engineering@enterprise.org,2024-03-14 22:54:00
+665,Configuration data,email,Medium,In Progress,Email search functionality returning incomplete results,sarah.davis.finance@enterprise.org,2024-02-10 19:06:00
+666,Firewall rules,security,High,Resolved,Access logs showing suspicious login patterns,rebecca.martinez.hr@business.net,2024-01-10 09:52:00
+667,Latency measurements,network,Medium,Resolved,VPN connection timeout issues for remote team members,david.jackson.support@tech.org,2024-03-13 23:47:00
+668,Threat detection data,security,Medium,In Progress,Access logs showing suspicious login patterns,kevin.anderson.finance@corp.io,2024-03-07 18:54:00
+669,Verification reports,backup,High,Open,Backup restore test failed for critical database,thomas.anderson.support@tech.org,2024-02-19 15:46:00
+670,Error reports,software,High,Open,"Software freezing during use, requires force quit",lisa.davis.research@business.net,2024-02-17 09:52:00
+671,Backup logs,backup,Medium,Closed,Tape drive hardware failure in backup system,robert.moore.support@tech.org,2024-01-14 23:26:00
+672,Connection logs,database,Low,Resolved,Database performance degradation during peak hours,amanda.rodriguez.support@business.net,2024-03-14 02:08:00
+673,Usage statistics,software,Low,Open,Application throwing database connection errors,eric.brown.engineering@enterprise.org,2024-01-28 13:04:00
+674,Capacity planning data,backup,High,In Progress,Incremental backup corruption detected during verification,david.wilson.hr@tech.org,2024-03-04 03:22:00
+675,Index usage data,database,High,Closed,Database log file growth exceeding allocated space,amanda.moore.engineering@company.com,2024-03-05 06:44:00
+676,Performance metrics,hardware,Medium,Open,Server hardware failure detected in RAID controller,david.johnson.support@tech.org,2024-01-14 06:08:00
+677,Connection logs,database,Low,In Progress,Database log file growth exceeding allocated space,emily.garcia.support@enterprise.org,2024-03-27 14:12:00
+678,Security logs,security,High,In Progress,Antivirus detection of potential malware in shared drive,michelle.harris.finance@tech.org,2024-02-04 20:16:00
+679,Index usage data,database,Low,Open,Database version upgrade planning and testing,natalie.white.marketing@tech.org,2024-03-17 14:19:00
+680,Virus scan results,security,Low,Resolved,Data encryption required for sensitive client information,susan.williams.research@business.net,2024-03-05 15:50:00
+681,Firewall rules,security,High,Resolved,Security training completion tracking implementation,james.martinez.marketing@tech.org,2024-02-15 22:36:00
+682,Security group data,access,Medium,In Progress,VPN credentials not working for overseas contractor,kevin.moore.sales@tech.org,2024-01-27 23:02:00
+683,Latency measurements,network,Medium,Closed,Network latency spikes during peak business hours,michelle.brown.research@enterprise.org,2024-03-12 13:43:00
+684,Access control lists,access,Medium,Resolved,Security group membership requires quarterly audit,kevin.anderson.engineering@corp.io,2024-02-20 22:05:00
+685,Error reports,software,High,Open,Compatibility issues with new operating system update,eric.thomas.research@corp.io,2024-02-21 01:33:00
+686,Spam filter results,email,Low,In Progress,Global address list not updating with new employees,john.thomas.hr@company.com,2024-02-24 05:39:00
+687,Recovery test results,backup,Medium,Open,Backup encryption key rotation required per policy,eric.smith.sales@corp.io,2024-01-12 08:41:00
+688,Audit logs,access,Low,Open,Folder permissions need updating for quarterly project,susan.taylor.sales@company.com,2024-02-20 11:37:00
+689,Access control lists,access,Low,In Progress,Shared mailbox permissions need review and cleanup,robert.brown.marketing@enterprise.org,2024-03-25 00:36:00
+690,Capacity planning data,backup,High,Resolved,Backup verification process taking longer than expected,robert.wilson.engineering@corp.io,2024-01-12 09:10:00
+691,Access control lists,access,Low,In Progress,Security group membership requires quarterly audit,amanda.anderson.engineering@business.net,2024-02-01 03:39:00
+692,Storage metrics,backup,Low,Resolved,Backup verification process taking longer than expected,thomas.taylor.research@business.net,2024-03-03 21:19:00
+693,Security logs,security,Medium,In Progress,Critical Windows security patches need immediate deployment,james.brown.engineering@company.com,2024-02-29 02:16:00
+694,Compliance reports,security,High,Resolved,Security training completion tracking implementation,steven.williams.finance@tech.org,2024-03-09 23:38:00
+695,Mail queue data,email,High,Closed,Email search functionality returning incomplete results,rebecca.brown.operations@enterprise.org,2024-01-28 23:59:00
+696,Storage metrics,backup,High,Open,Backup encryption key rotation required per policy,james.wilson.hr@tech.org,2024-02-03 07:45:00
+697,Table statistics,database,Medium,Resolved,Database backup verification failed checksum test,michelle.martinez.hr@enterprise.org,2024-03-22 16:55:00
+698,Latency measurements,network,High,Open,Intermittent internet connectivity in entire north building,jennifer.thomas.hr@tech.org,2024-02-07 16:09:00
+699,Connectivity logs,network,Medium,Closed,Network latency spikes during peak business hours,james.davis.engineering@tech.org,2024-02-20 03:18:00
+700,Temperature readings,hardware,High,In Progress,Workstation blue screen errors occurring multiple times daily,steven.williams.research@company.com,2024-03-19 09:41:00
+701,SMTP logs,email,High,Open,Automatic replies not triggering during scheduled times,mike.davis.sales@company.com,2024-02-19 19:53:00
+702,Latency measurements,network,Low,Resolved,Intermittent internet connectivity in entire north building,kevin.rodriguez.finance@enterprise.org,2024-03-15 22:18:00
+703,Bandwidth usage,network,Low,Closed,Network latency spikes during peak business hours,amanda.taylor.marketing@business.net,2024-02-08 23:46:00
+704,Access control lists,access,Medium,Closed,Database access required for financial reporting team,thomas.garcia.sales@business.net,2024-01-11 02:07:00
+705,Index usage data,database,Medium,Closed,Database backup verification failed checksum test,john.miller.marketing@enterprise.org,2024-01-15 22:57:00
+706,Capacity planning data,backup,Medium,Open,Backup verification process taking longer than expected,susan.martinez.sales@business.net,2024-03-01 03:06:00
+707,Recovery test results,backup,High,Open,Backup retention policy needs configuration review,lisa.garcia.support@enterprise.org,2024-01-03 23:45:00
+708,Table statistics,database,Medium,Open,Database log file growth exceeding allocated space,susan.rodriguez.marketing@enterprise.org,2024-02-21 06:10:00
+709,Packet capture data,network,Low,Resolved,Intermittent internet connectivity in entire north building,chris.davis.sales@business.net,2024-01-19 06:55:00
+710,Security group data,access,Low,In Progress,User account locked due to multiple failed login attempts,thomas.garcia.engineering@company.com,2024-02-20 00:40:00
+711,Hardware diagnostics,hardware,High,Open,"Laptop battery not holding charge, lasts only 15 minutes",robert.smith.research@company.com,2024-02-18 06:43:00
+712,Threat detection data,security,Medium,Open,Intrusion detection system generating false positives,james.moore.finance@company.com,2024-03-18 01:35:00
+713,Verification reports,backup,Medium,Resolved,Backup storage capacity planning for next quarter,robert.garcia.research@company.com,2024-03-22 19:25:00
+714,Query performance,database,Low,Closed,"Table space running low, requires immediate attention",emily.williams.sales@company.com,2024-02-25 16:12:00
+715,Verification reports,backup,Low,Resolved,Backup storage capacity planning for next quarter,susan.brown.finance@business.net,2024-02-06 13:00:00
+716,System logs,hardware,Medium,In Progress,Printer paper jam error despite clear paper path,amanda.smith.engineering@enterprise.org,2024-03-18 01:37:00
+717,Network statistics,network,High,Open,Port configuration required for new security system,jennifer.smith.marketing@tech.org,2024-03-05 05:01:00
+718,Storage metrics,backup,Medium,Open,Backup restore test failed for critical database,emily.williams.research@company.com,2024-03-25 23:57:00
+719,SMTP logs,email,Medium,Resolved,Email search functionality returning incomplete results,mike.rodriguez.finance@enterprise.org,2024-01-29 02:04:00
+720,Delivery reports,email,Low,Resolved,Email client crashing when opening specific messages,chris.martinez.operations@tech.org,2024-01-07 16:40:00
+721,Bandwidth usage,network,Medium,Resolved,Network latency spikes during peak business hours,jane.white.sales@enterprise.org,2024-02-08 22:56:00
+722,Application logs,software,Medium,Resolved,Software configuration reset after system reboot,natalie.brown.support@business.net,2024-01-12 12:34:00
+723,Storage metrics,backup,Medium,In Progress,Backup retention policy needs configuration review,amanda.smith.research@business.net,2024-01-12 01:41:00
+724,Hardware diagnostics,hardware,Low,Resolved,Docking station not recognizing external monitors,steven.johnson.support@enterprise.org,2024-01-02 04:56:00
+725,Error reports,software,Low,Resolved,Plugin not loading correctly in design application,david.miller.engineering@tech.org,2024-01-18 02:16:00
+726,Backup logs,backup,Medium,Closed,Backup restore test failed for critical database,james.wilson.research@enterprise.org,2024-03-24 03:02:00
+727,Virus scan results,security,Low,Open,Security audit reveals compliance violations in user accounts,amanda.taylor.finance@enterprise.org,2024-01-02 08:40:00
+728,Virus scan results,security,Low,Closed,Security audit reveals compliance violations in user accounts,chris.white.marketing@corp.io,2024-03-11 01:56:00
+729,Backup records,database,Low,Resolved,Database replication lag between primary and secondary,jennifer.brown.sales@enterprise.org,2024-01-03 05:50:00
+730,System logs,hardware,Low,In Progress,Desktop computer not powering on - no lights or sounds,chris.moore.research@company.com,2024-02-01 11:06:00
+731,Spam filter results,email,Low,Open,Calendar sync failed between mobile and desktop clients,emily.williams.operations@company.com,2024-03-09 20:06:00
+732,System logs,hardware,Medium,Resolved,Desktop computer not powering on - no lights or sounds,chris.harris.operations@business.net,2024-02-12 19:33:00
+733,Firewall rules,security,Medium,In Progress,Antivirus detection of potential malware in shared drive,steven.garcia.research@business.net,2024-01-12 21:57:00
+734,Audit logs,access,Medium,Closed,Folder permissions need updating for quarterly project,eric.thomas.finance@enterprise.org,2024-03-02 19:18:00
+735,Firewall rules,security,High,Open,Antivirus detection of potential malware in shared drive,lisa.anderson.sales@enterprise.org,2024-02-18 18:40:00
+736,Query performance,database,Low,Resolved,Database version upgrade planning and testing,jane.martinez.marketing@tech.org,2024-03-07 06:50:00
+737,Error reports,software,Low,Resolved,Compatibility issues with new operating system update,sarah.jones.research@tech.org,2024-01-04 23:37:00
+738,Usage statistics,software,Medium,Resolved,Application crashing on startup with memory access violation,kevin.brown.research@business.net,2024-01-20 16:02:00
+739,Capacity planning data,backup,Medium,Resolved,Backup restore test failed for critical database,chris.williams.sales@business.net,2024-03-18 11:09:00
+740,Power consumption data,hardware,Medium,Resolved,Server disk space critically low at 98% capacity,jane.moore.sales@tech.org,2024-03-24 02:47:00
+741,Recovery test results,backup,High,Open,Backup encryption key rotation required per policy,susan.johnson.hr@tech.org,2024-01-23 05:56:00
+742,Performance metrics,hardware,Low,Closed,Server disk space critically low at 98% capacity,susan.smith.hr@business.net,2024-02-19 18:21:00
+743,Capacity planning data,backup,High,In Progress,Backup retention policy needs configuration review,david.johnson.operations@business.net,2024-03-13 17:32:00
+744,Performance metrics,hardware,Low,In Progress,Monitor displaying distorted colors and flickering lines,jane.johnson.support@corp.io,2024-02-22 05:07:00
+745,Configuration data,email,High,In Progress,Global address list not updating with new employees,eric.martinez.research@business.net,2024-02-14 09:42:00
+746,Backup logs,backup,Low,In Progress,Backup encryption key rotation required per policy,sarah.davis.finance@tech.org,2024-02-01 09:33:00
+747,Index usage data,database,Medium,Resolved,Database version upgrade planning and testing,david.harris.operations@business.net,2024-02-02 14:41:00
+748,Security logs,security,Medium,In Progress,Password policy enforcement not working for service accounts,natalie.harris.sales@tech.org,2024-02-06 07:40:00
+749,Threat detection data,security,High,Open,Security audit reveals compliance violations in user accounts,lisa.jackson.finance@enterprise.org,2024-01-21 05:19:00
+750,Application logs,software,Low,Resolved,Software license activation failed - invalid license key,david.anderson.sales@business.net,2024-01-16 14:39:00
+751,Access control lists,access,Medium,Open,Terminated employee access revocation incomplete,jennifer.garcia.operations@company.com,2024-02-17 01:53:00
+752,Configuration data,email,Medium,Open,Email client crashing when opening specific messages,rebecca.white.finance@company.com,2024-03-19 11:08:00
+753,Configuration data,email,Low,Closed,Global address list not updating with new employees,emily.moore.research@business.net,2024-02-28 01:26:00
+754,Connectivity logs,network,High,Closed,Port configuration required for new security system,mike.wilson.sales@corp.io,2024-01-26 23:38:00
+755,Application logs,software,Medium,Open,Application throwing database connection errors,susan.white.finance@business.net,2024-03-02 14:08:00
+756,Backup logs,backup,Medium,Resolved,Tape drive hardware failure in backup system,rebecca.smith.marketing@company.com,2024-01-11 22:42:00
+757,Query performance,database,Medium,Open,Database version upgrade planning and testing,amanda.williams.finance@company.com,2024-02-29 18:07:00
+758,Performance analytics,software,Medium,Open,"Software freezing during use, requires force quit",james.anderson.research@corp.io,2024-03-02 04:32:00
+759,Firewall rules,security,High,Resolved,Access logs showing suspicious login patterns,emily.garcia.finance@business.net,2024-02-08 12:32:00
+760,Network statistics,network,Low,Closed,Intermittent internet connectivity in entire north building,john.wilson.hr@business.net,2024-01-02 03:28:00
+761,Latency measurements,network,Low,In Progress,Port configuration required for new security system,susan.jackson.support@tech.org,2024-02-26 23:24:00
+762,Compliance reports,security,Medium,In Progress,Security certificate expiring for customer portal,natalie.moore.operations@tech.org,2024-02-08 02:56:00
+763,Mail queue data,email,Low,Closed,Email client crashing when opening specific messages,sarah.harris.hr@enterprise.org,2024-02-19 05:55:00
+764,Bandwidth usage,network,Low,Closed,Intermittent internet connectivity in entire north building,jane.anderson.sales@tech.org,2024-02-12 23:32:00
+765,Security group data,access,Low,Open,Terminated employee access revocation incomplete,kevin.wilson.support@corp.io,2024-02-10 15:55:00
+766,Storage metrics,backup,Medium,Open,Nightly backup failed due to insufficient storage space,mike.thomas.engineering@tech.org,2024-01-24 19:28:00
+767,Packet capture data,network,Medium,Closed,Wireless access point firmware needs urgent update,jane.martinez.research@business.net,2024-03-22 05:02:00
+768,Verification reports,backup,High,Resolved,Cloud backup synchronization stalled at 80% complete,rebecca.jones.finance@tech.org,2024-03-04 05:55:00
+769,Table statistics,database,Low,Resolved,Database connection pool exhaustion under load,john.white.sales@tech.org,2024-02-19 10:48:00
+770,Storage metrics,backup,Medium,Closed,Incremental backup corruption detected during verification,jane.wilson.research@company.com,2024-01-01 20:39:00
+771,Security logs,security,Low,Resolved,Data encryption required for sensitive client information,jennifer.rodriguez.marketing@company.com,2024-02-05 21:43:00
+772,Storage metrics,backup,High,Closed,Cloud backup synchronization stalled at 80% complete,jane.wilson.engineering@tech.org,2024-01-18 13:44:00
+773,Bandwidth usage,network,High,Closed,Network latency spikes during peak business hours,thomas.smith.support@enterprise.org,2024-01-25 09:41:00
+774,Bandwidth usage,network,High,Open,Switch port malfunctioning in server room rack 4B,thomas.white.finance@business.net,2024-01-23 04:25:00
+775,Error reports,software,Low,In Progress,Software configuration reset after system reboot,jennifer.martinez.support@business.net,2024-02-06 02:42:00
+776,Performance analytics,software,High,In Progress,Installation package corrupted during download,jane.smith.engineering@tech.org,2024-02-19 10:53:00
+777,Power consumption data,hardware,Low,Open,Docking station not recognizing external monitors,chris.brown.marketing@enterprise.org,2024-01-13 02:48:00
+778,Security logs,security,Low,In Progress,Security audit reveals compliance violations in user accounts,amanda.martinez.support@tech.org,2024-01-27 22:36:00
+779,Access control lists,access,Low,Closed,Database access required for financial reporting team,eric.davis.support@tech.org,2024-03-15 19:31:00
+780,Connection logs,database,High,Closed,Index fragmentation causing slow query performance,susan.johnson.operations@corp.io,2024-02-27 14:20:00
+781,Error reports,software,Low,Resolved,Update installation stuck at 50% for over 2 hours,mike.williams.marketing@enterprise.org,2024-03-08 11:32:00
+782,Verification reports,backup,Medium,Resolved,Incremental backup corruption detected during verification,susan.rodriguez.engineering@business.net,2024-01-25 00:29:00
+783,Error reports,software,Low,In Progress,Installation package corrupted during download,amanda.jackson.finance@business.net,2024-01-02 05:03:00
+784,Power consumption data,hardware,High,In Progress,Docking station not recognizing external monitors,david.garcia.support@enterprise.org,2024-03-03 02:27:00
+785,Table statistics,database,Low,Resolved,Index fragmentation causing slow query performance,james.johnson.support@enterprise.org,2024-02-12 10:47:00
+786,Backup logs,backup,Medium,Closed,Backup retention policy needs configuration review,emily.taylor.engineering@enterprise.org,2024-01-07 01:29:00
+787,Application logs,software,Low,Resolved,Application crashing on startup with memory access violation,rebecca.rodriguez.sales@tech.org,2024-03-16 19:16:00
+788,Access control lists,access,Low,Open,New employee needs access to project management software,natalie.miller.support@enterprise.org,2024-02-29 23:05:00
+789,Query performance,database,High,In Progress,Database replication lag between primary and secondary,lisa.taylor.operations@corp.io,2024-03-25 17:48:00
+790,Audit logs,access,Medium,In Progress,Application-specific roles need configuration,lisa.harris.engineering@corp.io,2024-02-17 15:15:00
+791,Security group data,access,Medium,Resolved,Database access required for financial reporting team,chris.jackson.hr@corp.io,2024-02-27 23:47:00
+792,Storage metrics,backup,Medium,Open,Tape drive hardware failure in backup system,susan.harris.operations@corp.io,2024-03-26 17:54:00
+793,Security group data,access,Medium,In Progress,Security group membership requires quarterly audit,susan.davis.marketing@enterprise.org,2024-01-13 22:26:00
+794,Access control lists,access,High,Closed,Database access required for financial reporting team,jennifer.harris.marketing@corp.io,2024-02-25 23:17:00
+795,Power consumption data,hardware,Low,Resolved,Monitor displaying distorted colors and flickering lines,emily.miller.research@company.com,2024-02-23 05:08:00
+796,Query performance,database,High,Resolved,SQL query timeout errors in reporting application,natalie.wilson.operations@corp.io,2024-01-13 21:02:00
+797,Bandwidth usage,network,High,Closed,Network drive inaccessible with permission denied errors,james.johnson.finance@corp.io,2024-03-06 17:20:00
+798,Compliance reports,security,High,Resolved,Security audit reveals compliance violations in user accounts,lisa.taylor.engineering@enterprise.org,2024-01-11 22:55:00
+799,Spam filter results,email,Low,Open,Outlook not syncing with Exchange server - connection timeout,amanda.harris.finance@corp.io,2024-02-20 08:58:00
+800,Spam filter results,email,Low,In Progress,Legitimate emails being marked as spam by filter system,mike.miller.support@company.com,2024-02-25 21:42:00
+801,Access control lists,access,Medium,Open,Security group membership requires quarterly audit,jennifer.davis.hr@company.com,2024-03-28 19:08:00
+802,Index usage data,database,Low,Closed,Index fragmentation causing slow query performance,jennifer.garcia.engineering@corp.io,2024-03-23 13:35:00
+803,Hardware diagnostics,hardware,Medium,Open,Monitor displaying distorted colors and flickering lines,susan.anderson.research@enterprise.org,2024-03-29 02:48:00
+804,Firewall rules,security,Low,In Progress,Password policy enforcement not working for service accounts,david.moore.finance@business.net,2024-01-17 07:12:00
+805,Storage metrics,backup,Medium,In Progress,Backup restore test failed for critical database,jennifer.johnson.marketing@tech.org,2024-01-21 22:40:00
+806,Error reports,software,Medium,In Progress,"Software freezing during use, requires force quit",lisa.white.research@enterprise.org,2024-03-10 22:04:00
+807,Index usage data,database,High,Open,Database connection pool exhaustion under load,michelle.davis.operations@enterprise.org,2024-02-11 03:47:00
+808,Mail queue data,email,High,Open,Email search functionality returning incomplete results,chris.williams.operations@enterprise.org,2024-02-13 13:26:00
+809,Performance metrics,hardware,Medium,Resolved,Monitor displaying distorted colors and flickering lines,michelle.garcia.research@corp.io,2024-01-21 18:00:00
+810,System logs,hardware,High,In Progress,Docking station not recognizing external monitors,emily.taylor.support@enterprise.org,2024-01-06 00:51:00
+811,System logs,hardware,High,Open,Monitor displaying distorted colors and flickering lines,sarah.jones.operations@corp.io,2024-02-17 14:46:00
+812,Access control lists,access,Low,Open,User account locked due to multiple failed login attempts,mike.davis.support@tech.org,2024-01-26 13:38:00
+813,Mail queue data,email,Medium,Closed,Automatic replies not triggering during scheduled times,jennifer.wilson.operations@business.net,2024-02-12 11:29:00
+814,Verification reports,backup,High,Open,Backup restore test failed for critical database,james.smith.engineering@business.net,2024-01-04 20:48:00
+815,Backup logs,backup,Medium,Open,Backup retention policy needs configuration review,eric.miller.engineering@tech.org,2024-02-08 19:12:00
+816,Recovery test results,backup,Medium,Resolved,Incremental backup corruption detected during verification,sarah.martinez.engineering@enterprise.org,2024-01-23 23:28:00
+817,Performance metrics,hardware,High,Open,Workstation blue screen errors occurring multiple times daily,kevin.white.support@corp.io,2024-03-16 22:06:00
+818,Usage statistics,software,Medium,Open,Program running extremely slow when processing large files,david.martinez.research@company.com,2024-02-09 21:00:00
+819,Table statistics,database,Low,Closed,SQL query timeout errors in reporting application,jennifer.martinez.finance@company.com,2024-01-01 12:57:00
+820,Virus scan results,security,Low,Resolved,Security audit reveals compliance violations in user accounts,jane.wilson.hr@tech.org,2024-03-28 06:57:00
+821,Delivery reports,email,Medium,Resolved,Large attachments failing to send with size limit errors,rebecca.davis.finance@tech.org,2024-01-09 12:20:00
+822,Performance analytics,software,High,Open,"Software freezing during use, requires force quit",robert.moore.operations@tech.org,2024-02-27 07:47:00
+823,Threat detection data,security,Low,In Progress,Antivirus detection of potential malware in shared drive,john.martinez.research@tech.org,2024-02-10 03:57:00
+824,Network statistics,network,Medium,Closed,VPN connection timeout issues for remote team members,lisa.williams.research@enterprise.org,2024-03-18 11:31:00
+825,Audit logs,access,Low,In Progress,Database access required for financial reporting team,robert.anderson.operations@business.net,2024-01-21 14:18:00
+826,Table statistics,database,Low,Resolved,Database log file growth exceeding allocated space,chris.garcia.engineering@company.com,2024-02-07 16:51:00
+827,Power consumption data,hardware,Medium,Resolved,Laptop overheating and shutting down randomly during presentations,eric.williams.research@enterprise.org,2024-03-14 09:15:00
+828,Application logs,software,Medium,Resolved,Program running extremely slow when processing large files,susan.jackson.finance@tech.org,2024-03-07 13:04:00
+829,Power consumption data,hardware,High,Closed,"Laptop battery not holding charge, lasts only 15 minutes",david.brown.finance@business.net,2024-01-10 13:33:00
+830,Query performance,database,High,Resolved,Database replication lag between primary and secondary,rebecca.jackson.support@corp.io,2024-01-14 16:30:00
+831,Power consumption data,hardware,Medium,Open,Desktop computer not powering on - no lights or sounds,jane.miller.research@company.com,2024-03-15 21:37:00
+832,Security group data,access,High,In Progress,Security group membership requires quarterly audit,john.wilson.finance@business.net,2024-03-18 00:57:00
+833,Mail queue data,email,Medium,Open,Signature formatting broken after recent update,jane.wilson.operations@enterprise.org,2024-03-21 17:18:00
+834,Capacity planning data,backup,Low,Resolved,Backup restore test failed for critical database,david.harris.sales@business.net,2024-01-13 16:41:00
+835,Performance analytics,software,Medium,Closed,Compatibility issues with new operating system update,david.thomas.engineering@enterprise.org,2024-03-18 16:16:00
+836,Index usage data,database,High,Resolved,Database version upgrade planning and testing,amanda.davis.marketing@company.com,2024-03-06 04:01:00
+837,Performance analytics,software,High,Closed,"Software freezing during use, requires force quit",chris.davis.research@enterprise.org,2024-02-20 00:14:00
+838,Backup logs,backup,High,Resolved,Backup job scheduling conflict with maintenance window,sarah.martinez.sales@enterprise.org,2024-03-09 01:59:00
+839,Performance analytics,software,High,Resolved,Compatibility issues with new operating system update,michelle.jackson.support@company.com,2024-03-31 01:44:00
+840,Temperature readings,hardware,Medium,Resolved,Monitor displaying distorted colors and flickering lines,robert.jackson.sales@business.net,2024-02-13 07:59:00
+841,Index usage data,database,High,Open,Database performance degradation during peak hours,chris.garcia.research@business.net,2024-01-08 13:15:00
+842,Access control lists,access,Medium,In Progress,Terminated employee access revocation incomplete,thomas.smith.hr@corp.io,2024-03-16 02:52:00
+843,Connectivity logs,network,Medium,Open,Slow file transfer speeds between departments,james.miller.support@enterprise.org,2024-03-21 14:50:00
+844,SMTP logs,email,Medium,Resolved,Signature formatting broken after recent update,james.jones.engineering@company.com,2024-03-10 08:54:00
+845,Application logs,software,Medium,Open,Application throwing database connection errors,jennifer.davis.operations@tech.org,2024-01-06 12:20:00
+846,System logs,hardware,Medium,Closed,Server disk space critically low at 98% capacity,lisa.brown.operations@enterprise.org,2024-03-01 08:57:00
+847,Performance analytics,software,Low,In Progress,Software configuration reset after system reboot,rebecca.wilson.engineering@company.com,2024-02-16 17:47:00
+848,Backup records,database,Low,Open,Database backup verification failed checksum test,james.williams.marketing@enterprise.org,2024-02-07 01:27:00
+849,Error reports,software,High,Open,Application crashing on startup with memory access violation,amanda.brown.sales@enterprise.org,2024-01-06 17:37:00
+850,Backup logs,backup,Medium,Open,Backup encryption key rotation required per policy,michelle.miller.research@corp.io,2024-03-12 07:14:00
+851,Mail queue data,email,Low,Closed,Outlook not syncing with Exchange server - connection timeout,susan.harris.marketing@tech.org,2024-02-05 11:28:00
+852,Backup records,database,Low,Resolved,Database backup verification failed checksum test,mike.smith.research@company.com,2024-03-25 20:55:00
+853,Login attempts,access,Medium,Open,New employee needs access to project management software,lisa.harris.engineering@corp.io,2024-03-08 20:31:00
+854,Hardware diagnostics,hardware,High,In Progress,Docking station not recognizing external monitors,jennifer.jones.marketing@business.net,2024-03-16 12:58:00
+855,Recovery test results,backup,Medium,In Progress,Backup restore test failed for critical database,eric.taylor.engineering@company.com,2024-03-25 10:41:00
+856,Performance analytics,software,Low,Resolved,Application crashing on startup with memory access violation,amanda.thomas.marketing@enterprise.org,2024-02-13 12:37:00
+857,Capacity planning data,backup,Low,Resolved,Backup retention policy needs configuration review,mike.rodriguez.hr@company.com,2024-03-31 18:41:00
+858,Capacity planning data,backup,Medium,In Progress,Nightly backup failed due to insufficient storage space,john.anderson.operations@corp.io,2024-01-22 13:43:00
+859,Firewall rules,security,Low,Open,Intrusion detection system generating false positives,robert.williams.engineering@tech.org,2024-02-08 21:09:00
+860,Login attempts,access,Medium,In Progress,VPN credentials not working for overseas contractor,john.garcia.operations@corp.io,2024-02-01 21:48:00
+861,Security group data,access,Low,Open,Folder permissions need updating for quarterly project,jennifer.johnson.engineering@company.com,2024-02-20 08:56:00
+862,Configuration data,email,Low,In Progress,Signature formatting broken after recent update,mike.rodriguez.finance@company.com,2024-03-12 22:41:00
+863,Verification reports,backup,Medium,In Progress,Backup retention policy needs configuration review,thomas.harris.hr@enterprise.org,2024-03-29 03:44:00
+864,Capacity planning data,backup,Low,In Progress,Incremental backup corruption detected during verification,michelle.davis.sales@company.com,2024-01-08 09:02:00
+865,Capacity planning data,backup,Medium,Open,Backup job scheduling conflict with maintenance window,robert.davis.support@corp.io,2024-02-07 17:09:00
+866,Virus scan results,security,High,Resolved,Intrusion detection system generating false positives,robert.white.engineering@corp.io,2024-02-20 22:33:00
+867,Network statistics,network,High,In Progress,Wireless access point firmware needs urgent update,emily.anderson.sales@tech.org,2024-01-12 08:56:00
+868,Connection logs,database,Low,In Progress,Stored procedure optimization needed for billing system,susan.miller.sales@company.com,2024-01-08 00:42:00
+869,Bandwidth usage,network,Low,In Progress,Intermittent internet connectivity in entire north building,lisa.harris.sales@corp.io,2024-01-18 03:50:00
+870,Delivery reports,email,High,Closed,Email search functionality returning incomplete results,chris.garcia.hr@company.com,2024-02-12 02:47:00
+871,Security logs,security,Medium,Resolved,Security audit reveals compliance violations in user accounts,robert.martinez.engineering@company.com,2024-02-10 03:26:00
+872,Hardware diagnostics,hardware,Medium,Open,Docking station not recognizing external monitors,mike.brown.marketing@enterprise.org,2024-03-02 23:03:00
+873,Backup records,database,Medium,Open,SQL query timeout errors in reporting application,amanda.johnson.engineering@enterprise.org,2024-01-31 22:18:00
+874,Index usage data,database,Low,Open,Database version upgrade planning and testing,steven.johnson.hr@corp.io,2024-01-01 13:41:00
+875,Backup logs,backup,Low,Open,Backup storage capacity planning for next quarter,amanda.johnson.operations@corp.io,2024-01-10 08:35:00
+876,Packet capture data,network,Low,Resolved,DNS resolution failures for internal applications,david.davis.operations@business.net,2024-03-28 16:42:00
+877,Backup logs,backup,Low,Open,Cloud backup synchronization stalled at 80% complete,michelle.jackson.operations@tech.org,2024-01-22 16:47:00
+878,Compliance reports,security,Low,In Progress,Access logs showing suspicious login patterns,james.white.research@corp.io,2024-02-10 00:22:00
+879,Security group data,access,Medium,Resolved,Multi-factor authentication device replacement needed,mike.garcia.hr@business.net,2024-02-03 03:50:00
+880,Firewall rules,security,Medium,In Progress,Data encryption required for sensitive client information,rebecca.thomas.hr@company.com,2024-02-25 05:03:00
+881,Configuration data,email,Low,Open,Global address list not updating with new employees,amanda.smith.support@corp.io,2024-01-21 04:02:00
+882,Hardware diagnostics,hardware,Low,Closed,Laptop overheating and shutting down randomly during presentations,rebecca.thomas.finance@corp.io,2024-02-19 18:47:00
+883,Permission records,access,Low,Closed,Terminated employee access revocation incomplete,lisa.anderson.sales@tech.org,2024-03-26 05:16:00
+884,Hardware diagnostics,hardware,High,Closed,Docking station not recognizing external monitors,sarah.wilson.hr@business.net,2024-01-18 21:57:00
+885,Connectivity logs,network,Low,Closed,Port configuration required for new security system,mike.thomas.operations@enterprise.org,2024-01-07 14:10:00
+886,Connectivity logs,network,Low,Open,Slow file transfer speeds between departments,eric.white.research@tech.org,2024-01-14 10:00:00
+887,Network statistics,network,Medium,Closed,Wireless access point firmware needs urgent update,jennifer.martinez.finance@business.net,2024-01-20 04:54:00
+888,Hardware diagnostics,hardware,Medium,Resolved,Workstation blue screen errors occurring multiple times daily,kevin.davis.hr@tech.org,2024-02-06 09:55:00
+889,Firewall rules,security,High,Open,Access logs showing suspicious login patterns,lisa.davis.support@business.net,2024-03-31 14:47:00
+890,Mail queue data,email,High,In Progress,Automatic replies not triggering during scheduled times,rebecca.jackson.engineering@tech.org,2024-02-15 02:35:00
+891,Virus scan results,security,Medium,Resolved,Password policy enforcement not working for service accounts,michelle.miller.research@corp.io,2024-01-04 22:07:00
+892,Bandwidth usage,network,High,Closed,Port configuration required for new security system,rebecca.johnson.research@enterprise.org,2024-01-14 06:54:00
+893,Access control lists,access,High,In Progress,New employee needs access to project management software,david.smith.sales@enterprise.org,2024-01-31 13:10:00
+894,Virus scan results,security,High,Closed,Critical Windows security patches need immediate deployment,rebecca.wilson.finance@enterprise.org,2024-02-07 10:40:00
+895,Query performance,database,High,In Progress,Database connection pool exhaustion under load,chris.martinez.operations@enterprise.org,2024-01-11 06:58:00
+896,Connectivity logs,network,Low,Closed,Port configuration required for new security system,natalie.miller.sales@company.com,2024-01-30 13:24:00
+897,Access control lists,access,Low,Closed,Terminated employee access revocation incomplete,david.garcia.finance@business.net,2024-03-24 15:03:00
+898,Temperature readings,hardware,Medium,Open,Desktop computer not powering on - no lights or sounds,kevin.white.operations@enterprise.org,2024-03-20 17:50:00
+899,Storage metrics,backup,Low,Resolved,Backup encryption key rotation required per policy,kevin.smith.hr@business.net,2024-02-12 23:08:00
+900,Configuration data,email,Low,In Progress,Global address list not updating with new employees,emily.taylor.hr@tech.org,2024-01-23 10:06:00
+901,Index usage data,database,Medium,In Progress,Database backup verification failed checksum test,jane.rodriguez.sales@enterprise.org,2024-01-05 02:07:00
+902,System logs,hardware,Medium,In Progress,Workstation blue screen errors occurring multiple times daily,emily.anderson.research@company.com,2024-02-02 04:03:00
+903,Spam filter results,email,Medium,Closed,Email rules not executing automatically as configured,natalie.wilson.marketing@tech.org,2024-01-09 17:13:00
+904,Error reports,software,Medium,Resolved,Application throwing database connection errors,chris.smith.research@corp.io,2024-01-05 17:25:00
+905,Delivery reports,email,Low,Closed,Outlook not syncing with Exchange server - connection timeout,chris.anderson.operations@company.com,2024-02-20 04:07:00
+906,Installation records,software,Low,Open,Application crashing on startup with memory access violation,david.miller.finance@enterprise.org,2024-02-28 03:03:00
+907,Installation records,software,High,Resolved,Software configuration reset after system reboot,kevin.jackson.marketing@company.com,2024-01-01 23:26:00
+908,Virus scan results,security,Medium,Closed,Password policy enforcement not working for service accounts,emily.anderson.hr@enterprise.org,2024-02-17 22:38:00
+909,Mail queue data,email,High,Open,Email rules not executing automatically as configured,susan.moore.support@company.com,2024-03-30 08:39:00
+910,Security logs,security,High,Closed,Antivirus detection of potential malware in shared drive,susan.garcia.hr@company.com,2024-01-07 08:21:00
+911,Backup logs,backup,Medium,Open,Cloud backup synchronization stalled at 80% complete,james.wilson.marketing@corp.io,2024-03-20 15:38:00
+912,Backup records,database,High,Open,Database connection pool exhaustion under load,lisa.thomas.sales@enterprise.org,2024-02-17 16:35:00
+913,Configuration data,email,Low,Open,Calendar sync failed between mobile and desktop clients,jane.williams.engineering@company.com,2024-02-17 11:57:00
+914,Packet capture data,network,High,Resolved,Switch port malfunctioning in server room rack 4B,james.davis.sales@company.com,2024-01-21 11:43:00
+915,Verification reports,backup,Medium,Closed,Backup encryption key rotation required per policy,sarah.wilson.research@enterprise.org,2024-03-29 10:11:00
+916,Spam filter results,email,High,Resolved,Email rules not executing automatically as configured,jennifer.brown.marketing@enterprise.org,2024-01-18 22:16:00
+917,Mail queue data,email,Low,Resolved,Email client crashing when opening specific messages,susan.brown.engineering@company.com,2024-02-05 10:09:00
+918,Compliance reports,security,Low,Resolved,Intrusion detection system generating false positives,michelle.jones.research@tech.org,2024-03-17 12:03:00
+919,Mail queue data,email,Medium,Closed,Email rules not executing automatically as configured,natalie.smith.research@tech.org,2024-03-06 15:26:00
+920,Compliance reports,security,High,Resolved,Firewall rules blocking legitimate application traffic,sarah.smith.finance@corp.io,2024-01-10 02:15:00
+921,Temperature readings,hardware,High,Open,Workstation blue screen errors occurring multiple times daily,lisa.anderson.sales@company.com,2024-02-05 00:34:00
+922,Performance metrics,hardware,Medium,Open,Keyboard keys not responding consistently during typing,susan.garcia.operations@business.net,2024-03-14 20:24:00
+923,Application logs,software,Low,Resolved,Plugin not loading correctly in design application,lisa.taylor.finance@business.net,2024-03-02 16:34:00
+924,Access control lists,access,High,Closed,Multi-factor authentication device replacement needed,emily.brown.research@tech.org,2024-02-03 23:38:00
+925,Capacity planning data,backup,Low,In Progress,Tape drive hardware failure in backup system,kevin.jackson.support@company.com,2024-01-12 22:22:00
+926,Connectivity logs,network,High,Closed,Network latency spikes during peak business hours,lisa.harris.engineering@corp.io,2024-01-14 09:37:00
+927,Table statistics,database,Medium,Closed,Database connection pool exhaustion under load,michelle.rodriguez.support@business.net,2024-02-08 23:07:00
+928,Application logs,software,Low,Open,Application throwing database connection errors,amanda.brown.engineering@company.com,2024-02-19 09:27:00
+929,SMTP logs,email,High,Open,Automatic replies not triggering during scheduled times,john.thomas.research@corp.io,2024-03-07 16:37:00
+930,Power consumption data,hardware,Medium,Closed,"Laptop battery not holding charge, lasts only 15 minutes",amanda.martinez.hr@enterprise.org,2024-03-12 10:20:00
+931,Packet capture data,network,Medium,Resolved,Switch port malfunctioning in server room rack 4B,robert.martinez.finance@company.com,2024-03-22 21:54:00
+932,Index usage data,database,Low,Open,Database replication lag between primary and secondary,emily.white.hr@company.com,2024-01-19 04:24:00
+933,Packet capture data,network,High,Closed,VPN connection timeout issues for remote team members,rebecca.wilson.sales@corp.io,2024-02-10 14:17:00
+934,Recovery test results,backup,Medium,Open,Nightly backup failed due to insufficient storage space,kevin.smith.support@company.com,2024-03-13 09:01:00
+935,Security group data,access,High,Resolved,Folder permissions need updating for quarterly project,emily.white.engineering@corp.io,2024-03-26 08:50:00
+936,Connection logs,database,High,Resolved,Database log file growth exceeding allocated space,chris.smith.research@corp.io,2024-03-06 20:37:00
+937,Usage statistics,software,Low,In Progress,Installation package corrupted during download,sarah.anderson.research@enterprise.org,2024-01-01 02:23:00
+938,Performance metrics,hardware,Low,In Progress,Docking station not recognizing external monitors,emily.miller.marketing@company.com,2024-03-07 06:14:00
+939,Hardware diagnostics,hardware,High,Resolved,Docking station not recognizing external monitors,chris.johnson.operations@company.com,2024-01-09 16:01:00
+940,Temperature readings,hardware,Medium,Resolved,Workstation blue screen errors occurring multiple times daily,lisa.johnson.marketing@company.com,2024-02-29 13:15:00
+941,Virus scan results,security,High,Resolved,Security certificate expiring for customer portal,rebecca.johnson.sales@company.com,2024-01-07 20:06:00
+942,Usage statistics,software,High,Open,Application crashing on startup with memory access violation,susan.davis.engineering@business.net,2024-02-15 17:50:00
+943,Packet capture data,network,High,In Progress,Wireless access point firmware needs urgent update,eric.rodriguez.engineering@company.com,2024-03-07 10:27:00
+944,Connection logs,database,Low,Resolved,Database replication lag between primary and secondary,michelle.jackson.operations@business.net,2024-01-02 16:21:00
+945,Virus scan results,security,Medium,Open,Intrusion detection system generating false positives,amanda.moore.engineering@tech.org,2024-02-28 22:37:00
+946,Usage statistics,software,Low,Closed,Software license activation failed - invalid license key,lisa.brown.sales@tech.org,2024-02-27 01:40:00
+947,System logs,hardware,Medium,Open,Laptop overheating and shutting down randomly during presentations,rebecca.johnson.sales@corp.io,2024-01-02 15:03:00
+948,Backup logs,backup,High,Open,Incremental backup corruption detected during verification,susan.jones.engineering@business.net,2024-01-09 22:10:00
+949,Compliance reports,security,Low,Open,Intrusion detection system generating false positives,michelle.anderson.sales@enterprise.org,2024-02-01 20:23:00
+950,Recovery test results,backup,Low,Open,Backup restore test failed for critical database,lisa.thomas.research@tech.org,2024-03-29 02:13:00
+951,Bandwidth usage,network,Medium,Resolved,VPN connection timeout issues for remote team members,rebecca.jones.marketing@business.net,2024-02-23 22:08:00
+952,Security logs,security,Medium,Resolved,Critical Windows security patches need immediate deployment,chris.brown.support@corp.io,2024-01-16 07:15:00
+953,Backup logs,backup,Medium,In Progress,Nightly backup failed due to insufficient storage space,john.taylor.operations@business.net,2024-03-22 10:35:00
+954,Usage statistics,software,High,Open,Update installation stuck at 50% for over 2 hours,michelle.smith.sales@tech.org,2024-03-12 23:42:00
+955,Bandwidth usage,network,Medium,Closed,Intermittent internet connectivity in entire north building,natalie.harris.research@company.com,2024-01-09 02:44:00
+956,Backup logs,backup,Medium,Resolved,Nightly backup failed due to insufficient storage space,david.jackson.finance@corp.io,2024-02-12 21:03:00
+957,Hardware diagnostics,hardware,Low,Resolved,Printer paper jam error despite clear paper path,amanda.garcia.finance@company.com,2024-03-29 00:20:00
+958,Latency measurements,network,Low,In Progress,Network drive inaccessible with permission denied errors,rebecca.martinez.engineering@company.com,2024-02-06 13:22:00
+959,Installation records,software,Low,Resolved,Update installation stuck at 50% for over 2 hours,amanda.white.support@tech.org,2024-01-16 10:54:00
+960,Recovery test results,backup,Low,Open,Backup restore test failed for critical database,chris.moore.engineering@company.com,2024-02-07 03:24:00
+961,Power consumption data,hardware,Low,In Progress,Printer paper jam error despite clear paper path,jane.moore.engineering@enterprise.org,2024-03-14 12:45:00
+962,Firewall rules,security,Low,Open,Security certificate expiring for customer portal,lisa.rodriguez.support@corp.io,2024-03-14 03:08:00
+963,Table statistics,database,Low,Open,Stored procedure optimization needed for billing system,sarah.johnson.finance@business.net,2024-03-07 05:30:00
+964,Query performance,database,High,Open,Database log file growth exceeding allocated space,eric.jackson.research@enterprise.org,2024-01-15 04:45:00
+965,Error reports,software,High,Open,Compatibility issues with new operating system update,jennifer.thomas.research@corp.io,2024-01-14 03:08:00
+966,Capacity planning data,backup,Medium,Open,Backup storage capacity planning for next quarter,steven.davis.support@company.com,2024-02-13 22:18:00
+967,Virus scan results,security,Low,Open,Security training completion tracking implementation,emily.taylor.support@tech.org,2024-02-17 05:12:00
+968,Security logs,security,Medium,Open,Data encryption required for sensitive client information,eric.williams.operations@company.com,2024-01-27 14:11:00
+969,Usage statistics,software,High,Resolved,Compatibility issues with new operating system update,sarah.thomas.research@company.com,2024-03-14 00:40:00
+970,Bandwidth usage,network,Medium,Open,DNS resolution failures for internal applications,jennifer.wilson.support@tech.org,2024-03-04 23:48:00
+971,System logs,hardware,Low,In Progress,Server disk space critically low at 98% capacity,natalie.johnson.operations@business.net,2024-02-11 08:09:00
+972,Access control lists,access,Medium,Closed,Terminated employee access revocation incomplete,kevin.miller.marketing@business.net,2024-02-25 22:07:00
+973,System logs,hardware,High,Open,Laptop overheating and shutting down randomly during presentations,lisa.davis.sales@tech.org,2024-03-06 12:09:00
+974,Packet capture data,network,Low,In Progress,Port configuration required for new security system,john.jackson.support@tech.org,2024-01-19 11:05:00
+975,Login attempts,access,Medium,Resolved,New employee needs access to project management software,susan.wilson.support@enterprise.org,2024-03-13 17:35:00
+976,Verification reports,backup,High,Resolved,Backup retention policy needs configuration review,robert.wilson.sales@company.com,2024-03-04 04:03:00
+977,Login attempts,access,High,Open,Folder permissions need updating for quarterly project,david.jones.sales@corp.io,2024-03-22 12:08:00
+978,Capacity planning data,backup,High,Resolved,Backup retention policy needs configuration review,kevin.wilson.support@company.com,2024-02-28 08:30:00
+979,Usage statistics,software,Medium,Closed,Update installation stuck at 50% for over 2 hours,sarah.thomas.support@business.net,2024-03-23 10:29:00
+980,Security logs,security,Medium,Resolved,Security training completion tracking implementation,sarah.garcia.support@corp.io,2024-03-27 21:36:00
+981,Connectivity logs,network,High,Open,Intermittent internet connectivity in entire north building,robert.garcia.sales@tech.org,2024-02-27 14:15:00
+982,Temperature readings,hardware,Low,Resolved,"Laptop battery not holding charge, lasts only 15 minutes",david.garcia.support@corp.io,2024-03-27 09:16:00
+983,Mail queue data,email,Low,Open,Global address list not updating with new employees,rebecca.thomas.marketing@tech.org,2024-02-20 03:47:00
+984,Packet capture data,network,High,In Progress,Intermittent internet connectivity in entire north building,john.rodriguez.finance@tech.org,2024-03-30 18:17:00
+985,Compliance reports,security,Low,In Progress,Firewall rules blocking legitimate application traffic,jane.williams.sales@company.com,2024-01-25 14:22:00
+986,Mail queue data,email,High,Closed,Email search functionality returning incomplete results,michelle.brown.operations@enterprise.org,2024-02-10 06:41:00
+987,Configuration data,email,High,Closed,Large attachments failing to send with size limit errors,lisa.moore.finance@tech.org,2024-02-03 13:00:00
+988,Mail queue data,email,Low,Closed,Email rules not executing automatically as configured,sarah.williams.sales@tech.org,2024-03-22 19:28:00
+989,Permission records,access,High,Resolved,User account locked due to multiple failed login attempts,natalie.smith.hr@corp.io,2024-02-11 20:40:00
+990,Query performance,database,Medium,In Progress,Stored procedure optimization needed for billing system,robert.smith.engineering@business.net,2024-03-15 16:13:00
+991,Installation records,software,High,Open,Installation package corrupted during download,jennifer.taylor.sales@enterprise.org,2024-03-18 08:23:00
+992,Table statistics,database,High,Closed,Database connection pool exhaustion under load,amanda.williams.engineering@company.com,2024-03-10 19:35:00
+993,Security group data,access,Low,Open,Folder permissions need updating for quarterly project,sarah.garcia.hr@business.net,2024-02-18 05:13:00
+994,Usage statistics,software,High,Open,Application crashing on startup with memory access violation,steven.jones.sales@company.com,2024-03-14 15:05:00
+995,Mail queue data,email,Medium,In Progress,Email search functionality returning incomplete results,chris.wilson.sales@tech.org,2024-02-16 08:22:00
+996,SMTP logs,email,Medium,Open,Automatic replies not triggering during scheduled times,chris.martinez.engineering@tech.org,2024-02-26 14:52:00
+997,Table statistics,database,High,Closed,"Table space running low, requires immediate attention",david.white.research@tech.org,2024-02-17 02:50:00
+998,Usage statistics,software,High,Closed,Software configuration reset after system reboot,mike.anderson.marketing@company.com,2024-02-03 15:50:00
+999,Bandwidth usage,network,Low,Open,Intermittent internet connectivity in entire north building,james.miller.hr@corp.io,2024-02-18 13:29:00
+1000,Compliance reports,security,High,In Progress,Security audit reveals compliance violations in user accounts,natalie.johnson.finance@corp.io,2024-01-01 05:30:00

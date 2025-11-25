@@ -1,0 +1,1001 @@
+id,date,incident_type,severity,status,description,reported_by,created_at
+1,2025-02-25,Data Breach,Medium,Resolved,Description for incident 1,Bob,2025-02-25 17:46:00
+2,2025-01-12,Malware,High,Resolved,Description for incident 2,Security Team,2025-01-12 22:40:00
+3,2025-01-08,Phishing,High,Open,Description for incident 3,Alice,2025-01-08 20:36:00
+4,2025-01-14,Network Intrusion,Low,Mitigating,Description for incident 4,Web Team,2025-01-14 04:20:00
+5,2025-01-02,Unauthorized Access,Medium,Investigating,Description for incident 5,Web Team,2025-01-02 15:13:00
+6,2025-01-03,Ransomware,Medium,Mitigating,Description for incident 6,Eve,2025-01-03 22:39:00
+7,2025-02-23,Data Breach,Medium,Mitigating,Description for incident 7,Charlie,2025-02-23 05:42:00
+8,2025-02-22,Network Intrusion,Low,Resolved,Description for incident 8,Alice,2025-02-22 16:49:00
+9,2025-02-13,Password Attack,Critical,Investigating,Description for incident 9,Alice,2025-02-13 15:52:00
+10,2025-02-09,Malware,High,Open,Description for incident 10,Grace,2025-02-09 07:34:00
+11,2025-02-01,Insider Threat,Medium,Investigating,Description for incident 11,Grace,2025-02-01 09:29:00
+12,2025-02-07,Malware,Low,Open,Description for incident 12,Security Team,2025-02-07 17:45:00
+13,2025-02-27,SQL Injection,High,Open,Description for incident 13,David,2025-02-27 21:11:00
+14,2025-01-13,Network Intrusion,High,Mitigating,Description for incident 14,Charlie,2025-01-13 15:52:00
+15,2025-02-14,Network Intrusion,Medium,Investigating,Description for incident 15,Web Team,2025-02-14 20:06:00
+16,2025-02-03,Unauthorized Access,Medium,Resolved,Description for incident 16,IT Admin,2025-02-03 22:26:00
+17,2025-01-17,Malware,High,Investigating,Description for incident 17,IT Admin,2025-01-17 15:53:00
+18,2025-02-25,Network Intrusion,High,Resolved,Description for incident 18,Bob,2025-02-25 20:50:00
+19,2025-02-05,Ransomware,Low,Open,Description for incident 19,David,2025-02-05 14:13:00
+20,2025-02-13,Password Attack,High,Open,Description for incident 20,Charlie,2025-02-13 16:01:00
+21,2025-02-25,Data Breach,Medium,Resolved,Description for incident 21,Eve,2025-02-25 13:19:00
+22,2025-02-19,Network Intrusion,High,Resolved,Description for incident 22,Grace,2025-02-19 08:54:00
+23,2025-01-20,Network Intrusion,Critical,Resolved,Description for incident 23,Grace,2025-01-20 04:12:00
+24,2025-03-02,DDoS,High,Mitigating,Description for incident 24,David,2025-03-02 21:19:00
+25,2025-01-08,Network Intrusion,Low,Resolved,Description for incident 25,Grace,2025-01-08 16:31:00
+26,2025-02-20,DDoS,Medium,Mitigating,Description for incident 26,Bob,2025-02-20 03:43:00
+27,2025-02-26,Password Attack,Critical,Mitigating,Description for incident 27,Security Team,2025-02-26 18:32:00
+28,2025-02-06,DDoS,Low,Open,Description for incident 28,Charlie,2025-02-06 04:01:00
+29,2025-01-15,DDoS,Low,Open,Description for incident 29,Alice,2025-01-15 07:49:00
+30,2025-02-10,DDoS,Critical,Open,Description for incident 30,David,2025-02-10 18:31:00
+31,2025-02-06,Malware,Medium,Investigating,Description for incident 31,Grace,2025-02-06 19:28:00
+32,2025-02-15,Phishing,Low,Mitigating,Description for incident 32,David,2025-02-15 01:50:00
+33,2025-01-10,Insider Threat,Medium,Open,Description for incident 33,Grace,2025-01-10 11:45:00
+34,2025-02-06,Insider Threat,High,Investigating,Description for incident 34,Bob,2025-02-06 21:52:00
+35,2025-01-04,Unauthorized Access,Low,Resolved,Description for incident 35,IT Admin,2025-01-04 03:48:00
+36,2025-01-12,DDoS,Critical,Mitigating,Description for incident 36,David,2025-01-12 02:42:00
+37,2025-01-25,Data Breach,High,Investigating,Description for incident 37,David,2025-01-25 09:24:00
+38,2025-02-03,Ransomware,High,Resolved,Description for incident 38,Charlie,2025-02-03 15:31:00
+39,2025-01-04,Data Breach,Low,Open,Description for incident 39,IT Admin,2025-01-04 00:43:00
+40,2025-02-06,Phishing,High,Mitigating,Description for incident 40,Frank,2025-02-06 13:32:00
+41,2025-01-03,Insider Threat,Low,Mitigating,Description for incident 41,Security Team,2025-01-03 23:22:00
+42,2025-01-02,SQL Injection,Low,Investigating,Description for incident 42,Web Team,2025-01-02 23:12:00
+43,2025-02-18,Insider Threat,Critical,Mitigating,Description for incident 43,Frank,2025-02-18 11:47:00
+44,2025-02-13,DDoS,Low,Mitigating,Description for incident 44,Grace,2025-02-13 16:46:00
+45,2025-02-08,Unauthorized Access,High,Investigating,Description for incident 45,Web Team,2025-02-08 23:49:00
+46,2025-02-08,Malware,Low,Investigating,Description for incident 46,IT Admin,2025-02-08 11:33:00
+47,2025-02-10,Network Intrusion,High,Mitigating,Description for incident 47,David,2025-02-10 14:25:00
+48,2025-02-04,Password Attack,Critical,Mitigating,Description for incident 48,Alice,2025-02-04 06:35:00
+49,2025-03-01,Unauthorized Access,Medium,Resolved,Description for incident 49,Alice,2025-03-01 17:34:00
+50,2025-01-13,Unauthorized Access,Low,Mitigating,Description for incident 50,Charlie,2025-01-13 17:48:00
+51,2025-02-26,Ransomware,Medium,Investigating,Description for incident 51,Security Team,2025-02-26 00:48:00
+52,2025-02-04,SQL Injection,Low,Resolved,Description for incident 52,Web Team,2025-02-04 07:02:00
+53,2025-01-18,Network Intrusion,Medium,Open,Description for incident 53,Bob,2025-01-18 14:51:00
+54,2025-01-30,Insider Threat,High,Open,Description for incident 54,Security Team,2025-01-30 00:01:00
+55,2025-01-22,Unauthorized Access,High,Investigating,Description for incident 55,Alice,2025-01-22 11:39:00
+56,2025-03-02,Insider Threat,Critical,Resolved,Description for incident 56,Frank,2025-03-02 09:57:00
+57,2025-02-25,DDoS,Low,Mitigating,Description for incident 57,Security Team,2025-02-25 17:11:00
+58,2025-02-14,SQL Injection,Medium,Open,Description for incident 58,Alice,2025-02-14 06:09:00
+59,2025-01-20,Unauthorized Access,High,Investigating,Description for incident 59,Alice,2025-01-20 18:50:00
+60,2025-02-22,SQL Injection,Medium,Open,Description for incident 60,Alice,2025-02-22 16:11:00
+61,2025-01-11,Malware,High,Mitigating,Description for incident 61,David,2025-01-11 02:24:00
+62,2025-01-22,Network Intrusion,High,Investigating,Description for incident 62,Eve,2025-01-22 17:44:00
+63,2025-01-27,Phishing,Low,Investigating,Description for incident 63,Security Team,2025-01-27 22:59:00
+64,2025-02-01,DDoS,High,Resolved,Description for incident 64,Web Team,2025-02-01 21:22:00
+65,2025-01-03,Network Intrusion,High,Resolved,Description for incident 65,Security Team,2025-01-03 01:01:00
+66,2025-03-01,Insider Threat,Low,Open,Description for incident 66,Alice,2025-03-01 08:47:00
+67,2025-02-24,Password Attack,Critical,Investigating,Description for incident 67,Security Team,2025-02-24 21:08:00
+68,2025-01-01,Insider Threat,Medium,Investigating,Description for incident 68,Security Team,2025-01-01 02:24:00
+69,2025-01-01,Ransomware,Medium,Resolved,Description for incident 69,Eve,2025-01-01 10:05:00
+70,2025-02-06,Insider Threat,Critical,Mitigating,Description for incident 70,Grace,2025-02-06 16:42:00
+71,2025-02-04,Insider Threat,Low,Investigating,Description for incident 71,Grace,2025-02-04 14:27:00
+72,2025-02-10,Data Breach,Critical,Resolved,Description for incident 72,Bob,2025-02-10 05:01:00
+73,2025-01-31,Malware,Medium,Open,Description for incident 73,Charlie,2025-01-31 07:12:00
+74,2025-02-05,SQL Injection,Critical,Open,Description for incident 74,Eve,2025-02-05 18:06:00
+75,2025-01-30,Network Intrusion,Low,Mitigating,Description for incident 75,Grace,2025-01-30 09:35:00
+76,2025-01-02,Password Attack,Critical,Open,Description for incident 76,Frank,2025-01-02 15:37:00
+77,2025-01-27,Unauthorized Access,Critical,Resolved,Description for incident 77,Charlie,2025-01-27 19:48:00
+78,2025-02-15,Phishing,High,Investigating,Description for incident 78,Eve,2025-02-15 01:48:00
+79,2025-01-20,Malware,Low,Investigating,Description for incident 79,Web Team,2025-01-20 19:12:00
+80,2025-02-24,SQL Injection,Medium,Resolved,Description for incident 80,IT Admin,2025-02-24 13:25:00
+81,2025-01-22,Network Intrusion,Medium,Mitigating,Description for incident 81,IT Admin,2025-01-22 09:06:00
+82,2025-01-29,Network Intrusion,High,Open,Description for incident 82,Security Team,2025-01-29 22:13:00
+83,2025-01-08,DDoS,Critical,Resolved,Description for incident 83,David,2025-01-08 11:11:00
+84,2025-02-15,Data Breach,Critical,Investigating,Description for incident 84,Bob,2025-02-15 19:15:00
+85,2025-01-06,Phishing,High,Mitigating,Description for incident 85,Bob,2025-01-06 03:16:00
+86,2025-02-18,Insider Threat,Critical,Open,Description for incident 86,Eve,2025-02-18 20:15:00
+87,2025-02-25,Password Attack,Medium,Investigating,Description for incident 87,Bob,2025-02-25 15:26:00
+88,2025-01-19,Network Intrusion,Medium,Open,Description for incident 88,IT Admin,2025-01-19 21:54:00
+89,2025-01-18,SQL Injection,Critical,Mitigating,Description for incident 89,Alice,2025-01-18 04:15:00
+90,2025-01-02,Insider Threat,Medium,Mitigating,Description for incident 90,Grace,2025-01-02 14:33:00
+91,2025-02-21,Password Attack,Low,Mitigating,Description for incident 91,Security Team,2025-02-21 19:16:00
+92,2025-01-10,Phishing,High,Investigating,Description for incident 92,Charlie,2025-01-10 09:46:00
+93,2025-01-07,Ransomware,Critical,Resolved,Description for incident 93,Web Team,2025-01-07 11:41:00
+94,2025-01-25,Phishing,Medium,Open,Description for incident 94,Eve,2025-01-25 10:30:00
+95,2025-02-10,Insider Threat,Low,Open,Description for incident 95,Frank,2025-02-10 17:53:00
+96,2025-02-12,Data Breach,High,Open,Description for incident 96,Grace,2025-02-12 13:19:00
+97,2025-02-22,Ransomware,High,Mitigating,Description for incident 97,Grace,2025-02-22 21:34:00
+98,2025-03-02,Ransomware,Low,Mitigating,Description for incident 98,Alice,2025-03-02 10:32:00
+99,2025-02-06,Malware,Critical,Mitigating,Description for incident 99,Alice,2025-02-06 01:18:00
+100,2025-01-12,Ransomware,High,Mitigating,Description for incident 100,Grace,2025-01-12 02:25:00
+101,2025-02-10,Phishing,Medium,Open,Description for incident 101,Web Team,2025-02-10 20:00:00
+102,2025-02-22,Data Breach,High,Open,Description for incident 102,Grace,2025-02-22 01:31:00
+103,2025-01-03,Network Intrusion,Low,Investigating,Description for incident 103,Security Team,2025-01-03 10:01:00
+104,2025-02-23,DDoS,Low,Mitigating,Description for incident 104,IT Admin,2025-02-23 23:27:00
+105,2025-03-01,DDoS,Medium,Open,Description for incident 105,Security Team,2025-03-01 18:04:00
+106,2025-01-07,Unauthorized Access,Critical,Resolved,Description for incident 106,Eve,2025-01-07 00:32:00
+107,2025-01-04,Password Attack,Critical,Mitigating,Description for incident 107,Eve,2025-01-04 01:20:00
+108,2025-01-19,Data Breach,Low,Open,Description for incident 108,David,2025-01-19 08:32:00
+109,2025-01-23,Insider Threat,Medium,Mitigating,Description for incident 109,Charlie,2025-01-23 14:03:00
+110,2025-01-25,Network Intrusion,Low,Investigating,Description for incident 110,Alice,2025-01-25 10:24:00
+111,2025-02-26,DDoS,Low,Resolved,Description for incident 111,IT Admin,2025-02-26 14:51:00
+112,2025-02-24,Network Intrusion,Medium,Investigating,Description for incident 112,Bob,2025-02-24 02:31:00
+113,2025-01-14,Insider Threat,Medium,Resolved,Description for incident 113,Charlie,2025-01-14 04:41:00
+114,2025-01-19,Malware,Low,Resolved,Description for incident 114,Bob,2025-01-19 10:12:00
+115,2025-01-17,Network Intrusion,Low,Investigating,Description for incident 115,David,2025-01-17 23:40:00
+116,2025-02-08,Malware,Critical,Open,Description for incident 116,Charlie,2025-02-08 15:16:00
+117,2025-01-03,DDoS,High,Open,Description for incident 117,IT Admin,2025-01-03 08:32:00
+118,2025-02-07,Network Intrusion,Low,Mitigating,Description for incident 118,Eve,2025-02-07 03:27:00
+119,2025-01-19,Unauthorized Access,Low,Investigating,Description for incident 119,Alice,2025-01-19 06:16:00
+120,2025-01-11,Malware,High,Resolved,Description for incident 120,Web Team,2025-01-11 08:18:00
+121,2025-01-03,Ransomware,Medium,Investigating,Description for incident 121,Charlie,2025-01-03 23:55:00
+122,2025-02-17,Insider Threat,Medium,Mitigating,Description for incident 122,David,2025-02-17 01:45:00
+123,2025-01-17,Phishing,Critical,Mitigating,Description for incident 123,David,2025-01-17 14:43:00
+124,2025-01-08,Malware,Critical,Mitigating,Description for incident 124,Bob,2025-01-08 14:27:00
+125,2025-01-02,Data Breach,Low,Investigating,Description for incident 125,Charlie,2025-01-02 13:08:00
+126,2025-02-11,DDoS,High,Investigating,Description for incident 126,Bob,2025-02-11 19:51:00
+127,2025-02-07,Unauthorized Access,Critical,Investigating,Description for incident 127,Security Team,2025-02-07 22:03:00
+128,2025-01-08,Ransomware,Critical,Investigating,Description for incident 128,Web Team,2025-01-08 07:06:00
+129,2025-02-11,Unauthorized Access,Critical,Investigating,Description for incident 129,David,2025-02-11 21:57:00
+130,2025-01-20,Network Intrusion,High,Resolved,Description for incident 130,Bob,2025-01-20 12:23:00
+131,2025-02-22,Insider Threat,Critical,Investigating,Description for incident 131,Security Team,2025-02-22 12:02:00
+132,2025-01-18,Unauthorized Access,Low,Mitigating,Description for incident 132,Web Team,2025-01-18 17:42:00
+133,2025-01-10,Malware,Medium,Resolved,Description for incident 133,Web Team,2025-01-10 03:14:00
+134,2025-01-15,Malware,Medium,Investigating,Description for incident 134,Grace,2025-01-15 21:26:00
+135,2025-01-21,Phishing,High,Investigating,Description for incident 135,Charlie,2025-01-21 17:59:00
+136,2025-02-20,Data Breach,Critical,Investigating,Description for incident 136,Security Team,2025-02-20 23:36:00
+137,2025-02-22,Network Intrusion,Medium,Investigating,Description for incident 137,Alice,2025-02-22 10:18:00
+138,2025-02-02,Password Attack,Critical,Open,Description for incident 138,Web Team,2025-02-02 07:59:00
+139,2025-01-11,Phishing,Low,Resolved,Description for incident 139,David,2025-01-11 08:13:00
+140,2025-01-27,Password Attack,Low,Resolved,Description for incident 140,Alice,2025-01-27 06:37:00
+141,2025-01-11,Insider Threat,High,Resolved,Description for incident 141,Alice,2025-01-11 07:12:00
+142,2025-01-23,Ransomware,Low,Resolved,Description for incident 142,IT Admin,2025-01-23 10:21:00
+143,2025-02-02,Insider Threat,High,Open,Description for incident 143,Bob,2025-02-02 03:38:00
+144,2025-02-24,Phishing,High,Investigating,Description for incident 144,Bob,2025-02-24 04:33:00
+145,2025-02-01,Unauthorized Access,Critical,Investigating,Description for incident 145,Frank,2025-02-01 02:57:00
+146,2025-02-09,Ransomware,Medium,Mitigating,Description for incident 146,Grace,2025-02-09 11:14:00
+147,2025-01-11,Malware,High,Resolved,Description for incident 147,David,2025-01-11 18:19:00
+148,2025-02-20,Insider Threat,High,Open,Description for incident 148,Security Team,2025-02-20 21:16:00
+149,2025-02-09,Data Breach,Low,Mitigating,Description for incident 149,Security Team,2025-02-09 11:14:00
+150,2025-01-20,Malware,Critical,Investigating,Description for incident 150,Eve,2025-01-20 12:07:00
+151,2025-02-06,Network Intrusion,Medium,Mitigating,Description for incident 151,Security Team,2025-02-06 11:21:00
+152,2025-02-01,Data Breach,High,Mitigating,Description for incident 152,Charlie,2025-02-01 18:05:00
+153,2025-02-14,SQL Injection,Medium,Investigating,Description for incident 153,Grace,2025-02-14 10:35:00
+154,2025-02-07,Phishing,Critical,Investigating,Description for incident 154,IT Admin,2025-02-07 23:50:00
+155,2025-02-11,Unauthorized Access,Medium,Investigating,Description for incident 155,David,2025-02-11 15:05:00
+156,2025-02-09,Insider Threat,High,Mitigating,Description for incident 156,Web Team,2025-02-09 14:17:00
+157,2025-01-10,Ransomware,Medium,Open,Description for incident 157,Eve,2025-01-10 20:49:00
+158,2025-01-21,Unauthorized Access,Critical,Resolved,Description for incident 158,Charlie,2025-01-21 14:54:00
+159,2025-01-03,Password Attack,Low,Resolved,Description for incident 159,David,2025-01-03 09:57:00
+160,2025-01-06,SQL Injection,High,Resolved,Description for incident 160,Bob,2025-01-06 07:13:00
+161,2025-02-15,Malware,Low,Resolved,Description for incident 161,IT Admin,2025-02-15 02:16:00
+162,2025-02-21,Network Intrusion,Medium,Open,Description for incident 162,David,2025-02-21 17:49:00
+163,2025-02-27,Insider Threat,Medium,Investigating,Description for incident 163,Alice,2025-02-27 04:15:00
+164,2025-02-13,Phishing,Medium,Mitigating,Description for incident 164,Security Team,2025-02-13 05:35:00
+165,2025-01-07,Password Attack,Low,Mitigating,Description for incident 165,Charlie,2025-01-07 23:40:00
+166,2025-01-15,Phishing,Low,Mitigating,Description for incident 166,Security Team,2025-01-15 03:28:00
+167,2025-02-01,DDoS,Low,Open,Description for incident 167,Alice,2025-02-01 23:25:00
+168,2025-02-17,Ransomware,Critical,Open,Description for incident 168,IT Admin,2025-02-17 00:55:00
+169,2025-02-04,Insider Threat,Low,Resolved,Description for incident 169,Web Team,2025-02-04 08:47:00
+170,2025-02-04,Insider Threat,Low,Open,Description for incident 170,IT Admin,2025-02-04 03:37:00
+171,2025-01-08,Unauthorized Access,High,Open,Description for incident 171,Alice,2025-01-08 12:57:00
+172,2025-02-07,Insider Threat,Low,Mitigating,Description for incident 172,Eve,2025-02-07 23:32:00
+173,2025-01-28,Network Intrusion,Medium,Investigating,Description for incident 173,Eve,2025-01-28 19:29:00
+174,2025-01-06,Data Breach,High,Resolved,Description for incident 174,Charlie,2025-01-06 04:39:00
+175,2025-02-25,Network Intrusion,High,Resolved,Description for incident 175,Frank,2025-02-25 22:44:00
+176,2025-02-14,Malware,High,Investigating,Description for incident 176,IT Admin,2025-02-14 17:25:00
+177,2025-01-27,Data Breach,Low,Resolved,Description for incident 177,Eve,2025-01-27 14:25:00
+178,2025-02-10,SQL Injection,High,Investigating,Description for incident 178,Bob,2025-02-10 18:23:00
+179,2025-02-01,Unauthorized Access,High,Mitigating,Description for incident 179,David,2025-02-01 23:51:00
+180,2025-01-03,Unauthorized Access,Low,Open,Description for incident 180,Frank,2025-01-03 04:41:00
+181,2025-01-02,Password Attack,High,Mitigating,Description for incident 181,Alice,2025-01-02 03:02:00
+182,2025-01-11,Phishing,Critical,Resolved,Description for incident 182,Web Team,2025-01-11 08:06:00
+183,2025-01-15,DDoS,Low,Open,Description for incident 183,Security Team,2025-01-15 03:10:00
+184,2025-02-12,Ransomware,Low,Mitigating,Description for incident 184,IT Admin,2025-02-12 17:52:00
+185,2025-02-05,Insider Threat,High,Investigating,Description for incident 185,IT Admin,2025-02-05 11:13:00
+186,2025-01-08,DDoS,High,Resolved,Description for incident 186,Bob,2025-01-08 02:17:00
+187,2025-01-26,Data Breach,Critical,Mitigating,Description for incident 187,Web Team,2025-01-26 23:54:00
+188,2025-02-08,Unauthorized Access,Critical,Investigating,Description for incident 188,IT Admin,2025-02-08 22:14:00
+189,2025-01-20,Insider Threat,Medium,Investigating,Description for incident 189,Grace,2025-01-20 21:54:00
+190,2025-01-11,Ransomware,Medium,Resolved,Description for incident 190,Security Team,2025-01-11 13:29:00
+191,2025-01-22,Malware,Low,Investigating,Description for incident 191,Bob,2025-01-22 14:27:00
+192,2025-02-18,Unauthorized Access,Critical,Investigating,Description for incident 192,Frank,2025-02-18 14:03:00
+193,2025-02-21,Unauthorized Access,High,Mitigating,Description for incident 193,Alice,2025-02-21 06:17:00
+194,2025-02-16,Data Breach,Low,Mitigating,Description for incident 194,Grace,2025-02-16 10:22:00
+195,2025-02-20,Data Breach,Low,Resolved,Description for incident 195,Frank,2025-02-20 20:13:00
+196,2025-01-14,Network Intrusion,Critical,Investigating,Description for incident 196,Security Team,2025-01-14 12:12:00
+197,2025-01-26,SQL Injection,Critical,Open,Description for incident 197,Frank,2025-01-26 05:06:00
+198,2025-02-24,Network Intrusion,Medium,Investigating,Description for incident 198,Web Team,2025-02-24 06:10:00
+199,2025-02-05,Insider Threat,Medium,Mitigating,Description for incident 199,Eve,2025-02-05 10:47:00
+200,2025-02-08,Ransomware,Critical,Mitigating,Description for incident 200,Charlie,2025-02-08 20:57:00
+201,2025-02-13,SQL Injection,Low,Mitigating,Description for incident 201,Frank,2025-02-13 15:27:00
+202,2025-02-10,Insider Threat,Medium,Resolved,Description for incident 202,Alice,2025-02-10 03:10:00
+203,2025-02-22,Phishing,High,Open,Description for incident 203,Web Team,2025-02-22 17:50:00
+204,2025-02-15,Ransomware,Critical,Open,Description for incident 204,Charlie,2025-02-15 05:29:00
+205,2025-01-23,Network Intrusion,Critical,Mitigating,Description for incident 205,Bob,2025-01-23 22:54:00
+206,2025-02-24,Ransomware,Low,Open,Description for incident 206,Bob,2025-02-24 18:43:00
+207,2025-01-26,Phishing,Medium,Open,Description for incident 207,Security Team,2025-01-26 14:16:00
+208,2025-01-16,DDoS,Critical,Mitigating,Description for incident 208,Grace,2025-01-16 22:58:00
+209,2025-02-23,Network Intrusion,High,Open,Description for incident 209,Alice,2025-02-23 08:31:00
+210,2025-02-20,Password Attack,Critical,Open,Description for incident 210,David,2025-02-20 00:52:00
+211,2025-01-13,Network Intrusion,Medium,Investigating,Description for incident 211,Web Team,2025-01-13 05:00:00
+212,2025-01-13,Insider Threat,Medium,Mitigating,Description for incident 212,Bob,2025-01-13 07:54:00
+213,2025-01-12,Malware,Low,Investigating,Description for incident 213,Charlie,2025-01-12 22:07:00
+214,2025-02-12,Data Breach,Medium,Investigating,Description for incident 214,Eve,2025-02-12 01:38:00
+215,2025-01-15,Data Breach,High,Investigating,Description for incident 215,Grace,2025-01-15 17:08:00
+216,2025-01-29,Unauthorized Access,Low,Mitigating,Description for incident 216,Alice,2025-01-29 17:17:00
+217,2025-03-02,Unauthorized Access,Medium,Resolved,Description for incident 217,David,2025-03-02 13:41:00
+218,2025-02-25,Password Attack,Low,Open,Description for incident 218,Frank,2025-02-25 20:18:00
+219,2025-01-27,DDoS,Low,Open,Description for incident 219,Security Team,2025-01-27 15:24:00
+220,2025-01-17,SQL Injection,High,Resolved,Description for incident 220,Frank,2025-01-17 22:39:00
+221,2025-01-07,Phishing,High,Mitigating,Description for incident 221,IT Admin,2025-01-07 12:37:00
+222,2025-02-18,Data Breach,Low,Resolved,Description for incident 222,IT Admin,2025-02-18 23:49:00
+223,2025-01-08,Ransomware,Medium,Mitigating,Description for incident 223,IT Admin,2025-01-08 17:37:00
+224,2025-02-10,Unauthorized Access,Low,Mitigating,Description for incident 224,Charlie,2025-02-10 23:45:00
+225,2025-01-09,Unauthorized Access,Critical,Open,Description for incident 225,Eve,2025-01-09 14:13:00
+226,2025-01-06,Network Intrusion,Low,Resolved,Description for incident 226,Frank,2025-01-06 14:00:00
+227,2025-01-10,Ransomware,Critical,Open,Description for incident 227,Alice,2025-01-10 05:17:00
+228,2025-01-15,Ransomware,High,Investigating,Description for incident 228,Charlie,2025-01-15 01:08:00
+229,2025-01-12,Ransomware,High,Investigating,Description for incident 229,Bob,2025-01-12 02:57:00
+230,2025-02-12,Ransomware,Critical,Resolved,Description for incident 230,Security Team,2025-02-12 23:52:00
+231,2025-01-12,DDoS,Critical,Investigating,Description for incident 231,David,2025-01-12 10:50:00
+232,2025-02-09,Ransomware,Low,Open,Description for incident 232,Grace,2025-02-09 04:51:00
+233,2025-02-18,Ransomware,High,Resolved,Description for incident 233,Security Team,2025-02-18 02:21:00
+234,2025-01-15,Password Attack,Critical,Resolved,Description for incident 234,Grace,2025-01-15 03:23:00
+235,2025-02-15,Data Breach,Medium,Resolved,Description for incident 235,Web Team,2025-02-15 12:05:00
+236,2025-02-28,Malware,Low,Investigating,Description for incident 236,Web Team,2025-02-28 00:38:00
+237,2025-01-05,Network Intrusion,Medium,Open,Description for incident 237,Frank,2025-01-05 06:07:00
+238,2025-01-11,Ransomware,Low,Open,Description for incident 238,Alice,2025-01-11 05:12:00
+239,2025-01-21,SQL Injection,Medium,Investigating,Description for incident 239,Alice,2025-01-21 07:52:00
+240,2025-01-12,Phishing,High,Investigating,Description for incident 240,Security Team,2025-01-12 18:07:00
+241,2025-02-08,SQL Injection,High,Mitigating,Description for incident 241,Grace,2025-02-08 16:00:00
+242,2025-01-02,Ransomware,Medium,Open,Description for incident 242,IT Admin,2025-01-02 08:08:00
+243,2025-01-16,SQL Injection,Low,Resolved,Description for incident 243,Frank,2025-01-16 07:44:00
+244,2025-01-18,Password Attack,Critical,Mitigating,Description for incident 244,IT Admin,2025-01-18 20:59:00
+245,2025-01-30,Network Intrusion,Critical,Investigating,Description for incident 245,Security Team,2025-01-30 14:18:00
+246,2025-01-21,Password Attack,Low,Resolved,Description for incident 246,Grace,2025-01-21 05:49:00
+247,2025-02-07,Unauthorized Access,Low,Investigating,Description for incident 247,Charlie,2025-02-07 19:22:00
+248,2025-01-26,SQL Injection,High,Resolved,Description for incident 248,Charlie,2025-01-26 06:43:00
+249,2025-02-10,Password Attack,Critical,Investigating,Description for incident 249,Web Team,2025-02-10 00:24:00
+250,2025-01-05,Ransomware,Low,Investigating,Description for incident 250,Frank,2025-01-05 00:14:00
+251,2025-01-30,Insider Threat,Low,Mitigating,Description for incident 251,Grace,2025-01-30 15:01:00
+252,2025-02-26,Network Intrusion,High,Resolved,Description for incident 252,Frank,2025-02-26 22:04:00
+253,2025-01-12,DDoS,High,Resolved,Description for incident 253,Eve,2025-01-12 05:06:00
+254,2025-02-04,Data Breach,Medium,Open,Description for incident 254,Alice,2025-02-04 01:23:00
+255,2025-01-11,Phishing,Critical,Mitigating,Description for incident 255,Bob,2025-01-11 23:07:00
+256,2025-02-15,Network Intrusion,Medium,Open,Description for incident 256,Grace,2025-02-15 07:19:00
+257,2025-02-11,Malware,Medium,Investigating,Description for incident 257,Frank,2025-02-11 01:07:00
+258,2025-01-16,Malware,Critical,Investigating,Description for incident 258,Web Team,2025-01-16 19:30:00
+259,2025-01-06,DDoS,Medium,Open,Description for incident 259,Security Team,2025-01-06 18:20:00
+260,2025-02-06,Malware,Critical,Investigating,Description for incident 260,Bob,2025-02-06 12:14:00
+261,2025-03-01,Malware,Medium,Open,Description for incident 261,Security Team,2025-03-01 10:06:00
+262,2025-01-18,DDoS,High,Investigating,Description for incident 262,Grace,2025-01-18 18:48:00
+263,2025-01-20,Malware,Medium,Resolved,Description for incident 263,Security Team,2025-01-20 14:41:00
+264,2025-02-23,Network Intrusion,Medium,Mitigating,Description for incident 264,Alice,2025-02-23 11:40:00
+265,2025-02-21,Phishing,Critical,Resolved,Description for incident 265,David,2025-02-21 15:39:00
+266,2025-03-02,Data Breach,Critical,Resolved,Description for incident 266,Security Team,2025-03-02 06:00:00
+267,2025-02-21,Ransomware,Critical,Open,Description for incident 267,Eve,2025-02-21 12:31:00
+268,2025-01-16,Data Breach,Medium,Open,Description for incident 268,Eve,2025-01-16 01:37:00
+269,2025-01-25,Data Breach,Medium,Mitigating,Description for incident 269,Grace,2025-01-25 20:36:00
+270,2025-02-21,DDoS,High,Investigating,Description for incident 270,Alice,2025-02-21 07:03:00
+271,2025-01-16,SQL Injection,Medium,Investigating,Description for incident 271,IT Admin,2025-01-16 17:43:00
+272,2025-02-01,Data Breach,Medium,Mitigating,Description for incident 272,Security Team,2025-02-01 09:51:00
+273,2025-03-02,SQL Injection,Low,Mitigating,Description for incident 273,Security Team,2025-03-02 05:58:00
+274,2025-01-28,Password Attack,Low,Open,Description for incident 274,Security Team,2025-01-28 21:08:00
+275,2025-02-12,Malware,Low,Open,Description for incident 275,Frank,2025-02-12 08:42:00
+276,2025-01-30,Insider Threat,Critical,Resolved,Description for incident 276,David,2025-01-30 19:23:00
+277,2025-01-22,Insider Threat,Medium,Resolved,Description for incident 277,Charlie,2025-01-22 20:58:00
+278,2025-02-24,Phishing,High,Investigating,Description for incident 278,IT Admin,2025-02-24 20:38:00
+279,2025-01-05,Malware,Critical,Resolved,Description for incident 279,Charlie,2025-01-05 17:11:00
+280,2025-02-16,DDoS,Critical,Mitigating,Description for incident 280,Charlie,2025-02-16 02:10:00
+281,2025-02-24,Unauthorized Access,Critical,Investigating,Description for incident 281,Charlie,2025-02-24 05:27:00
+282,2025-01-10,Insider Threat,High,Resolved,Description for incident 282,Charlie,2025-01-10 13:34:00
+283,2025-01-16,Network Intrusion,Low,Open,Description for incident 283,Frank,2025-01-16 15:53:00
+284,2025-01-15,SQL Injection,Critical,Open,Description for incident 284,Security Team,2025-01-15 03:29:00
+285,2025-01-10,Malware,Critical,Investigating,Description for incident 285,David,2025-01-10 11:21:00
+286,2025-02-21,DDoS,High,Mitigating,Description for incident 286,Security Team,2025-02-21 01:55:00
+287,2025-02-19,Ransomware,Low,Open,Description for incident 287,Frank,2025-02-19 23:30:00
+288,2025-01-16,Network Intrusion,Medium,Resolved,Description for incident 288,Bob,2025-01-16 03:21:00
+289,2025-01-15,Malware,Medium,Open,Description for incident 289,Web Team,2025-01-15 18:00:00
+290,2025-01-01,Ransomware,High,Investigating,Description for incident 290,Eve,2025-01-01 05:35:00
+291,2025-01-28,Data Breach,Low,Open,Description for incident 291,Web Team,2025-01-28 05:52:00
+292,2025-01-09,Data Breach,Medium,Mitigating,Description for incident 292,Frank,2025-01-09 11:56:00
+293,2025-01-11,Password Attack,Medium,Mitigating,Description for incident 293,IT Admin,2025-01-11 05:30:00
+294,2025-02-14,Data Breach,Low,Open,Description for incident 294,David,2025-02-14 11:15:00
+295,2025-01-07,Ransomware,Medium,Resolved,Description for incident 295,IT Admin,2025-01-07 13:56:00
+296,2025-02-14,Data Breach,Low,Open,Description for incident 296,Charlie,2025-02-14 20:05:00
+297,2025-02-28,DDoS,Low,Open,Description for incident 297,Web Team,2025-02-28 12:58:00
+298,2025-02-26,Insider Threat,Low,Resolved,Description for incident 298,Security Team,2025-02-26 12:31:00
+299,2025-01-28,Malware,Low,Investigating,Description for incident 299,Alice,2025-01-28 21:36:00
+300,2025-01-15,Ransomware,High,Resolved,Description for incident 300,Alice,2025-01-15 19:54:00
+301,2025-02-17,Insider Threat,High,Mitigating,Description for incident 301,Web Team,2025-02-17 18:02:00
+302,2025-02-26,Password Attack,Low,Open,Description for incident 302,Alice,2025-02-26 12:07:00
+303,2025-01-22,Malware,High,Mitigating,Description for incident 303,Eve,2025-01-22 12:13:00
+304,2025-01-24,Phishing,Low,Resolved,Description for incident 304,IT Admin,2025-01-24 15:49:00
+305,2025-02-18,Ransomware,High,Mitigating,Description for incident 305,IT Admin,2025-02-18 12:04:00
+306,2025-01-18,DDoS,Low,Investigating,Description for incident 306,Grace,2025-01-18 18:59:00
+307,2025-01-21,Insider Threat,Medium,Investigating,Description for incident 307,Bob,2025-01-21 09:36:00
+308,2025-02-09,Network Intrusion,High,Mitigating,Description for incident 308,Eve,2025-02-09 03:22:00
+309,2025-01-29,Ransomware,High,Mitigating,Description for incident 309,IT Admin,2025-01-29 19:50:00
+310,2025-02-03,Password Attack,Medium,Mitigating,Description for incident 310,Charlie,2025-02-03 21:31:00
+311,2025-02-22,Insider Threat,Critical,Investigating,Description for incident 311,Bob,2025-02-22 03:45:00
+312,2025-01-19,Malware,Medium,Mitigating,Description for incident 312,Charlie,2025-01-19 08:26:00
+313,2025-02-15,Unauthorized Access,Critical,Mitigating,Description for incident 313,Security Team,2025-02-15 08:35:00
+314,2025-01-05,SQL Injection,Medium,Open,Description for incident 314,Frank,2025-01-05 20:30:00
+315,2025-02-09,Unauthorized Access,Critical,Mitigating,Description for incident 315,Charlie,2025-02-09 00:06:00
+316,2025-01-04,Password Attack,Low,Open,Description for incident 316,Charlie,2025-01-04 19:28:00
+317,2025-02-19,Password Attack,High,Open,Description for incident 317,Web Team,2025-02-19 20:28:00
+318,2025-02-07,Ransomware,Medium,Open,Description for incident 318,Charlie,2025-02-07 09:02:00
+319,2025-02-18,Password Attack,High,Investigating,Description for incident 319,Bob,2025-02-18 12:09:00
+320,2025-01-12,Password Attack,Low,Investigating,Description for incident 320,Eve,2025-01-12 05:54:00
+321,2025-02-28,Ransomware,Critical,Resolved,Description for incident 321,Grace,2025-02-28 04:40:00
+322,2025-01-24,SQL Injection,Medium,Resolved,Description for incident 322,IT Admin,2025-01-24 23:52:00
+323,2025-02-21,Insider Threat,Low,Resolved,Description for incident 323,David,2025-02-21 22:47:00
+324,2025-01-06,SQL Injection,Low,Investigating,Description for incident 324,Charlie,2025-01-06 00:13:00
+325,2025-01-05,Ransomware,Medium,Open,Description for incident 325,Charlie,2025-01-05 04:07:00
+326,2025-01-16,Ransomware,Medium,Open,Description for incident 326,Charlie,2025-01-16 21:35:00
+327,2025-01-04,SQL Injection,Medium,Open,Description for incident 327,Charlie,2025-01-04 23:41:00
+328,2025-02-02,Password Attack,High,Resolved,Description for incident 328,Frank,2025-02-02 11:14:00
+329,2025-01-22,Unauthorized Access,Critical,Investigating,Description for incident 329,Bob,2025-01-22 05:53:00
+330,2025-01-05,Malware,Low,Open,Description for incident 330,David,2025-01-05 20:13:00
+331,2025-02-05,Password Attack,Critical,Investigating,Description for incident 331,Alice,2025-02-05 15:52:00
+332,2025-03-02,Network Intrusion,Critical,Investigating,Description for incident 332,Grace,2025-03-02 15:33:00
+333,2025-01-27,Malware,Low,Open,Description for incident 333,Frank,2025-01-27 05:34:00
+334,2025-02-09,Malware,Medium,Mitigating,Description for incident 334,Alice,2025-02-09 08:31:00
+335,2025-01-19,Data Breach,Low,Investigating,Description for incident 335,Grace,2025-01-19 12:13:00
+336,2025-01-28,Password Attack,Low,Open,Description for incident 336,Web Team,2025-01-28 18:19:00
+337,2025-02-02,Unauthorized Access,High,Mitigating,Description for incident 337,David,2025-02-02 04:28:00
+338,2025-02-18,Unauthorized Access,Low,Resolved,Description for incident 338,Web Team,2025-02-18 16:09:00
+339,2025-01-17,DDoS,Critical,Resolved,Description for incident 339,Frank,2025-01-17 22:46:00
+340,2025-01-05,Network Intrusion,High,Resolved,Description for incident 340,IT Admin,2025-01-05 04:39:00
+341,2025-01-22,Unauthorized Access,High,Investigating,Description for incident 341,Security Team,2025-01-22 06:14:00
+342,2025-01-11,Password Attack,Critical,Investigating,Description for incident 342,Bob,2025-01-11 18:45:00
+343,2025-01-31,SQL Injection,Medium,Mitigating,Description for incident 343,Grace,2025-01-31 14:01:00
+344,2025-01-17,Network Intrusion,Critical,Open,Description for incident 344,IT Admin,2025-01-17 09:04:00
+345,2025-02-24,Insider Threat,Medium,Mitigating,Description for incident 345,Security Team,2025-02-24 22:37:00
+346,2025-01-31,SQL Injection,Low,Investigating,Description for incident 346,David,2025-01-31 20:15:00
+347,2025-02-23,Data Breach,Critical,Resolved,Description for incident 347,Frank,2025-02-23 15:35:00
+348,2025-01-11,Data Breach,Low,Investigating,Description for incident 348,David,2025-01-11 03:17:00
+349,2025-01-16,Phishing,High,Investigating,Description for incident 349,Eve,2025-01-16 20:26:00
+350,2025-02-20,Password Attack,Low,Investigating,Description for incident 350,Frank,2025-02-20 07:31:00
+351,2025-01-20,Data Breach,High,Open,Description for incident 351,Web Team,2025-01-20 13:31:00
+352,2025-01-01,DDoS,Critical,Open,Description for incident 352,IT Admin,2025-01-01 11:50:00
+353,2025-02-13,Network Intrusion,Critical,Resolved,Description for incident 353,IT Admin,2025-02-13 04:21:00
+354,2025-03-02,Unauthorized Access,High,Open,Description for incident 354,IT Admin,2025-03-02 13:50:00
+355,2025-01-25,Password Attack,High,Open,Description for incident 355,IT Admin,2025-01-25 03:16:00
+356,2025-02-23,Ransomware,Medium,Open,Description for incident 356,Security Team,2025-02-23 15:57:00
+357,2025-01-08,Unauthorized Access,Medium,Resolved,Description for incident 357,Alice,2025-01-08 11:07:00
+358,2025-01-08,SQL Injection,Low,Mitigating,Description for incident 358,IT Admin,2025-01-08 13:18:00
+359,2025-02-17,SQL Injection,Medium,Mitigating,Description for incident 359,Security Team,2025-02-17 09:39:00
+360,2025-01-20,Phishing,Critical,Mitigating,Description for incident 360,David,2025-01-20 04:19:00
+361,2025-01-30,Insider Threat,Critical,Mitigating,Description for incident 361,Grace,2025-01-30 16:21:00
+362,2025-02-19,Data Breach,Low,Resolved,Description for incident 362,IT Admin,2025-02-19 13:27:00
+363,2025-01-18,Data Breach,Critical,Mitigating,Description for incident 363,IT Admin,2025-01-18 16:17:00
+364,2025-02-07,Malware,Medium,Resolved,Description for incident 364,Alice,2025-02-07 23:37:00
+365,2025-02-23,Insider Threat,Medium,Resolved,Description for incident 365,Security Team,2025-02-23 03:02:00
+366,2025-01-16,DDoS,Medium,Resolved,Description for incident 366,IT Admin,2025-01-16 20:39:00
+367,2025-01-22,SQL Injection,Low,Investigating,Description for incident 367,Eve,2025-01-22 00:01:00
+368,2025-01-20,Data Breach,Low,Investigating,Description for incident 368,IT Admin,2025-01-20 22:04:00
+369,2025-01-27,DDoS,Critical,Mitigating,Description for incident 369,Charlie,2025-01-27 15:39:00
+370,2025-01-16,Password Attack,High,Resolved,Description for incident 370,Charlie,2025-01-16 15:43:00
+371,2025-02-02,Data Breach,Medium,Investigating,Description for incident 371,Bob,2025-02-02 21:29:00
+372,2025-02-08,DDoS,Low,Mitigating,Description for incident 372,Bob,2025-02-08 02:16:00
+373,2025-01-05,Insider Threat,Low,Resolved,Description for incident 373,Alice,2025-01-05 15:17:00
+374,2025-01-29,Ransomware,High,Open,Description for incident 374,Eve,2025-01-29 19:32:00
+375,2025-02-28,DDoS,Medium,Investigating,Description for incident 375,Frank,2025-02-28 02:36:00
+376,2025-02-16,Data Breach,Critical,Resolved,Description for incident 376,Bob,2025-02-16 19:57:00
+377,2025-01-04,SQL Injection,Critical,Resolved,Description for incident 377,Frank,2025-01-04 10:32:00
+378,2025-01-20,Password Attack,Low,Resolved,Description for incident 378,Security Team,2025-01-20 12:15:00
+379,2025-01-19,Unauthorized Access,High,Investigating,Description for incident 379,David,2025-01-19 18:02:00
+380,2025-01-03,Data Breach,Low,Open,Description for incident 380,Eve,2025-01-03 08:27:00
+381,2025-01-19,Ransomware,High,Open,Description for incident 381,Bob,2025-01-19 11:32:00
+382,2025-01-16,Data Breach,High,Investigating,Description for incident 382,Frank,2025-01-16 01:23:00
+383,2025-02-15,SQL Injection,High,Open,Description for incident 383,Alice,2025-02-15 21:12:00
+384,2025-02-28,Malware,Critical,Investigating,Description for incident 384,Grace,2025-02-28 08:46:00
+385,2025-02-24,Network Intrusion,High,Mitigating,Description for incident 385,Security Team,2025-02-24 18:28:00
+386,2025-01-18,Data Breach,Low,Investigating,Description for incident 386,Frank,2025-01-18 14:20:00
+387,2025-01-03,Malware,Low,Investigating,Description for incident 387,Grace,2025-01-03 11:20:00
+388,2025-01-26,Phishing,Low,Mitigating,Description for incident 388,Bob,2025-01-26 18:02:00
+389,2025-02-16,Ransomware,Medium,Open,Description for incident 389,Eve,2025-02-16 00:25:00
+390,2025-01-21,Unauthorized Access,High,Mitigating,Description for incident 390,Security Team,2025-01-21 10:21:00
+391,2025-02-23,Data Breach,Critical,Mitigating,Description for incident 391,Web Team,2025-02-23 04:44:00
+392,2025-02-21,Network Intrusion,High,Resolved,Description for incident 392,Alice,2025-02-21 04:56:00
+393,2025-02-02,Insider Threat,High,Open,Description for incident 393,Bob,2025-02-02 10:14:00
+394,2025-02-22,Password Attack,Medium,Open,Description for incident 394,IT Admin,2025-02-22 18:33:00
+395,2025-03-01,Data Breach,High,Mitigating,Description for incident 395,David,2025-03-01 07:34:00
+396,2025-02-15,Ransomware,High,Open,Description for incident 396,Frank,2025-02-15 01:22:00
+397,2025-01-22,SQL Injection,Critical,Resolved,Description for incident 397,Charlie,2025-01-22 21:02:00
+398,2025-02-26,Network Intrusion,Critical,Resolved,Description for incident 398,Charlie,2025-02-26 23:40:00
+399,2025-01-24,Insider Threat,High,Resolved,Description for incident 399,Alice,2025-01-24 19:52:00
+400,2025-02-15,DDoS,Critical,Resolved,Description for incident 400,IT Admin,2025-02-15 06:37:00
+401,2025-01-09,Insider Threat,Low,Open,Description for incident 401,Web Team,2025-01-09 16:20:00
+402,2025-01-31,SQL Injection,High,Mitigating,Description for incident 402,Charlie,2025-01-31 06:14:00
+403,2025-02-21,Data Breach,Medium,Resolved,Description for incident 403,Eve,2025-02-21 04:43:00
+404,2025-02-27,Unauthorized Access,Low,Open,Description for incident 404,Frank,2025-02-27 12:45:00
+405,2025-01-26,Data Breach,High,Investigating,Description for incident 405,Grace,2025-01-26 06:35:00
+406,2025-01-30,Ransomware,Medium,Open,Description for incident 406,Frank,2025-01-30 14:35:00
+407,2025-01-23,Malware,High,Open,Description for incident 407,Web Team,2025-01-23 01:09:00
+408,2025-02-22,Insider Threat,Critical,Investigating,Description for incident 408,Alice,2025-02-22 12:37:00
+409,2025-02-06,Ransomware,Medium,Mitigating,Description for incident 409,Frank,2025-02-06 12:52:00
+410,2025-01-09,Password Attack,Low,Resolved,Description for incident 410,IT Admin,2025-01-09 15:09:00
+411,2025-02-05,Malware,Critical,Investigating,Description for incident 411,David,2025-02-05 12:05:00
+412,2025-02-04,SQL Injection,High,Open,Description for incident 412,Security Team,2025-02-04 00:03:00
+413,2025-01-22,SQL Injection,Medium,Mitigating,Description for incident 413,Frank,2025-01-22 20:30:00
+414,2025-01-29,Ransomware,High,Investigating,Description for incident 414,IT Admin,2025-01-29 08:49:00
+415,2025-01-29,SQL Injection,Critical,Open,Description for incident 415,Charlie,2025-01-29 03:18:00
+416,2025-01-14,Insider Threat,Medium,Resolved,Description for incident 416,IT Admin,2025-01-14 02:57:00
+417,2025-01-16,Network Intrusion,High,Open,Description for incident 417,Alice,2025-01-16 21:08:00
+418,2025-01-22,SQL Injection,Critical,Investigating,Description for incident 418,Eve,2025-01-22 05:09:00
+419,2025-01-27,Network Intrusion,Critical,Open,Description for incident 419,IT Admin,2025-01-27 18:09:00
+420,2025-01-14,Phishing,High,Resolved,Description for incident 420,Alice,2025-01-14 00:44:00
+421,2025-01-22,SQL Injection,High,Resolved,Description for incident 421,Bob,2025-01-22 12:47:00
+422,2025-01-13,Data Breach,High,Resolved,Description for incident 422,Grace,2025-01-13 17:43:00
+423,2025-01-27,Insider Threat,Low,Mitigating,Description for incident 423,Alice,2025-01-27 23:06:00
+424,2025-02-17,Phishing,Low,Open,Description for incident 424,Web Team,2025-02-17 07:10:00
+425,2025-01-16,Phishing,Low,Investigating,Description for incident 425,Bob,2025-01-16 08:54:00
+426,2025-01-07,DDoS,Critical,Resolved,Description for incident 426,Web Team,2025-01-07 10:01:00
+427,2025-02-13,Insider Threat,High,Investigating,Description for incident 427,David,2025-02-13 05:18:00
+428,2025-01-10,Network Intrusion,High,Open,Description for incident 428,Eve,2025-01-10 15:34:00
+429,2025-02-22,Password Attack,Critical,Resolved,Description for incident 429,Frank,2025-02-22 16:48:00
+430,2025-02-28,Insider Threat,Medium,Investigating,Description for incident 430,Security Team,2025-02-28 01:43:00
+431,2025-02-24,Phishing,Critical,Investigating,Description for incident 431,David,2025-02-24 09:35:00
+432,2025-01-04,Data Breach,Critical,Open,Description for incident 432,Eve,2025-01-04 11:28:00
+433,2025-02-07,SQL Injection,Medium,Resolved,Description for incident 433,IT Admin,2025-02-07 20:50:00
+434,2025-02-22,Data Breach,Low,Investigating,Description for incident 434,IT Admin,2025-02-22 23:29:00
+435,2025-01-10,Malware,High,Investigating,Description for incident 435,Frank,2025-01-10 12:37:00
+436,2025-01-20,Ransomware,Critical,Resolved,Description for incident 436,Web Team,2025-01-20 03:43:00
+437,2025-02-21,Password Attack,Low,Resolved,Description for incident 437,IT Admin,2025-02-21 12:44:00
+438,2025-01-24,Ransomware,High,Investigating,Description for incident 438,Web Team,2025-01-24 14:05:00
+439,2025-01-31,DDoS,Medium,Resolved,Description for incident 439,Web Team,2025-01-31 08:55:00
+440,2025-01-06,Network Intrusion,Low,Resolved,Description for incident 440,Frank,2025-01-06 03:51:00
+441,2025-02-20,Insider Threat,High,Resolved,Description for incident 441,Grace,2025-02-20 22:51:00
+442,2025-02-15,Ransomware,Low,Open,Description for incident 442,Web Team,2025-02-15 23:28:00
+443,2025-02-11,Unauthorized Access,Critical,Investigating,Description for incident 443,Grace,2025-02-11 22:48:00
+444,2025-01-23,Malware,Low,Mitigating,Description for incident 444,Eve,2025-01-23 13:40:00
+445,2025-03-01,Phishing,High,Investigating,Description for incident 445,Web Team,2025-03-01 07:16:00
+446,2025-02-05,DDoS,Low,Open,Description for incident 446,Charlie,2025-02-05 22:18:00
+447,2025-01-20,SQL Injection,Medium,Resolved,Description for incident 447,Grace,2025-01-20 17:41:00
+448,2025-02-03,Ransomware,Medium,Open,Description for incident 448,Bob,2025-02-03 11:21:00
+449,2025-02-22,Data Breach,Critical,Investigating,Description for incident 449,IT Admin,2025-02-22 16:45:00
+450,2025-02-24,Insider Threat,Medium,Mitigating,Description for incident 450,Alice,2025-02-24 03:54:00
+451,2025-01-25,Data Breach,Medium,Resolved,Description for incident 451,Alice,2025-01-25 00:03:00
+452,2025-01-27,Phishing,Low,Investigating,Description for incident 452,Frank,2025-01-27 23:33:00
+453,2025-03-02,Phishing,Critical,Open,Description for incident 453,Security Team,2025-03-02 06:03:00
+454,2025-02-23,Phishing,Medium,Mitigating,Description for incident 454,Bob,2025-02-23 20:53:00
+455,2025-02-07,Password Attack,Critical,Mitigating,Description for incident 455,Alice,2025-02-07 11:23:00
+456,2025-02-10,SQL Injection,High,Mitigating,Description for incident 456,Charlie,2025-02-10 21:37:00
+457,2025-01-04,Password Attack,Low,Mitigating,Description for incident 457,Security Team,2025-01-04 19:40:00
+458,2025-01-23,Insider Threat,Medium,Investigating,Description for incident 458,Eve,2025-01-23 08:03:00
+459,2025-02-23,Malware,Critical,Mitigating,Description for incident 459,Frank,2025-02-23 08:13:00
+460,2025-01-01,Data Breach,Low,Mitigating,Description for incident 460,Eve,2025-01-01 21:26:00
+461,2025-01-07,DDoS,Low,Open,Description for incident 461,IT Admin,2025-01-07 09:16:00
+462,2025-02-18,Phishing,Medium,Resolved,Description for incident 462,Bob,2025-02-18 03:42:00
+463,2025-01-06,SQL Injection,Medium,Investigating,Description for incident 463,Eve,2025-01-06 14:50:00
+464,2025-01-24,Unauthorized Access,Medium,Mitigating,Description for incident 464,Grace,2025-01-24 02:22:00
+465,2025-02-09,SQL Injection,Medium,Mitigating,Description for incident 465,Grace,2025-02-09 07:50:00
+466,2025-01-03,Malware,Critical,Open,Description for incident 466,Bob,2025-01-03 06:20:00
+467,2025-01-07,DDoS,Critical,Investigating,Description for incident 467,Web Team,2025-01-07 20:47:00
+468,2025-02-14,SQL Injection,Low,Open,Description for incident 468,David,2025-02-14 04:50:00
+469,2025-01-03,Insider Threat,High,Open,Description for incident 469,Web Team,2025-01-03 14:16:00
+470,2025-02-22,SQL Injection,Low,Mitigating,Description for incident 470,Alice,2025-02-22 01:50:00
+471,2025-02-27,Unauthorized Access,Critical,Investigating,Description for incident 471,Alice,2025-02-27 11:57:00
+472,2025-01-02,Malware,Low,Resolved,Description for incident 472,Frank,2025-01-02 18:45:00
+473,2025-02-08,Ransomware,Critical,Resolved,Description for incident 473,Charlie,2025-02-08 07:03:00
+474,2025-03-02,Password Attack,High,Resolved,Description for incident 474,David,2025-03-02 05:02:00
+475,2025-02-20,Malware,Low,Investigating,Description for incident 475,IT Admin,2025-02-20 13:54:00
+476,2025-02-28,Insider Threat,Critical,Mitigating,Description for incident 476,Bob,2025-02-28 21:40:00
+477,2025-01-19,Data Breach,High,Investigating,Description for incident 477,Grace,2025-01-19 01:41:00
+478,2025-01-04,Phishing,High,Investigating,Description for incident 478,Bob,2025-01-04 23:40:00
+479,2025-01-23,SQL Injection,Low,Investigating,Description for incident 479,Charlie,2025-01-23 12:45:00
+480,2025-01-31,Phishing,High,Investigating,Description for incident 480,Security Team,2025-01-31 17:21:00
+481,2025-01-01,Phishing,Medium,Open,Description for incident 481,Web Team,2025-01-01 02:41:00
+482,2025-01-02,SQL Injection,Medium,Investigating,Description for incident 482,Bob,2025-01-02 04:01:00
+483,2025-01-21,Data Breach,Medium,Open,Description for incident 483,David,2025-01-21 18:16:00
+484,2025-01-11,SQL Injection,High,Open,Description for incident 484,Eve,2025-01-11 13:12:00
+485,2025-01-14,Network Intrusion,Critical,Open,Description for incident 485,IT Admin,2025-01-14 11:56:00
+486,2025-01-15,Insider Threat,Critical,Open,Description for incident 486,Eve,2025-01-15 22:54:00
+487,2025-01-03,Malware,Low,Investigating,Description for incident 487,Eve,2025-01-03 04:18:00
+488,2025-01-12,Unauthorized Access,Critical,Open,Description for incident 488,Frank,2025-01-12 23:44:00
+489,2025-02-11,Data Breach,High,Open,Description for incident 489,Eve,2025-02-11 15:02:00
+490,2025-02-07,Password Attack,Low,Mitigating,Description for incident 490,Web Team,2025-02-07 04:09:00
+491,2025-01-07,Malware,Medium,Investigating,Description for incident 491,Charlie,2025-01-07 00:16:00
+492,2025-02-18,Malware,Critical,Mitigating,Description for incident 492,IT Admin,2025-02-18 07:22:00
+493,2025-02-15,Ransomware,High,Open,Description for incident 493,Frank,2025-02-15 16:34:00
+494,2025-02-17,SQL Injection,Low,Mitigating,Description for incident 494,IT Admin,2025-02-17 04:44:00
+495,2025-01-07,Unauthorized Access,Medium,Mitigating,Description for incident 495,Alice,2025-01-07 11:11:00
+496,2025-01-06,Ransomware,Low,Mitigating,Description for incident 496,Web Team,2025-01-06 09:38:00
+497,2025-02-14,Data Breach,Critical,Open,Description for incident 497,Charlie,2025-02-14 10:05:00
+498,2025-01-22,Data Breach,Medium,Investigating,Description for incident 498,Bob,2025-01-22 05:37:00
+499,2025-01-12,Ransomware,Low,Open,Description for incident 499,Security Team,2025-01-12 05:19:00
+500,2025-02-22,Phishing,Low,Mitigating,Description for incident 500,Charlie,2025-02-22 21:13:00
+501,2025-01-11,Data Breach,Medium,Open,Description for incident 501,Web Team,2025-01-11 10:48:00
+502,2025-02-17,Insider Threat,Medium,Resolved,Description for incident 502,Web Team,2025-02-17 20:59:00
+503,2025-02-21,Data Breach,Low,Resolved,Description for incident 503,Frank,2025-02-21 19:38:00
+504,2025-02-19,Unauthorized Access,Medium,Investigating,Description for incident 504,Security Team,2025-02-19 07:05:00
+505,2025-01-11,Data Breach,Medium,Investigating,Description for incident 505,Bob,2025-01-11 14:02:00
+506,2025-02-24,Unauthorized Access,Low,Mitigating,Description for incident 506,David,2025-02-24 19:48:00
+507,2025-01-03,Phishing,High,Resolved,Description for incident 507,David,2025-01-03 09:43:00
+508,2025-02-01,Ransomware,High,Mitigating,Description for incident 508,IT Admin,2025-02-01 19:52:00
+509,2025-01-27,DDoS,Critical,Open,Description for incident 509,Bob,2025-01-27 20:25:00
+510,2025-01-06,Phishing,Critical,Resolved,Description for incident 510,Web Team,2025-01-06 12:36:00
+511,2025-02-08,Network Intrusion,Low,Open,Description for incident 511,Alice,2025-02-08 14:18:00
+512,2025-02-12,Insider Threat,Low,Open,Description for incident 512,IT Admin,2025-02-12 18:51:00
+513,2025-02-23,Malware,High,Open,Description for incident 513,IT Admin,2025-02-23 23:57:00
+514,2025-01-31,Data Breach,Critical,Open,Description for incident 514,Charlie,2025-01-31 07:07:00
+515,2025-02-11,Phishing,High,Resolved,Description for incident 515,Charlie,2025-02-11 06:04:00
+516,2025-02-04,DDoS,Medium,Resolved,Description for incident 516,Charlie,2025-02-04 01:30:00
+517,2025-02-19,DDoS,Low,Open,Description for incident 517,Security Team,2025-02-19 05:04:00
+518,2025-01-31,Data Breach,Critical,Open,Description for incident 518,Charlie,2025-01-31 19:55:00
+519,2025-01-29,Data Breach,Low,Open,Description for incident 519,Grace,2025-01-29 18:17:00
+520,2025-01-05,Network Intrusion,High,Mitigating,Description for incident 520,Security Team,2025-01-05 20:11:00
+521,2025-01-09,Phishing,Medium,Mitigating,Description for incident 521,Bob,2025-01-09 05:47:00
+522,2025-01-28,Insider Threat,Critical,Mitigating,Description for incident 522,Security Team,2025-01-28 04:57:00
+523,2025-01-31,Malware,Low,Resolved,Description for incident 523,Security Team,2025-01-31 12:59:00
+524,2025-02-17,DDoS,Critical,Open,Description for incident 524,Charlie,2025-02-17 14:11:00
+525,2025-01-25,Unauthorized Access,Low,Investigating,Description for incident 525,Web Team,2025-01-25 09:40:00
+526,2025-01-16,Data Breach,Low,Investigating,Description for incident 526,Eve,2025-01-16 18:20:00
+527,2025-02-23,SQL Injection,Medium,Open,Description for incident 527,Security Team,2025-02-23 21:36:00
+528,2025-02-04,Unauthorized Access,Critical,Open,Description for incident 528,Eve,2025-02-04 01:51:00
+529,2025-01-07,Password Attack,Critical,Investigating,Description for incident 529,Eve,2025-01-07 12:12:00
+530,2025-02-13,Insider Threat,High,Resolved,Description for incident 530,Web Team,2025-02-13 01:59:00
+531,2025-02-16,Ransomware,Critical,Resolved,Description for incident 531,Alice,2025-02-16 00:32:00
+532,2025-01-20,Network Intrusion,Critical,Investigating,Description for incident 532,Frank,2025-01-20 19:18:00
+533,2025-01-23,Insider Threat,Low,Investigating,Description for incident 533,IT Admin,2025-01-23 12:10:00
+534,2025-02-17,Insider Threat,Critical,Resolved,Description for incident 534,Charlie,2025-02-17 05:25:00
+535,2025-02-08,Phishing,Low,Investigating,Description for incident 535,Frank,2025-02-08 11:13:00
+536,2025-02-20,Password Attack,Medium,Investigating,Description for incident 536,Security Team,2025-02-20 08:24:00
+537,2025-01-05,Network Intrusion,Low,Resolved,Description for incident 537,Frank,2025-01-05 14:10:00
+538,2025-02-22,Network Intrusion,Critical,Resolved,Description for incident 538,Alice,2025-02-22 09:19:00
+539,2025-02-15,Malware,High,Investigating,Description for incident 539,Grace,2025-02-15 02:25:00
+540,2025-01-08,Data Breach,High,Open,Description for incident 540,David,2025-01-08 21:16:00
+541,2025-02-22,Insider Threat,High,Investigating,Description for incident 541,Bob,2025-02-22 19:46:00
+542,2025-01-13,Phishing,Low,Resolved,Description for incident 542,Alice,2025-01-13 21:08:00
+543,2025-02-09,Ransomware,Critical,Investigating,Description for incident 543,David,2025-02-09 14:05:00
+544,2025-02-02,Insider Threat,Medium,Mitigating,Description for incident 544,Eve,2025-02-02 03:22:00
+545,2025-02-13,Data Breach,Medium,Investigating,Description for incident 545,Web Team,2025-02-13 02:50:00
+546,2025-01-19,Ransomware,Medium,Investigating,Description for incident 546,Bob,2025-01-19 02:58:00
+547,2025-02-03,Unauthorized Access,High,Open,Description for incident 547,Web Team,2025-02-03 16:11:00
+548,2025-02-23,Network Intrusion,Medium,Open,Description for incident 548,Grace,2025-02-23 16:26:00
+549,2025-02-06,Phishing,Low,Resolved,Description for incident 549,Frank,2025-02-06 03:20:00
+550,2025-02-17,Password Attack,High,Open,Description for incident 550,Alice,2025-02-17 17:19:00
+551,2025-01-03,Unauthorized Access,Critical,Resolved,Description for incident 551,Alice,2025-01-03 03:27:00
+552,2025-01-21,Data Breach,Critical,Open,Description for incident 552,Web Team,2025-01-21 05:38:00
+553,2025-02-15,Malware,Medium,Resolved,Description for incident 553,Web Team,2025-02-15 10:42:00
+554,2025-02-15,Data Breach,Critical,Resolved,Description for incident 554,Security Team,2025-02-15 03:33:00
+555,2025-02-04,DDoS,High,Open,Description for incident 555,Web Team,2025-02-04 05:17:00
+556,2025-03-02,Network Intrusion,High,Investigating,Description for incident 556,IT Admin,2025-03-02 15:11:00
+557,2025-03-01,Malware,High,Mitigating,Description for incident 557,Bob,2025-03-01 07:55:00
+558,2025-02-27,Malware,High,Resolved,Description for incident 558,Charlie,2025-02-27 04:52:00
+559,2025-01-13,Unauthorized Access,Low,Open,Description for incident 559,Security Team,2025-01-13 03:24:00
+560,2025-01-20,Ransomware,Medium,Mitigating,Description for incident 560,Security Team,2025-01-20 12:07:00
+561,2025-02-19,Password Attack,Low,Open,Description for incident 561,Security Team,2025-02-19 09:08:00
+562,2025-01-15,Insider Threat,Critical,Resolved,Description for incident 562,Frank,2025-01-15 06:04:00
+563,2025-01-04,Malware,High,Investigating,Description for incident 563,Alice,2025-01-04 19:55:00
+564,2025-01-26,Unauthorized Access,High,Investigating,Description for incident 564,Frank,2025-01-26 20:54:00
+565,2025-01-09,SQL Injection,Low,Investigating,Description for incident 565,Charlie,2025-01-09 10:13:00
+566,2025-01-20,Network Intrusion,Low,Investigating,Description for incident 566,IT Admin,2025-01-20 15:48:00
+567,2025-02-24,Data Breach,Low,Investigating,Description for incident 567,Security Team,2025-02-24 02:04:00
+568,2025-01-12,Insider Threat,Critical,Mitigating,Description for incident 568,Bob,2025-01-12 17:48:00
+569,2025-02-26,Insider Threat,Low,Open,Description for incident 569,David,2025-02-26 01:10:00
+570,2025-01-16,Insider Threat,Critical,Investigating,Description for incident 570,Bob,2025-01-16 00:39:00
+571,2025-01-07,Malware,Medium,Investigating,Description for incident 571,Charlie,2025-01-07 11:28:00
+572,2025-02-21,Data Breach,Critical,Mitigating,Description for incident 572,Charlie,2025-02-21 13:18:00
+573,2025-01-21,SQL Injection,Low,Open,Description for incident 573,Frank,2025-01-21 20:21:00
+574,2025-01-23,SQL Injection,Critical,Mitigating,Description for incident 574,Frank,2025-01-23 10:12:00
+575,2025-01-21,Phishing,High,Mitigating,Description for incident 575,David,2025-01-21 22:40:00
+576,2025-01-05,Data Breach,Medium,Resolved,Description for incident 576,Bob,2025-01-05 02:58:00
+577,2025-02-01,Password Attack,Critical,Mitigating,Description for incident 577,Frank,2025-02-01 06:59:00
+578,2025-02-09,DDoS,Medium,Resolved,Description for incident 578,Charlie,2025-02-09 23:28:00
+579,2025-02-27,Ransomware,High,Resolved,Description for incident 579,IT Admin,2025-02-27 01:46:00
+580,2025-02-11,Ransomware,High,Mitigating,Description for incident 580,Web Team,2025-02-11 10:58:00
+581,2025-02-28,DDoS,Critical,Mitigating,Description for incident 581,Charlie,2025-02-28 10:33:00
+582,2025-01-30,Password Attack,Medium,Resolved,Description for incident 582,Charlie,2025-01-30 10:30:00
+583,2025-02-07,Data Breach,Low,Open,Description for incident 583,IT Admin,2025-02-07 04:34:00
+584,2025-01-21,Insider Threat,Critical,Resolved,Description for incident 584,Web Team,2025-01-21 18:49:00
+585,2025-02-19,Ransomware,Low,Open,Description for incident 585,Frank,2025-02-19 03:50:00
+586,2025-03-01,Insider Threat,Medium,Open,Description for incident 586,Web Team,2025-03-01 22:09:00
+587,2025-02-09,Ransomware,High,Mitigating,Description for incident 587,Eve,2025-02-09 13:35:00
+588,2025-02-10,Insider Threat,Critical,Open,Description for incident 588,Bob,2025-02-10 20:39:00
+589,2025-02-10,SQL Injection,Low,Investigating,Description for incident 589,David,2025-02-10 00:46:00
+590,2025-01-30,Password Attack,High,Investigating,Description for incident 590,Charlie,2025-01-30 08:39:00
+591,2025-02-16,Phishing,High,Resolved,Description for incident 591,Bob,2025-02-16 00:26:00
+592,2025-02-03,Malware,Critical,Investigating,Description for incident 592,Bob,2025-02-03 14:46:00
+593,2025-01-24,Ransomware,Medium,Investigating,Description for incident 593,David,2025-01-24 18:46:00
+594,2025-01-29,Malware,High,Resolved,Description for incident 594,Security Team,2025-01-29 08:21:00
+595,2025-02-25,Unauthorized Access,High,Investigating,Description for incident 595,Security Team,2025-02-25 20:13:00
+596,2025-01-10,Malware,High,Resolved,Description for incident 596,Security Team,2025-01-10 04:31:00
+597,2025-03-01,Phishing,High,Resolved,Description for incident 597,Grace,2025-03-01 23:06:00
+598,2025-02-08,DDoS,High,Investigating,Description for incident 598,Bob,2025-02-08 22:41:00
+599,2025-02-07,Malware,Critical,Resolved,Description for incident 599,Security Team,2025-02-07 01:45:00
+600,2025-01-13,Insider Threat,High,Mitigating,Description for incident 600,IT Admin,2025-01-13 19:59:00
+601,2025-01-27,SQL Injection,High,Mitigating,Description for incident 601,Bob,2025-01-27 15:57:00
+602,2025-02-16,Phishing,Low,Investigating,Description for incident 602,Eve,2025-02-16 06:53:00
+603,2025-02-01,DDoS,Medium,Resolved,Description for incident 603,Security Team,2025-02-01 11:58:00
+604,2025-01-05,Data Breach,Low,Open,Description for incident 604,David,2025-01-05 20:43:00
+605,2025-01-02,Phishing,High,Open,Description for incident 605,Bob,2025-01-02 02:04:00
+606,2025-02-04,DDoS,High,Investigating,Description for incident 606,Alice,2025-02-04 00:34:00
+607,2025-01-30,Insider Threat,Low,Resolved,Description for incident 607,Eve,2025-01-30 05:23:00
+608,2025-01-01,SQL Injection,High,Investigating,Description for incident 608,IT Admin,2025-01-01 07:41:00
+609,2025-02-28,Data Breach,High,Open,Description for incident 609,Frank,2025-02-28 11:05:00
+610,2025-02-25,Data Breach,High,Open,Description for incident 610,Eve,2025-02-25 05:33:00
+611,2025-01-11,Unauthorized Access,Medium,Investigating,Description for incident 611,IT Admin,2025-01-11 03:19:00
+612,2025-01-12,Data Breach,Medium,Open,Description for incident 612,Charlie,2025-01-12 00:15:00
+613,2025-01-02,SQL Injection,Critical,Resolved,Description for incident 613,Grace,2025-01-02 12:15:00
+614,2025-01-06,Network Intrusion,Low,Resolved,Description for incident 614,Frank,2025-01-06 18:54:00
+615,2025-02-27,Network Intrusion,Critical,Open,Description for incident 615,Grace,2025-02-27 04:53:00
+616,2025-01-18,Network Intrusion,Critical,Open,Description for incident 616,Alice,2025-01-18 23:52:00
+617,2025-02-20,Ransomware,Medium,Mitigating,Description for incident 617,Grace,2025-02-20 22:59:00
+618,2025-02-11,Phishing,Low,Open,Description for incident 618,Charlie,2025-02-11 12:20:00
+619,2025-02-27,SQL Injection,Low,Open,Description for incident 619,Web Team,2025-02-27 20:43:00
+620,2025-02-23,DDoS,Medium,Open,Description for incident 620,Frank,2025-02-23 10:21:00
+621,2025-02-09,Ransomware,Critical,Open,Description for incident 621,Bob,2025-02-09 23:40:00
+622,2025-01-07,Password Attack,Critical,Resolved,Description for incident 622,Security Team,2025-01-07 21:27:00
+623,2025-02-15,DDoS,Medium,Resolved,Description for incident 623,Charlie,2025-02-15 15:53:00
+624,2025-02-15,SQL Injection,Critical,Mitigating,Description for incident 624,Eve,2025-02-15 16:00:00
+625,2025-01-25,Network Intrusion,Low,Resolved,Description for incident 625,Web Team,2025-01-25 02:58:00
+626,2025-02-12,SQL Injection,High,Resolved,Description for incident 626,Bob,2025-02-12 18:01:00
+627,2025-02-27,SQL Injection,Critical,Open,Description for incident 627,Bob,2025-02-27 07:29:00
+628,2025-01-04,SQL Injection,High,Investigating,Description for incident 628,Web Team,2025-01-04 16:36:00
+629,2025-02-22,Ransomware,Critical,Investigating,Description for incident 629,Alice,2025-02-22 21:53:00
+630,2025-01-24,SQL Injection,Low,Investigating,Description for incident 630,Grace,2025-01-24 21:39:00
+631,2025-02-20,Phishing,Medium,Open,Description for incident 631,Grace,2025-02-20 12:52:00
+632,2025-01-02,Malware,Medium,Investigating,Description for incident 632,Frank,2025-01-02 08:17:00
+633,2025-03-01,Malware,Medium,Mitigating,Description for incident 633,Frank,2025-03-01 10:54:00
+634,2025-03-02,Malware,High,Mitigating,Description for incident 634,Charlie,2025-03-02 09:13:00
+635,2025-02-01,Network Intrusion,High,Resolved,Description for incident 635,IT Admin,2025-02-01 07:34:00
+636,2025-01-18,Unauthorized Access,Medium,Resolved,Description for incident 636,Eve,2025-01-18 00:45:00
+637,2025-01-28,DDoS,Critical,Mitigating,Description for incident 637,Web Team,2025-01-28 13:09:00
+638,2025-02-15,DDoS,Critical,Open,Description for incident 638,Grace,2025-02-15 19:34:00
+639,2025-01-10,DDoS,High,Resolved,Description for incident 639,Charlie,2025-01-10 13:46:00
+640,2025-02-08,DDoS,High,Mitigating,Description for incident 640,Alice,2025-02-08 15:13:00
+641,2025-01-19,Insider Threat,Low,Resolved,Description for incident 641,Bob,2025-01-19 06:23:00
+642,2025-01-26,Ransomware,Critical,Resolved,Description for incident 642,Alice,2025-01-26 10:53:00
+643,2025-02-20,Malware,Critical,Investigating,Description for incident 643,Web Team,2025-02-20 13:06:00
+644,2025-01-03,SQL Injection,Low,Mitigating,Description for incident 644,IT Admin,2025-01-03 04:16:00
+645,2025-01-09,Malware,Critical,Investigating,Description for incident 645,Security Team,2025-01-09 16:21:00
+646,2025-02-13,Unauthorized Access,High,Open,Description for incident 646,Web Team,2025-02-13 06:00:00
+647,2025-02-07,Password Attack,Medium,Investigating,Description for incident 647,Charlie,2025-02-07 16:08:00
+648,2025-01-31,DDoS,Medium,Open,Description for incident 648,Bob,2025-01-31 03:30:00
+649,2025-01-29,SQL Injection,Medium,Investigating,Description for incident 649,Alice,2025-01-29 08:17:00
+650,2025-02-04,DDoS,High,Resolved,Description for incident 650,Web Team,2025-02-04 06:43:00
+651,2025-02-02,Password Attack,Critical,Investigating,Description for incident 651,Frank,2025-02-02 19:18:00
+652,2025-01-31,Ransomware,Medium,Investigating,Description for incident 652,Frank,2025-01-31 11:41:00
+653,2025-01-09,Network Intrusion,High,Resolved,Description for incident 653,Security Team,2025-01-09 03:49:00
+654,2025-01-26,Unauthorized Access,High,Investigating,Description for incident 654,Security Team,2025-01-26 20:53:00
+655,2025-01-04,Network Intrusion,High,Mitigating,Description for incident 655,Eve,2025-01-04 01:48:00
+656,2025-01-31,Unauthorized Access,Critical,Mitigating,Description for incident 656,Grace,2025-01-31 20:20:00
+657,2025-02-24,Ransomware,High,Investigating,Description for incident 657,David,2025-02-24 14:08:00
+658,2025-01-10,Password Attack,Low,Investigating,Description for incident 658,Charlie,2025-01-10 08:39:00
+659,2025-01-02,SQL Injection,Low,Resolved,Description for incident 659,Grace,2025-01-02 14:44:00
+660,2025-02-11,Unauthorized Access,Critical,Open,Description for incident 660,Frank,2025-02-11 01:06:00
+661,2025-01-03,Malware,Low,Mitigating,Description for incident 661,Charlie,2025-01-03 02:39:00
+662,2025-01-16,Unauthorized Access,Medium,Resolved,Description for incident 662,Bob,2025-01-16 13:47:00
+663,2025-01-06,Network Intrusion,Critical,Open,Description for incident 663,Charlie,2025-01-06 16:53:00
+664,2025-02-22,DDoS,Critical,Resolved,Description for incident 664,IT Admin,2025-02-22 23:06:00
+665,2025-02-28,Malware,High,Mitigating,Description for incident 665,David,2025-02-28 01:08:00
+666,2025-02-13,Insider Threat,Critical,Resolved,Description for incident 666,IT Admin,2025-02-13 02:50:00
+667,2025-02-13,SQL Injection,Medium,Resolved,Description for incident 667,Web Team,2025-02-13 04:51:00
+668,2025-02-08,DDoS,Medium,Investigating,Description for incident 668,Alice,2025-02-08 21:54:00
+669,2025-01-31,DDoS,Low,Resolved,Description for incident 669,Security Team,2025-01-31 16:37:00
+670,2025-02-25,Unauthorized Access,Medium,Open,Description for incident 670,Frank,2025-02-25 16:02:00
+671,2025-03-01,Data Breach,Medium,Resolved,Description for incident 671,Web Team,2025-03-01 05:41:00
+672,2025-01-14,Unauthorized Access,High,Mitigating,Description for incident 672,Grace,2025-01-14 10:01:00
+673,2025-01-04,Malware,Low,Mitigating,Description for incident 673,Security Team,2025-01-04 19:11:00
+674,2025-02-08,Network Intrusion,Low,Resolved,Description for incident 674,Alice,2025-02-08 12:54:00
+675,2025-01-16,Phishing,Critical,Investigating,Description for incident 675,Web Team,2025-01-16 00:00:00
+676,2025-02-22,Unauthorized Access,High,Mitigating,Description for incident 676,Web Team,2025-02-22 05:49:00
+677,2025-01-13,Unauthorized Access,High,Resolved,Description for incident 677,Grace,2025-01-13 20:28:00
+678,2025-02-10,Password Attack,High,Investigating,Description for incident 678,Charlie,2025-02-10 16:50:00
+679,2025-03-01,Phishing,Critical,Investigating,Description for incident 679,Web Team,2025-03-01 23:43:00
+680,2025-02-03,Network Intrusion,Critical,Resolved,Description for incident 680,Grace,2025-02-03 00:35:00
+681,2025-01-06,SQL Injection,Critical,Mitigating,Description for incident 681,Web Team,2025-01-06 11:48:00
+682,2025-01-09,Network Intrusion,Critical,Open,Description for incident 682,Grace,2025-01-09 02:39:00
+683,2025-02-27,DDoS,Critical,Mitigating,Description for incident 683,Eve,2025-02-27 23:41:00
+684,2025-02-12,Ransomware,Low,Investigating,Description for incident 684,Frank,2025-02-12 07:02:00
+685,2025-01-05,Unauthorized Access,Medium,Investigating,Description for incident 685,Web Team,2025-01-05 23:53:00
+686,2025-01-13,Phishing,Medium,Resolved,Description for incident 686,Bob,2025-01-13 23:29:00
+687,2025-01-24,Unauthorized Access,High,Open,Description for incident 687,Web Team,2025-01-24 13:30:00
+688,2025-01-26,Data Breach,Critical,Resolved,Description for incident 688,David,2025-01-26 12:31:00
+689,2025-01-11,Password Attack,Medium,Mitigating,Description for incident 689,Charlie,2025-01-11 19:25:00
+690,2025-01-04,Insider Threat,High,Open,Description for incident 690,Charlie,2025-01-04 07:16:00
+691,2025-01-28,Ransomware,High,Investigating,Description for incident 691,Alice,2025-01-28 00:35:00
+692,2025-01-31,Network Intrusion,Low,Resolved,Description for incident 692,Alice,2025-01-31 10:52:00
+693,2025-01-16,Ransomware,Medium,Mitigating,Description for incident 693,Eve,2025-01-16 13:58:00
+694,2025-01-16,Password Attack,Low,Investigating,Description for incident 694,Grace,2025-01-16 03:26:00
+695,2025-01-22,DDoS,High,Mitigating,Description for incident 695,Frank,2025-01-22 09:21:00
+696,2025-01-11,Phishing,Medium,Investigating,Description for incident 696,IT Admin,2025-01-11 05:45:00
+697,2025-02-25,Malware,Critical,Resolved,Description for incident 697,David,2025-02-25 11:53:00
+698,2025-01-22,Password Attack,Low,Open,Description for incident 698,Grace,2025-01-22 06:46:00
+699,2025-01-31,Password Attack,Critical,Investigating,Description for incident 699,Charlie,2025-01-31 18:24:00
+700,2025-02-25,Insider Threat,Critical,Investigating,Description for incident 700,Grace,2025-02-25 17:09:00
+701,2025-01-28,Malware,Critical,Resolved,Description for incident 701,Web Team,2025-01-28 10:12:00
+702,2025-01-19,Malware,Medium,Mitigating,Description for incident 702,IT Admin,2025-01-19 16:53:00
+703,2025-01-11,Network Intrusion,Medium,Resolved,Description for incident 703,Security Team,2025-01-11 12:20:00
+704,2025-01-12,SQL Injection,Medium,Investigating,Description for incident 704,Charlie,2025-01-12 17:06:00
+705,2025-01-25,Insider Threat,High,Investigating,Description for incident 705,Bob,2025-01-25 01:09:00
+706,2025-02-26,Malware,Low,Mitigating,Description for incident 706,Eve,2025-02-26 02:34:00
+707,2025-02-07,Ransomware,Critical,Open,Description for incident 707,Web Team,2025-02-07 11:30:00
+708,2025-02-15,Ransomware,Critical,Resolved,Description for incident 708,Eve,2025-02-15 15:00:00
+709,2025-02-27,Ransomware,Low,Resolved,Description for incident 709,Alice,2025-02-27 13:05:00
+710,2025-02-02,Network Intrusion,Low,Investigating,Description for incident 710,Eve,2025-02-02 02:28:00
+711,2025-02-14,Network Intrusion,Critical,Open,Description for incident 711,IT Admin,2025-02-14 21:53:00
+712,2025-01-04,Data Breach,Medium,Open,Description for incident 712,David,2025-01-04 21:25:00
+713,2025-03-02,Unauthorized Access,Medium,Resolved,Description for incident 713,David,2025-03-02 23:02:00
+714,2025-01-24,Password Attack,Low,Investigating,Description for incident 714,IT Admin,2025-01-24 01:34:00
+715,2025-02-20,Malware,Low,Investigating,Description for incident 715,Security Team,2025-02-20 15:20:00
+716,2025-01-04,Unauthorized Access,Low,Mitigating,Description for incident 716,Web Team,2025-01-04 09:17:00
+717,2025-01-22,Malware,High,Investigating,Description for incident 717,David,2025-01-22 14:12:00
+718,2025-01-14,Ransomware,High,Resolved,Description for incident 718,Charlie,2025-01-14 18:03:00
+719,2025-01-24,SQL Injection,High,Investigating,Description for incident 719,Alice,2025-01-24 03:36:00
+720,2025-01-21,Ransomware,High,Open,Description for incident 720,IT Admin,2025-01-21 08:44:00
+721,2025-02-27,Password Attack,Low,Open,Description for incident 721,Bob,2025-02-27 07:21:00
+722,2025-01-30,Network Intrusion,Medium,Investigating,Description for incident 722,Web Team,2025-01-30 12:20:00
+723,2025-01-08,Malware,Low,Investigating,Description for incident 723,Web Team,2025-01-08 22:40:00
+724,2025-02-19,Unauthorized Access,Medium,Open,Description for incident 724,Grace,2025-02-19 01:42:00
+725,2025-02-23,Insider Threat,High,Mitigating,Description for incident 725,Grace,2025-02-23 00:53:00
+726,2025-01-25,Password Attack,Critical,Resolved,Description for incident 726,Security Team,2025-01-25 12:05:00
+727,2025-01-01,Phishing,Critical,Resolved,Description for incident 727,IT Admin,2025-01-01 01:25:00
+728,2025-01-18,Insider Threat,Medium,Investigating,Description for incident 728,IT Admin,2025-01-18 23:01:00
+729,2025-02-09,Ransomware,Critical,Mitigating,Description for incident 729,Security Team,2025-02-09 12:59:00
+730,2025-03-01,Malware,Medium,Mitigating,Description for incident 730,Eve,2025-03-01 04:49:00
+731,2025-02-23,SQL Injection,Medium,Investigating,Description for incident 731,Alice,2025-02-23 08:19:00
+732,2025-02-12,Insider Threat,Medium,Investigating,Description for incident 732,Alice,2025-02-12 06:51:00
+733,2025-02-25,Data Breach,High,Mitigating,Description for incident 733,Grace,2025-02-25 10:08:00
+734,2025-02-18,Network Intrusion,High,Investigating,Description for incident 734,Frank,2025-02-18 23:25:00
+735,2025-01-16,Password Attack,Critical,Resolved,Description for incident 735,David,2025-01-16 17:20:00
+736,2025-02-25,Network Intrusion,Critical,Resolved,Description for incident 736,David,2025-02-25 16:53:00
+737,2025-02-08,Phishing,Medium,Open,Description for incident 737,Eve,2025-02-08 12:05:00
+738,2025-01-22,Data Breach,Critical,Resolved,Description for incident 738,David,2025-01-22 18:21:00
+739,2025-01-18,Data Breach,High,Mitigating,Description for incident 739,Security Team,2025-01-18 14:50:00
+740,2025-01-10,Ransomware,Critical,Investigating,Description for incident 740,David,2025-01-10 22:06:00
+741,2025-02-03,Phishing,Medium,Mitigating,Description for incident 741,IT Admin,2025-02-03 04:17:00
+742,2025-01-03,Password Attack,Critical,Open,Description for incident 742,Web Team,2025-01-03 15:44:00
+743,2025-01-31,Phishing,Low,Investigating,Description for incident 743,Eve,2025-01-31 18:59:00
+744,2025-02-26,Phishing,Medium,Investigating,Description for incident 744,Security Team,2025-02-26 23:15:00
+745,2025-01-04,Network Intrusion,High,Mitigating,Description for incident 745,Eve,2025-01-04 04:39:00
+746,2025-02-20,SQL Injection,Critical,Open,Description for incident 746,Charlie,2025-02-20 01:28:00
+747,2025-01-23,Ransomware,Medium,Mitigating,Description for incident 747,Alice,2025-01-23 00:55:00
+748,2025-01-01,Network Intrusion,High,Investigating,Description for incident 748,Grace,2025-01-01 20:08:00
+749,2025-02-14,Insider Threat,Low,Open,Description for incident 749,Web Team,2025-02-14 20:18:00
+750,2025-01-27,Insider Threat,High,Mitigating,Description for incident 750,Web Team,2025-01-27 02:15:00
+751,2025-02-09,Unauthorized Access,Medium,Mitigating,Description for incident 751,Grace,2025-02-09 07:02:00
+752,2025-01-11,Ransomware,Medium,Open,Description for incident 752,IT Admin,2025-01-11 23:43:00
+753,2025-01-08,Malware,Critical,Mitigating,Description for incident 753,IT Admin,2025-01-08 07:33:00
+754,2025-02-25,Malware,Medium,Mitigating,Description for incident 754,Charlie,2025-02-25 16:19:00
+755,2025-01-10,Phishing,Critical,Mitigating,Description for incident 755,Web Team,2025-01-10 13:51:00
+756,2025-02-24,Malware,Low,Investigating,Description for incident 756,Eve,2025-02-24 03:43:00
+757,2025-01-20,Password Attack,Medium,Resolved,Description for incident 757,Grace,2025-01-20 05:01:00
+758,2025-01-30,Ransomware,Critical,Resolved,Description for incident 758,Charlie,2025-01-30 00:19:00
+759,2025-01-24,Insider Threat,Low,Resolved,Description for incident 759,Bob,2025-01-24 20:42:00
+760,2025-01-15,SQL Injection,High,Mitigating,Description for incident 760,Frank,2025-01-15 16:37:00
+761,2025-02-21,Network Intrusion,High,Resolved,Description for incident 761,Grace,2025-02-21 23:52:00
+762,2025-02-27,SQL Injection,High,Mitigating,Description for incident 762,Bob,2025-02-27 01:56:00
+763,2025-02-25,Ransomware,High,Resolved,Description for incident 763,Eve,2025-02-25 10:19:00
+764,2025-02-07,DDoS,Critical,Investigating,Description for incident 764,Web Team,2025-02-07 03:08:00
+765,2025-01-12,DDoS,Critical,Open,Description for incident 765,Bob,2025-01-12 14:13:00
+766,2025-01-15,Phishing,High,Mitigating,Description for incident 766,Eve,2025-01-15 04:24:00
+767,2025-01-29,Phishing,High,Investigating,Description for incident 767,Frank,2025-01-29 07:14:00
+768,2025-01-25,Password Attack,Low,Mitigating,Description for incident 768,Charlie,2025-01-25 01:44:00
+769,2025-01-04,Phishing,Low,Investigating,Description for incident 769,David,2025-01-04 08:28:00
+770,2025-02-04,Network Intrusion,High,Open,Description for incident 770,Security Team,2025-02-04 17:24:00
+771,2025-01-13,DDoS,Medium,Open,Description for incident 771,IT Admin,2025-01-13 03:16:00
+772,2025-03-01,Ransomware,Critical,Mitigating,Description for incident 772,David,2025-03-01 19:02:00
+773,2025-02-14,Password Attack,High,Open,Description for incident 773,Grace,2025-02-14 07:37:00
+774,2025-01-01,Data Breach,Low,Resolved,Description for incident 774,Web Team,2025-01-01 05:05:00
+775,2025-02-14,Malware,High,Resolved,Description for incident 775,Charlie,2025-02-14 21:56:00
+776,2025-02-27,Data Breach,Low,Mitigating,Description for incident 776,Eve,2025-02-27 06:10:00
+777,2025-01-29,Password Attack,Low,Resolved,Description for incident 777,Charlie,2025-01-29 09:26:00
+778,2025-01-26,Unauthorized Access,Low,Mitigating,Description for incident 778,Grace,2025-01-26 22:53:00
+779,2025-03-01,Insider Threat,Critical,Investigating,Description for incident 779,IT Admin,2025-03-01 05:19:00
+780,2025-01-01,Data Breach,Medium,Resolved,Description for incident 780,Eve,2025-01-01 02:59:00
+781,2025-02-14,Password Attack,Medium,Investigating,Description for incident 781,Eve,2025-02-14 19:11:00
+782,2025-02-24,Data Breach,High,Investigating,Description for incident 782,Security Team,2025-02-24 05:24:00
+783,2025-01-19,Malware,High,Investigating,Description for incident 783,David,2025-01-19 02:21:00
+784,2025-01-06,Network Intrusion,Low,Open,Description for incident 784,IT Admin,2025-01-06 15:36:00
+785,2025-03-01,Ransomware,Medium,Open,Description for incident 785,Eve,2025-03-01 14:29:00
+786,2025-02-27,Ransomware,Medium,Open,Description for incident 786,David,2025-02-27 12:10:00
+787,2025-02-19,Network Intrusion,Medium,Mitigating,Description for incident 787,IT Admin,2025-02-19 15:07:00
+788,2025-02-18,Network Intrusion,High,Mitigating,Description for incident 788,IT Admin,2025-02-18 04:24:00
+789,2025-02-06,Insider Threat,Critical,Resolved,Description for incident 789,Charlie,2025-02-06 15:29:00
+790,2025-02-26,Phishing,Medium,Investigating,Description for incident 790,Frank,2025-02-26 14:19:00
+791,2025-02-25,Unauthorized Access,High,Open,Description for incident 791,David,2025-02-25 17:11:00
+792,2025-01-19,Ransomware,Low,Resolved,Description for incident 792,Grace,2025-01-19 09:04:00
+793,2025-01-24,Ransomware,High,Resolved,Description for incident 793,Alice,2025-01-24 23:26:00
+794,2025-02-01,Ransomware,High,Mitigating,Description for incident 794,Charlie,2025-02-01 18:49:00
+795,2025-02-19,Ransomware,Critical,Investigating,Description for incident 795,Charlie,2025-02-19 03:06:00
+796,2025-01-06,Insider Threat,Critical,Open,Description for incident 796,Security Team,2025-01-06 04:30:00
+797,2025-02-15,Unauthorized Access,Critical,Resolved,Description for incident 797,Alice,2025-02-15 12:30:00
+798,2025-02-06,Unauthorized Access,High,Open,Description for incident 798,Eve,2025-02-06 00:58:00
+799,2025-01-09,Insider Threat,Low,Investigating,Description for incident 799,Frank,2025-01-09 15:43:00
+800,2025-01-17,Malware,Medium,Open,Description for incident 800,Bob,2025-01-17 07:56:00
+801,2025-01-19,Ransomware,Low,Mitigating,Description for incident 801,Frank,2025-01-19 02:38:00
+802,2025-01-05,Malware,Critical,Mitigating,Description for incident 802,Bob,2025-01-05 00:41:00
+803,2025-01-02,SQL Injection,Critical,Mitigating,Description for incident 803,Frank,2025-01-02 00:00:00
+804,2025-01-07,DDoS,Low,Mitigating,Description for incident 804,Frank,2025-01-07 17:43:00
+805,2025-01-28,Malware,Medium,Mitigating,Description for incident 805,Charlie,2025-01-28 05:21:00
+806,2025-01-11,DDoS,Medium,Resolved,Description for incident 806,Charlie,2025-01-11 20:34:00
+807,2025-01-17,Password Attack,High,Resolved,Description for incident 807,Eve,2025-01-17 07:48:00
+808,2025-01-10,Unauthorized Access,Low,Mitigating,Description for incident 808,Web Team,2025-01-10 20:36:00
+809,2025-02-19,Unauthorized Access,Medium,Investigating,Description for incident 809,Security Team,2025-02-19 01:54:00
+810,2025-02-23,Password Attack,Medium,Resolved,Description for incident 810,Grace,2025-02-23 04:20:00
+811,2025-01-09,Insider Threat,High,Mitigating,Description for incident 811,IT Admin,2025-01-09 15:48:00
+812,2025-02-26,Malware,High,Investigating,Description for incident 812,IT Admin,2025-02-26 07:58:00
+813,2025-01-28,Malware,Low,Resolved,Description for incident 813,Charlie,2025-01-28 11:53:00
+814,2025-02-14,Phishing,High,Mitigating,Description for incident 814,Grace,2025-02-14 07:34:00
+815,2025-01-28,Insider Threat,Critical,Resolved,Description for incident 815,Web Team,2025-01-28 03:05:00
+816,2025-01-13,Phishing,Low,Mitigating,Description for incident 816,Web Team,2025-01-13 08:19:00
+817,2025-02-08,SQL Injection,High,Resolved,Description for incident 817,Charlie,2025-02-08 20:26:00
+818,2025-02-22,Ransomware,High,Open,Description for incident 818,Alice,2025-02-22 18:53:00
+819,2025-03-01,SQL Injection,High,Investigating,Description for incident 819,Frank,2025-03-01 13:55:00
+820,2025-01-08,Insider Threat,Medium,Resolved,Description for incident 820,David,2025-01-08 13:49:00
+821,2025-02-23,Data Breach,Medium,Resolved,Description for incident 821,Alice,2025-02-23 05:13:00
+822,2025-02-24,Network Intrusion,Critical,Resolved,Description for incident 822,David,2025-02-24 06:07:00
+823,2025-02-24,Network Intrusion,Medium,Mitigating,Description for incident 823,Eve,2025-02-24 14:19:00
+824,2025-01-29,Network Intrusion,High,Resolved,Description for incident 824,Charlie,2025-01-29 07:16:00
+825,2025-02-10,Ransomware,Low,Open,Description for incident 825,Grace,2025-02-10 04:28:00
+826,2025-01-26,Phishing,High,Mitigating,Description for incident 826,IT Admin,2025-01-26 18:45:00
+827,2025-01-24,Phishing,Critical,Resolved,Description for incident 827,Frank,2025-01-24 16:59:00
+828,2025-01-15,Insider Threat,Medium,Mitigating,Description for incident 828,Charlie,2025-01-15 10:43:00
+829,2025-02-05,Unauthorized Access,Low,Mitigating,Description for incident 829,Security Team,2025-02-05 23:05:00
+830,2025-02-27,Password Attack,Low,Open,Description for incident 830,David,2025-02-27 07:05:00
+831,2025-02-17,Malware,Medium,Investigating,Description for incident 831,Eve,2025-02-17 07:06:00
+832,2025-01-12,Password Attack,Low,Open,Description for incident 832,Security Team,2025-01-12 12:48:00
+833,2025-01-01,Insider Threat,High,Investigating,Description for incident 833,Bob,2025-01-01 09:54:00
+834,2025-01-10,Malware,Critical,Resolved,Description for incident 834,Frank,2025-01-10 03:47:00
+835,2025-01-25,DDoS,Low,Mitigating,Description for incident 835,Charlie,2025-01-25 08:53:00
+836,2025-02-28,Password Attack,Medium,Investigating,Description for incident 836,Security Team,2025-02-28 18:48:00
+837,2025-02-21,DDoS,Low,Resolved,Description for incident 837,Eve,2025-02-21 05:31:00
+838,2025-02-04,Network Intrusion,High,Resolved,Description for incident 838,Web Team,2025-02-04 10:52:00
+839,2025-01-05,SQL Injection,High,Resolved,Description for incident 839,Frank,2025-01-05 16:39:00
+840,2025-02-15,Unauthorized Access,High,Open,Description for incident 840,David,2025-02-15 23:49:00
+841,2025-02-17,Data Breach,Medium,Open,Description for incident 841,David,2025-02-17 03:12:00
+842,2025-01-06,Password Attack,High,Open,Description for incident 842,Web Team,2025-01-06 23:53:00
+843,2025-02-20,Malware,Low,Mitigating,Description for incident 843,IT Admin,2025-02-20 01:31:00
+844,2025-03-01,Network Intrusion,Critical,Open,Description for incident 844,Charlie,2025-03-01 05:11:00
+845,2025-02-13,SQL Injection,High,Mitigating,Description for incident 845,David,2025-02-13 18:33:00
+846,2025-01-15,Network Intrusion,Low,Open,Description for incident 846,Grace,2025-01-15 02:29:00
+847,2025-01-21,Unauthorized Access,Low,Investigating,Description for incident 847,Charlie,2025-01-21 19:27:00
+848,2025-03-02,Data Breach,Critical,Mitigating,Description for incident 848,Alice,2025-03-02 01:51:00
+849,2025-01-27,SQL Injection,High,Investigating,Description for incident 849,IT Admin,2025-01-27 08:39:00
+850,2025-01-11,DDoS,High,Resolved,Description for incident 850,Bob,2025-01-11 10:29:00
+851,2025-02-14,Malware,Low,Open,Description for incident 851,Bob,2025-02-14 06:40:00
+852,2025-01-05,Network Intrusion,Medium,Resolved,Description for incident 852,David,2025-01-05 23:48:00
+853,2025-02-22,DDoS,High,Resolved,Description for incident 853,David,2025-02-22 08:48:00
+854,2025-02-02,Unauthorized Access,Medium,Open,Description for incident 854,Grace,2025-02-02 06:55:00
+855,2025-01-26,Password Attack,Medium,Resolved,Description for incident 855,Bob,2025-01-26 01:16:00
+856,2025-02-22,Network Intrusion,Medium,Mitigating,Description for incident 856,Charlie,2025-02-22 01:32:00
+857,2025-01-06,Data Breach,High,Mitigating,Description for incident 857,Frank,2025-01-06 22:01:00
+858,2025-03-01,Unauthorized Access,Medium,Resolved,Description for incident 858,Eve,2025-03-01 02:43:00
+859,2025-02-05,Ransomware,Low,Resolved,Description for incident 859,Alice,2025-02-05 11:59:00
+860,2025-01-03,Insider Threat,Low,Open,Description for incident 860,Security Team,2025-01-03 11:59:00
+861,2025-02-27,Phishing,Critical,Resolved,Description for incident 861,Web Team,2025-02-27 10:32:00
+862,2025-01-19,Insider Threat,Medium,Mitigating,Description for incident 862,Alice,2025-01-19 01:27:00
+863,2025-01-27,Network Intrusion,Low,Investigating,Description for incident 863,Grace,2025-01-27 23:26:00
+864,2025-01-04,Insider Threat,Critical,Mitigating,Description for incident 864,Charlie,2025-01-04 09:03:00
+865,2025-01-15,Malware,Critical,Investigating,Description for incident 865,Web Team,2025-01-15 23:13:00
+866,2025-01-31,Network Intrusion,Critical,Mitigating,Description for incident 866,Eve,2025-01-31 20:06:00
+867,2025-02-19,SQL Injection,High,Mitigating,Description for incident 867,Bob,2025-02-19 19:02:00
+868,2025-02-20,Phishing,Critical,Resolved,Description for incident 868,Frank,2025-02-20 17:23:00
+869,2025-02-04,Ransomware,Critical,Resolved,Description for incident 869,Security Team,2025-02-04 23:48:00
+870,2025-02-13,Phishing,High,Mitigating,Description for incident 870,Charlie,2025-02-13 15:34:00
+871,2025-01-10,Unauthorized Access,High,Resolved,Description for incident 871,Eve,2025-01-10 15:00:00
+872,2025-03-02,DDoS,Medium,Investigating,Description for incident 872,Alice,2025-03-02 07:33:00
+873,2025-02-24,Data Breach,Critical,Investigating,Description for incident 873,Security Team,2025-02-24 16:07:00
+874,2025-01-26,Password Attack,Low,Investigating,Description for incident 874,Grace,2025-01-26 12:36:00
+875,2025-02-18,Password Attack,Low,Investigating,Description for incident 875,Web Team,2025-02-18 00:16:00
+876,2025-02-23,DDoS,Critical,Resolved,Description for incident 876,Grace,2025-02-23 10:36:00
+877,2025-02-08,Phishing,High,Resolved,Description for incident 877,Grace,2025-02-08 12:42:00
+878,2025-02-26,Data Breach,Medium,Mitigating,Description for incident 878,Bob,2025-02-26 12:28:00
+879,2025-02-11,Ransomware,Medium,Resolved,Description for incident 879,Charlie,2025-02-11 17:05:00
+880,2025-01-23,SQL Injection,High,Investigating,Description for incident 880,Charlie,2025-01-23 16:42:00
+881,2025-02-10,Password Attack,Critical,Mitigating,Description for incident 881,IT Admin,2025-02-10 13:23:00
+882,2025-01-12,Phishing,Critical,Investigating,Description for incident 882,Alice,2025-01-12 18:48:00
+883,2025-02-24,Network Intrusion,Low,Mitigating,Description for incident 883,Eve,2025-02-24 03:39:00
+884,2025-02-06,Phishing,Critical,Investigating,Description for incident 884,Eve,2025-02-06 00:34:00
+885,2025-01-18,Ransomware,High,Investigating,Description for incident 885,Bob,2025-01-18 11:35:00
+886,2025-02-19,Insider Threat,High,Open,Description for incident 886,Security Team,2025-02-19 07:13:00
+887,2025-01-25,Insider Threat,Critical,Mitigating,Description for incident 887,Alice,2025-01-25 13:54:00
+888,2025-01-31,Password Attack,Critical,Resolved,Description for incident 888,Security Team,2025-01-31 16:09:00
+889,2025-01-25,SQL Injection,High,Mitigating,Description for incident 889,Alice,2025-01-25 06:48:00
+890,2025-02-08,Unauthorized Access,High,Mitigating,Description for incident 890,Web Team,2025-02-08 18:46:00
+891,2025-01-06,SQL Injection,Critical,Open,Description for incident 891,Web Team,2025-01-06 12:12:00
+892,2025-02-09,Unauthorized Access,Low,Mitigating,Description for incident 892,Bob,2025-02-09 11:19:00
+893,2025-01-16,Password Attack,Medium,Resolved,Description for incident 893,Grace,2025-01-16 10:51:00
+894,2025-02-02,DDoS,Medium,Open,Description for incident 894,Frank,2025-02-02 15:45:00
+895,2025-02-15,Malware,High,Open,Description for incident 895,David,2025-02-15 05:34:00
+896,2025-01-07,SQL Injection,High,Open,Description for incident 896,Grace,2025-01-07 01:48:00
+897,2025-02-06,Ransomware,High,Mitigating,Description for incident 897,Eve,2025-02-06 14:24:00
+898,2025-01-26,Insider Threat,Critical,Open,Description for incident 898,Web Team,2025-01-26 17:46:00
+899,2025-01-11,Data Breach,Medium,Investigating,Description for incident 899,Grace,2025-01-11 01:48:00
+900,2025-02-07,Ransomware,Critical,Open,Description for incident 900,Frank,2025-02-07 01:56:00
+901,2025-01-13,Insider Threat,Medium,Open,Description for incident 901,Security Team,2025-01-13 22:27:00
+902,2025-02-17,Unauthorized Access,Medium,Resolved,Description for incident 902,IT Admin,2025-02-17 15:58:00
+903,2025-01-28,Malware,Medium,Mitigating,Description for incident 903,Alice,2025-01-28 02:58:00
+904,2025-01-05,DDoS,Critical,Mitigating,Description for incident 904,Charlie,2025-01-05 14:16:00
+905,2025-01-27,Unauthorized Access,High,Resolved,Description for incident 905,Grace,2025-01-27 20:31:00
+906,2025-01-30,Password Attack,Critical,Resolved,Description for incident 906,Charlie,2025-01-30 23:03:00
+907,2025-01-22,Data Breach,Medium,Mitigating,Description for incident 907,Security Team,2025-01-22 04:52:00
+908,2025-01-17,Network Intrusion,Low,Mitigating,Description for incident 908,Alice,2025-01-17 19:09:00
+909,2025-01-10,SQL Injection,Medium,Resolved,Description for incident 909,David,2025-01-10 15:05:00
+910,2025-01-24,DDoS,High,Open,Description for incident 910,Grace,2025-01-24 15:52:00
+911,2025-01-27,Unauthorized Access,High,Mitigating,Description for incident 911,Eve,2025-01-27 20:41:00
+912,2025-01-19,Ransomware,High,Open,Description for incident 912,David,2025-01-19 04:40:00
+913,2025-01-03,Insider Threat,Critical,Open,Description for incident 913,David,2025-01-03 03:10:00
+914,2025-01-29,Network Intrusion,Medium,Investigating,Description for incident 914,Charlie,2025-01-29 04:06:00
+915,2025-02-08,DDoS,Critical,Resolved,Description for incident 915,Web Team,2025-02-08 15:46:00
+916,2025-02-01,Unauthorized Access,Low,Resolved,Description for incident 916,Alice,2025-02-01 14:03:00
+917,2025-01-06,Malware,High,Mitigating,Description for incident 917,Grace,2025-01-06 00:59:00
+918,2025-01-25,Phishing,Medium,Resolved,Description for incident 918,Grace,2025-01-25 00:25:00
+919,2025-01-02,Unauthorized Access,Critical,Resolved,Description for incident 919,Frank,2025-01-02 02:39:00
+920,2025-03-01,Data Breach,Low,Mitigating,Description for incident 920,Alice,2025-03-01 05:00:00
+921,2025-01-07,SQL Injection,Medium,Mitigating,Description for incident 921,Grace,2025-01-07 20:19:00
+922,2025-01-15,DDoS,Medium,Resolved,Description for incident 922,Web Team,2025-01-15 15:58:00
+923,2025-02-20,Data Breach,High,Resolved,Description for incident 923,Grace,2025-02-20 13:40:00
+924,2025-02-05,Phishing,High,Mitigating,Description for incident 924,IT Admin,2025-02-05 12:27:00
+925,2025-01-06,Phishing,Low,Resolved,Description for incident 925,David,2025-01-06 06:14:00
+926,2025-02-17,SQL Injection,High,Resolved,Description for incident 926,Charlie,2025-02-17 05:27:00
+927,2025-01-12,SQL Injection,Medium,Investigating,Description for incident 927,Bob,2025-01-12 14:50:00
+928,2025-01-28,Ransomware,Critical,Resolved,Description for incident 928,Bob,2025-01-28 03:01:00
+929,2025-02-28,Malware,High,Investigating,Description for incident 929,David,2025-02-28 12:36:00
+930,2025-01-25,DDoS,Critical,Resolved,Description for incident 930,Bob,2025-01-25 10:28:00
+931,2025-01-18,Network Intrusion,High,Investigating,Description for incident 931,David,2025-01-18 07:14:00
+932,2025-01-01,DDoS,Low,Mitigating,Description for incident 932,Alice,2025-01-01 16:21:00
+933,2025-02-15,Unauthorized Access,High,Open,Description for incident 933,Frank,2025-02-15 22:26:00
+934,2025-02-04,Data Breach,Low,Open,Description for incident 934,Charlie,2025-02-04 06:05:00
+935,2025-02-02,Ransomware,High,Investigating,Description for incident 935,Security Team,2025-02-02 11:44:00
+936,2025-01-07,Unauthorized Access,Medium,Investigating,Description for incident 936,David,2025-01-07 17:43:00
+937,2025-01-27,Password Attack,Low,Mitigating,Description for incident 937,David,2025-01-27 16:55:00
+938,2025-02-06,Insider Threat,Low,Investigating,Description for incident 938,Bob,2025-02-06 17:57:00
+939,2025-02-17,Unauthorized Access,Low,Open,Description for incident 939,IT Admin,2025-02-17 09:39:00
+940,2025-01-17,SQL Injection,Critical,Resolved,Description for incident 940,Alice,2025-01-17 17:16:00
+941,2025-01-27,Insider Threat,Critical,Mitigating,Description for incident 941,Bob,2025-01-27 16:06:00
+942,2025-01-11,Ransomware,Critical,Open,Description for incident 942,Alice,2025-01-11 08:56:00
+943,2025-01-11,Unauthorized Access,Critical,Open,Description for incident 943,Grace,2025-01-11 00:43:00
+944,2025-02-23,DDoS,High,Mitigating,Description for incident 944,Frank,2025-02-23 20:48:00
+945,2025-02-24,Insider Threat,Low,Mitigating,Description for incident 945,Web Team,2025-02-24 10:00:00
+946,2025-01-27,Network Intrusion,High,Investigating,Description for incident 946,Charlie,2025-01-27 01:58:00
+947,2025-02-23,Malware,Low,Mitigating,Description for incident 947,Alice,2025-02-23 21:49:00
+948,2025-02-01,Malware,High,Open,Description for incident 948,Frank,2025-02-01 16:00:00
+949,2025-01-10,Network Intrusion,Low,Investigating,Description for incident 949,Web Team,2025-01-10 01:28:00
+950,2025-02-01,Insider Threat,Medium,Investigating,Description for incident 950,Security Team,2025-02-01 18:35:00
+951,2025-01-03,Phishing,Medium,Mitigating,Description for incident 951,Frank,2025-01-03 19:09:00
+952,2025-01-10,DDoS,High,Mitigating,Description for incident 952,Frank,2025-01-10 02:37:00
+953,2025-03-01,Unauthorized Access,Medium,Open,Description for incident 953,Alice,2025-03-01 02:30:00
+954,2025-02-13,SQL Injection,Low,Resolved,Description for incident 954,David,2025-02-13 11:10:00
+955,2025-01-19,Network Intrusion,Medium,Resolved,Description for incident 955,Security Team,2025-01-19 15:30:00
+956,2025-01-05,Malware,Low,Mitigating,Description for incident 956,Eve,2025-01-05 19:03:00
+957,2025-01-16,Malware,Critical,Open,Description for incident 957,Grace,2025-01-16 00:13:00
+958,2025-01-14,Unauthorized Access,High,Open,Description for incident 958,Eve,2025-01-14 21:16:00
+959,2025-02-21,DDoS,Medium,Investigating,Description for incident 959,Grace,2025-02-21 10:34:00
+960,2025-02-14,SQL Injection,High,Open,Description for incident 960,Charlie,2025-02-14 22:45:00
+961,2025-02-02,Network Intrusion,Low,Resolved,Description for incident 961,Security Team,2025-02-02 19:35:00
+962,2025-01-31,Ransomware,Low,Open,Description for incident 962,IT Admin,2025-01-31 00:49:00
+963,2025-02-08,Unauthorized Access,Critical,Investigating,Description for incident 963,Charlie,2025-02-08 08:06:00
+964,2025-02-20,Data Breach,Medium,Investigating,Description for incident 964,Grace,2025-02-20 00:04:00
+965,2025-01-29,Data Breach,Critical,Investigating,Description for incident 965,David,2025-01-29 23:56:00
+966,2025-01-21,Unauthorized Access,Medium,Open,Description for incident 966,IT Admin,2025-01-21 06:05:00
+967,2025-02-21,SQL Injection,High,Open,Description for incident 967,Charlie,2025-02-21 04:39:00
+968,2025-01-11,Data Breach,Medium,Resolved,Description for incident 968,Alice,2025-01-11 12:20:00
+969,2025-01-07,Data Breach,Critical,Open,Description for incident 969,Eve,2025-01-07 14:26:00
+970,2025-02-21,Data Breach,High,Mitigating,Description for incident 970,David,2025-02-21 11:31:00
+971,2025-02-12,Insider Threat,Critical,Investigating,Description for incident 971,Bob,2025-02-12 01:16:00
+972,2025-01-04,Insider Threat,Medium,Resolved,Description for incident 972,Charlie,2025-01-04 13:59:00
+973,2025-02-22,Phishing,High,Open,Description for incident 973,IT Admin,2025-02-22 06:03:00
+974,2025-01-17,Insider Threat,Low,Investigating,Description for incident 974,Charlie,2025-01-17 11:05:00
+975,2025-01-10,SQL Injection,Critical,Investigating,Description for incident 975,Security Team,2025-01-10 10:00:00
+976,2025-01-09,Data Breach,Critical,Resolved,Description for incident 976,Alice,2025-01-09 08:37:00
+977,2025-01-05,Insider Threat,Critical,Investigating,Description for incident 977,Alice,2025-01-05 00:31:00
+978,2025-02-14,SQL Injection,Low,Investigating,Description for incident 978,Frank,2025-02-14 04:28:00
+979,2025-02-08,Unauthorized Access,Critical,Investigating,Description for incident 979,Frank,2025-02-08 14:40:00
+980,2025-02-10,DDoS,Medium,Open,Description for incident 980,Security Team,2025-02-10 20:30:00
+981,2025-01-20,Password Attack,Low,Investigating,Description for incident 981,Alice,2025-01-20 07:30:00
+982,2025-02-28,Unauthorized Access,High,Investigating,Description for incident 982,Bob,2025-02-28 01:28:00
+983,2025-01-31,DDoS,Medium,Open,Description for incident 983,IT Admin,2025-01-31 19:02:00
+984,2025-01-07,Data Breach,High,Open,Description for incident 984,Grace,2025-01-07 17:07:00
+985,2025-01-24,Data Breach,Medium,Open,Description for incident 985,Eve,2025-01-24 06:12:00
+986,2025-02-10,SQL Injection,Critical,Resolved,Description for incident 986,Charlie,2025-02-10 22:11:00
+987,2025-01-12,Phishing,High,Resolved,Description for incident 987,Bob,2025-01-12 16:46:00
+988,2025-01-27,Network Intrusion,Low,Investigating,Description for incident 988,Security Team,2025-01-27 10:36:00
+989,2025-01-07,Insider Threat,High,Resolved,Description for incident 989,Security Team,2025-01-07 19:27:00
+990,2025-01-25,Unauthorized Access,Medium,Resolved,Description for incident 990,Charlie,2025-01-25 15:05:00
+991,2025-02-26,SQL Injection,Critical,Mitigating,Description for incident 991,Charlie,2025-02-26 10:45:00
+992,2025-01-28,Malware,High,Resolved,Description for incident 992,Web Team,2025-01-28 06:40:00
+993,2025-02-19,DDoS,High,Mitigating,Description for incident 993,Web Team,2025-02-19 01:49:00
+994,2025-02-17,SQL Injection,Medium,Investigating,Description for incident 994,Charlie,2025-02-17 14:33:00
+995,2025-01-23,Data Breach,Critical,Investigating,Description for incident 995,Alice,2025-01-23 06:39:00
+996,2025-02-09,Ransomware,Critical,Open,Description for incident 996,Eve,2025-02-09 12:25:00
+997,2025-02-19,Password Attack,Low,Mitigating,Description for incident 997,Alice,2025-02-19 09:17:00
+998,2025-01-15,Ransomware,High,Resolved,Description for incident 998,Eve,2025-01-15 11:10:00
+999,2025-02-25,Data Breach,Critical,Investigating,Description for incident 999,Web Team,2025-02-25 16:39:00
+1000,2025-02-28,DDoS,Critical,Open,Description for incident 1000,Alice,2025-02-28 02:06:00
