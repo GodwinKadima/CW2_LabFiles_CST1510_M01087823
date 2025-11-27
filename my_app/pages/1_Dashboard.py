@@ -1,6 +1,19 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from app.data.db import connect_database  
+
+from app.data.users import insert_user, get_user_by_username
+
+from Week8.app.data.incidents import (
+get_all_incidents,
+insert_incident,
+update_incident_status,
+delete_incident)   
+from Week8.app.data.datasets import get_all_datasets
+from Week8.app.data.tickets import get_all_tickets
+
+
 
 st.set_page_config(page_title="Dashboard", page_icon="📊", layout="wide")
 
@@ -55,3 +68,11 @@ if st.button("Log out"):
     st.session_state.username = ""
     st.info("You have been logged out.")
     st.switch_page("Home.py")
+
+
+# connecting to my Week 8 database
+conn = connect_database("DATA/intelligence_platform.db")
+
+incidents = get_all_incidents(conn)
+datasets = get_all_datasets(conn)
+tickets = get_all_tickets(conn)
