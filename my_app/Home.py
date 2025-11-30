@@ -1,4 +1,7 @@
 import streamlit as st
+from auth import login_user,register_user
+import os
+import sys
 
 st.set_page_config(page_title="Login / Register", page_icon="🔑", layout="centered")
 

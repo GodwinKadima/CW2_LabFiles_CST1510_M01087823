@@ -76,3 +76,7 @@ conn = connect_database("DATA/intelligence_platform.db")
 incidents = get_all_incidents(conn)
 datasets = get_all_datasets(conn)
 tickets = get_all_tickets(conn)
+
+st.dataframe(incidents,use_container_width= True)
+st.dataframe(datasets,use_container_width=True)
+st.dataframe(tickets,use_container_width=True)

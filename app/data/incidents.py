@@ -11,11 +11,11 @@ def insert_incident(date, incident_type, severity, status, description,reported_
     conn.close()
     return incident_id
 
-def get_all_incidents():
+def get_all_incidents(conn):
     """Get all incidents as DataFrame."""
     conn = connect_database()
     df = pd.read_sql_query(
-        "SELECT * FROM cyber_incidents ORDER BY id DESC", conn
+        "SELECT * FROM incidents ORDER BY id DESC", conn
     )
     conn.close()
     return df
