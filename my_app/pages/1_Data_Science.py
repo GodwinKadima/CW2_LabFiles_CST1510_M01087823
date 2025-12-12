@@ -4,6 +4,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from datetime import datetime 
+from openai import OpenAI
+import requests
+import json
+import time
 
 # --- CRITICAL PATH SETUP FOR MODULE IMPORTS ---
 # 1. Get the directory of the current script (e.g., /.../my_app/pages/)
@@ -23,6 +27,33 @@ except Exception as e:
     st.sidebar.error(f"Failed to import CRUD module: {e}")
 
 
+# Ensure state keys exist (in case user opens this page first)
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+if "username" not in st.session_state:
+    st.session_state.username = ""
+
+# Guard: if not logged in, send user back
+if not st.session_state.logged_in:
+    st.error("You must be logged in to view the dashboard.")
+    if st.button("Go to login page"):
+        st.switch_page("Home.py")   # back to the first page
+    st.stop()
+
+# If logged in, show dashboard content
+st.title("📊 Dashboard")
+st.success(f"Hello, **{st.session_state.username}**! You are logged in.")
+
+# Logout button
+st.divider()
+if st.button("Log out"):
+    st.session_state.logged_in = False
+    st.session_state.username = ""
+    st.info("You have been logged out.")
+    st.switch_page("Home.py")
+
+# Example dashboard layout
+st.caption("This is just demo content – replace with your own dashboard.")
 # --- CSV FILE PATH DEFINITION ---
 
 def get_data_path(filename):
@@ -328,3 +359,120 @@ if page == "Dashboard Overview":
     display_dashboard(st.session_state['datasets_df'])
 elif page == "Add/Manage Datasets":
     display_crud_form(st.session_state['datasets_df'])
+
+
+API_KEY = "" 
+
+# NEW: Use the correct OpenAI API URL
+OPENAI_API_URL = "https://api.openai.com/v1/chat/completions"
+
+# NEW: Define the OpenAI model you want to use
+OPENAI_MODEL = "gpt-4.1-mini" 
+
+MAX_RETRIES = 3
+SYSTEM_INSTRUCTION = "You are a Data Science Specialist"
+
+# --- Security Check: Ensure User is Logged In ---
+# If the user hasn't logged in, they can't see the chat.
+if "logged_in" not in st.session_state or not st.session_state.logged_in:
+    st.warning("Please log in to access the AI Chat.")
+    st.stop() 
+
+st.title(f"👋 Welcome, {st.session_state.username}!")
+st.subheader("🤖 Simple AI Coding Assistant")
+
+# --- Initialize Chat History ---
+# Conversation history is stored in Streamlit's session state.
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+    # Add an initial greeting message
+    st.session_state.messages.append({"role": "assistant", "content": "Hello! Ask me anything about coding or websites! I'll keep the answers simple and fun. 🚀"})
+
+# --- API Call Logic ---
+def get_ai_response(prompt, history):
+    """Sends the user's prompt and chat history to the OpenAI API."""
+    
+    # Format the Streamlit history into the structure the OpenAI API expects
+    contents = []
+    # Note: OpenAI uses 'assistant' for the model's role, which matches Streamlit, 
+    # but the history messages need to be built explicitly.
+    for msg in history:
+        # The history includes roles 'user' and 'assistant'
+        contents.append({
+            "role": msg["role"], 
+            "content": msg["content"]
+        })
+        
+    # Append the current user prompt
+    contents.append({
+        "role": "user", 
+        "content": prompt
+    })
+
+    # The payload structure for OpenAI is different from Gemini
+    payload_data = {
+        "model": OPENAI_MODEL,
+        "messages": [
+            {"role": "system", "content": SYSTEM_INSTRUCTION},
+            *contents # The full conversation history plus the system instruction
+        ]
+    }
+
+    # Use the requests library to communicate with the API
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.post(
+                OPENAI_API_URL, # *** CHANGED API URL HERE ***
+                headers={
+                    'Content-Type': 'application/json',
+                    'Authorization': f'Bearer {API_KEY}' # *** ADDED AUTHORIZATION HEADER ***
+                }, 
+                data=json.dumps(payload_data)
+            )
+            response.raise_for_status() 
+            
+            result = response.json()
+            
+            # Extract the generated text from the structured JSON response
+            # NOTE: OpenAI uses 'message.content' inside 'choices[0]'
+            generated_text = result.get('choices', [{}])[0].get('message', {}).get('content')
+            
+            return generated_text if generated_text else "I couldn't generate a clear response for that request."
+            
+        except requests.exceptions.RequestException as e:
+            # Check for specific authentication errors (e.g., 401 Unauthorized)
+            if response.status_code == 401:
+                return "Authentication Error: The API Key is invalid or expired. Please check your key."
+            
+            st.error(f"Connection Error: {e}")
+            if attempt < MAX_RETRIES - 1:
+                wait_time = 2 ** attempt
+                time.sleep(wait_time) 
+            else:
+                return "Failed to get a response after several tries. Check your connection or API status."
+        except Exception as e:
+            st.error(f"An unexpected error occurred: {e}")
+            return "An internal error occurred."
+
+
+# --- Display Chat History ---
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# --- Chat Input Handler ---
+if prompt := st.chat_input("Ask me a coding question..."):
+    # 1. Add and display the user's message
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
+
+    # 2. Get AI response and display it
+    with st.chat_message("assistant"):
+        with st.spinner("AI is thinking..."):
+            # Send the prompt and the history 
+            assistant_response = get_ai_response(prompt, st.session_state.messages) 
+            st.markdown(assistant_response)
+
+    # 3. Add AI response to session state
+    st.session_state.messages.append({"role": "assistant", "content": assistant_response})

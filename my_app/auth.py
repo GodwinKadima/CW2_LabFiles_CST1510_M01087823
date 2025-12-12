@@ -10,7 +10,7 @@ if not USER_DATA_FILE.exists():
     print(f"[INFO] Created missing file: {USER_DATA_FILE.resolve()}")
 else:
     print(f"[INFO] Using existing file: {USER_DATA_FILE.resolve()}")
-# -----------------------------------------
+
 
 def hash_password(plain_text_password: str) -> str:
     """Return bcrypt hash (utf-8 str) of the given password."""
